@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1720635403
+ModificationTime: 1720635570
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -287,7 +287,7 @@ EndChar
 
 StartChar: C
 Encoding: 67 67 9
-Width: 663
+Width: 667
 Flags: W
 HStem: -9.99805 152.462<311.009 546.016> 586.659 152.462<313.38 528.419>
 VStem: 36 171.849<249.804 474.564>
@@ -1168,7 +1168,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 40
-Width: 480
+Width: 492
 Flags: W
 HStem: -9.99805 133.462<236.528 412.694> 375.284 135.649<231.922 390.747>
 VStem: 35 154.849<170.326 331.105>
@@ -2584,7 +2584,7 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 95
-Width: 480
+Width: 492
 Flags: W
 HStem: -5 189.47<228 359> 105.002 133.462<236.528 412.694> 490.284 135.649<231.922 390.747> 570 159.47<228 359>
 VStem: 35 154.849<285.326 446.105> 228 131<-5 184.47 570 729.47>
@@ -6639,7 +6639,8 @@ EndChar
 
 StartChar: Ccedilla
 Encoding: 199 199 269
-Width: 663
+Width: 667
+Flags: W
 HStem: -278 88<293.381 417.508> -9.99805 152.462<311.009 546.016> 586.659 152.462<313.38 528.419>
 VStem: 36 171.849<249.804 474.564> 423 109<-183.798 -121.998>
 LayerCount: 2
@@ -6925,7 +6926,8 @@ EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 295
-Width: 480
+Width: 492
+Flags: W
 HStem: -278 88<184.381 308.508> -9.99805 133.462<236.528 412.694> 375.284 135.649<231.922 390.747>
 VStem: 35 154.849<170.326 331.105> 314 109<-183.798 -121.998>
 LayerCount: 2
