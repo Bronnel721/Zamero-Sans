@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1720665144
+ModificationTime: 1720665221
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -6063,6 +6063,8 @@ Width: 269
 Flags: W
 HStem: 0 21G<55 214> 481.011 20G<55 214>
 VStem: 55 159<0 501.011>
+AnchorPoint: "Anchor-2" 137 0 basechar 0
+AnchorPoint: "Anchor-3" 141 0 basechar 0
 AnchorPoint: "Anchor-0" 134 501.011 basechar 0
 LayerCount: 2
 Fore
@@ -6081,20 +6083,21 @@ Width: 269
 Flags: W
 HStem: -190 139<-100.638 37.3453> 481.011 20G<55 214>
 VStem: 55 159<-34.8565 501.011>
+AnchorPoint: "Anchor-2" 17 -179.988 basechar 0
+AnchorPoint: "Anchor-0" 134 501.011 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-55 32 m 6
- 55 501.010742188 l 5
- 214 501.010742188 l 5
- 214 21 l 6
- 214 -106 156.25862069 -190 17 -190 c 4
- -59.8476681593 -190 -113 -174 -113 -174 c 5
- -99 -40 l 5
- -99 -40 -65.6624098558 -51 -19 -51 c 4
- 33.0999023437 -51 55 -26 55 32 c 6
+55 32 m 2
+ 55 501.010742188 l 1
+ 214 501.010742188 l 1
+ 214 21 l 2
+ 214 -106 156.25862069 -190 17 -190 c 0
+ -59.8476681593 -190 -113 -174 -113 -174 c 1
+ -99 -40 l 1
+ -99 -40 -65.6624098558 -51 -19 -51 c 0
+ 33.0999023437 -51 55 -26 55 32 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni20B3
@@ -7837,11 +7840,11 @@ EndChar
 StartChar: jcircumflex
 Encoding: 309 309 372
 Width: 269
-HStem: -190 139<-100.638 37.3453> 481.011 20G<55 214> 570.934 215.008
+HStem: -190 139<-100.638 37.3453> 481.011 20G<55 214> 537.011 215.008
 VStem: 55 159<-34.8565 501.011>
 LayerCount: 2
 Fore
-Refer: 242 770 N 1 0 0 1 -46 54.9336 2
+Refer: 242 770 N 1 0 0 1 -49 21.0107 2
 Refer: 232 567 N 1 0 0 1 0 0 3
 EndChar
 
