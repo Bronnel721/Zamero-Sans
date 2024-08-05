@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1722875753
+ModificationTime: 1722875938
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -1089,7 +1089,7 @@ SplineSet
  214 751.001953125 l 1
  214 191.991210938 l 2
 EndSplineSet
-Kerns2: 49 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 728 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 729 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: h
@@ -1523,7 +1523,7 @@ SplineSet
  97 -179.994140625 l 5
  190 42 l 5
 EndSplineSet
-Kerns2: 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 729 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 728 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss04' Style Set 4 lookup 5-1" y.ss04
 EndChar
 
@@ -1624,7 +1624,7 @@ SplineSet
  374 0 l 5
  175 0 l 5
 EndSplineSet
-Kerns2: 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 728 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 729 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: w
@@ -1652,7 +1652,7 @@ SplineSet
  308 0 l 1
  118 0 l 1
 EndSplineSet
-Kerns2: 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 729 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 728 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: x
@@ -12096,10 +12096,10 @@ EndChar
 
 StartChar: e.ss03
 Encoding: 65539 -1 729
-Width: 548
+Width: 554
 Flags: W
-HStem: -9.99805 134.462<237.497 458.342> 196.001 100.682<137.026 365.496> 386.284 124.649<223.656 337.959>
-VStem: 137 52.8486<201 300>
+HStem: -9.99805 134.462<237.497 458.342> 196.001 100.682<97.0232 366.137> 386.284 124.649<223.656 338.561>
+VStem: 97 92.8486<201 300>
 AnchorPoint: "Anchor-0" 289 501.011 basechar 0
 AnchorPoint: "Anchor-2" 302 0 basechar 0
 AnchorPoint: "Anchor-3" 409 14 basechar 0
@@ -12108,13 +12108,13 @@ Fore
 SplineSet
 35 253.561523438 m 0
  35 409.296356709 130.688210878 510.93359375 287.888671875 510.93359375 c 0
- 467.247535498 510.93359375 523.465820312 385.578509793 523.465820312 279.7109375 c 0
- 523.465820312 242.847866337 519 220 519 220 c 1
- 519 220 434.858410073 196.000976562 262.588867188 196.000976562 c 0
- 172.646579737 196.000976562 137 201 137 201 c 1
- 137 300 l 1
- 137 300 171.566782127 296.682617188 223.849609375 296.682617188 c 0
- 314.083414739 296.682617188 368 306 368 306 c 1
+ 471.815691573 510.93359375 529.465820312 382.867809077 529.465820312 274.7109375 c 0
+ 529.465820312 237.847866337 525 215 525 215 c 1
+ 525 215 422.481949643 196.000976562 212.588867188 196.000976562 c 0
+ 129.808224672 196.000976562 97 201 97 201 c 5
+ 97 300 l 5
+ 97 300 127.586708713 296.682617188 173.849609375 296.682617188 c 0
+ 315.381909656 296.682617188 368 306 368 306 c 1
  368 306 362.702745098 386.284179688 280 386.284179688 c 0
  216.848440267 386.284179688 189.848632812 336.752249355 189.848632812 262.561523438 c 0
  189.848632812 172.320332336 227.66784612 124.463867188 324 124.463867188 c 0
@@ -12147,6 +12147,7 @@ SplineSet
  76 -111 154.149468481 -43.6439678382 188.114257812 37.4951171875 c 2
  190 42 l 1
 EndSplineSet
+Kerns2: 729 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 728 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: d.ss05
