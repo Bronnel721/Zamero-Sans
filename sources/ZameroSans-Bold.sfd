@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724435492
+ModificationTime: 1724435582
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -498,7 +498,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 15
-Width: 670
+Width: 665
 Flags: W
 HStem: 0 21G<55 224> 224 142.352<164 431.088> 584.649 146.358<224 431.416>
 VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 471.929 163.849<403.752 546.496>
@@ -521,7 +521,6 @@ SplineSet
  635.77734375 291.297915868 498.951235081 224 348.888671875 224 c 2
  164 224 l 1xec
 EndSplineSet
-Validated: 5
 Kerns2: 30 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -11188,14 +11187,14 @@ EndChar
 
 StartChar: uni1E54
 Encoding: 7764 7764 606
-Width: 670
+Width: 665
+Flags: W
 HStem: 0 21G<55 224> 224 142.352<164 431.088> 584.649 146.358<224 431.416> 767 225.008
 VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 294 240 471.929 163.849<403.752 546.496>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 294 251 2
 Refer: 15 80 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E55
@@ -11212,14 +11211,14 @@ EndChar
 
 StartChar: uni1E56
 Encoding: 7766 7766 608
-Width: 670
+Width: 665
+Flags: W
 HStem: 0 21G<55 224> 224 142.352<164 431.088> 584.649 146.358<224 431.416> 773.543 166.449<279.906 397.32>
 VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 256 165.227<797.626 915.909> 471.929 163.849<403.752 546.496>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 256 201 2
 Refer: 15 80 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E57
