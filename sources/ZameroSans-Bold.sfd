@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724432831
+ModificationTime: 1724433000
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -60,7 +60,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 8667 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -87,7 +87,7 @@ Grid
   Named: "Cap Height"
 EndSplineSet
 AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-0""" 
-BeginChars: 65554 813
+BeginChars: 65554 815
 
 StartChar: I
 Encoding: 73 73 0
@@ -2336,11 +2336,11 @@ LayerCount: 2
 Fore
 SplineSet
 420 155 m 5
- 30 285 l 1
- 30 431 l 1
- 420 561 l 1
- 420 415 l 1
- 202.454101562 358 l 1
+ 30 285 l 5
+ 30 431 l 5
+ 420 561 l 5
+ 420 415 l 5
+ 202.454101562 358 l 5
  420 301 l 5
  420 155 l 5
 EndSplineSet
@@ -13988,6 +13988,54 @@ SplineSet
  363.200195312 594.610351562 l 5
  363.200195312 438.608398438 l 5
  285.599609375 438.608398438 l 5x9c
+EndSplineSet
+EndChar
+
+StartChar: lessequal
+Encoding: 8804 8804 813
+Width: 450
+Flags: W
+HStem: 125 126<30 420>
+LayerCount: 2
+Fore
+SplineSet
+420 125 m 1
+ 30 125 l 1
+ 30 251 l 1
+ 420 251 l 1
+ 420 125 l 1
+420 275 m 5
+ 30 385 l 1
+ 30 511 l 1
+ 420 621 l 1
+ 420 495 l 1
+ 232.454101562 448 l 1
+ 420 401 l 5
+ 420 275 l 5
+EndSplineSet
+EndChar
+
+StartChar: greaterequal
+Encoding: 8805 8805 814
+Width: 450
+Flags: W
+HStem: 125 126<30 420>
+LayerCount: 2
+Fore
+SplineSet
+30 125 m 1
+ 30 251 l 1
+ 420 251 l 1
+ 420 125 l 1
+ 30 125 l 1
+30 275 m 5
+ 30 401 l 5
+ 217.545898438 448 l 1
+ 30 495 l 1
+ 30 621 l 1
+ 420 511 l 1
+ 420 385 l 1
+ 30 275 l 5
 EndSplineSet
 EndChar
 EndChars
