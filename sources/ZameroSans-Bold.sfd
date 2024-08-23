@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724435058
+ModificationTime: 1724435214
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+Lookup: 1 0 0 "'ss13' Style Set 13 lookup 14" { "'ss13' Style Set 13 lookup 14-1" ("ss13") } ['ss13' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 13" { "'ss12' Style Set 12 lookup 13-1" ("ss12") } ['ss12' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss11' Style Set 11 lookup 12" { "'ss11' Style Set 11 lookup 12-1" ("ss11") } ['ss11' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss08' Style Set 8 lookup 9" { "'ss08' Style Set 8 lookup 9-1" ("ss08") } ['ss08' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -87,7 +88,7 @@ Grid
   Named: "Cap Height"
 EndSplineSet
 AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-0""" 
-BeginChars: 65554 818
+BeginChars: 65555 819
 
 StartChar: I
 Encoding: 73 73 0
@@ -1931,23 +1932,22 @@ EndChar
 
 StartChar: one
 Encoding: 49 49 64
-Width: 424
+Width: 415
 Flags: W
-HStem: 0 21G<200 369> 711 20G<180.363 369>
-VStem: 200 169<0 560>
+HStem: 0 21G<191 360> 711 20G<172.956 360>
+VStem: 191 169<0 564>
 LayerCount: 2
 Fore
 SplineSet
-369 731 m 5
- 369 0 l 5
- 200 0 l 5
- 200 560 l 5
- 70 497 l 5
- 10 618 l 5
- 217 731 l 5
- 369 731 l 5
+360 731 m 5
+ 360 0 l 5
+ 191 0 l 5
+ 191 564 l 5
+ 60 491 l 1
+ 10 618 l 1
+ 208 731 l 5
+ 360 731 l 5
 EndSplineSet
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" one.superior
 Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" one.inferior
 Substitution2: "'sups' Superscript lookup 0 subtable" one.superior
@@ -2326,6 +2326,7 @@ SplineSet
  262.905273438 738.9921875 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "'ss13' Style Set 13 lookup 14-1" asterisk.ss13
 EndChar
 
 StartChar: less
@@ -14179,6 +14180,35 @@ VStem: 30 185.227<300.187 426.262>
 LayerCount: 2
 Fore
 Refer: 119 183 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: asterisk.ss13
+Encoding: 65554 -1 818
+Width: 404
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+126.54296875 621.151367188 m 5
+ 65.5341796875 704.912109375 l 5
+ 162.685546875 761.001953125 l 5
+ 202.219726562 664.844726562 l 5
+ 241.75390625 761.001953125 l 5
+ 338.905273438 704.912109375 l 5
+ 277.896484375 621.151367188 l 5
+ 374.440429688 633.549804688 l 5
+ 374.440429688 521.369140625 l 5
+ 277.896484375 533.767578125 l 5
+ 338.905273438 450.006835938 l 5
+ 241.75390625 393.916992188 l 5
+ 202.219726562 490.075195312 l 5
+ 162.685546875 393.916992188 l 5
+ 65.5341796875 450.006835938 l 5
+ 126.54296875 533.767578125 l 5
+ 30 521.369140625 l 5
+ 30 633.549804688 l 5
+ 126.54296875 621.151367188 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
