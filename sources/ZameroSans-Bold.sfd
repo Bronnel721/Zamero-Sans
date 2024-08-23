@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724435278
+ModificationTime: 1724435492
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -1957,24 +1957,23 @@ StartChar: four
 Encoding: 52 52 65
 Width: 660
 Flags: W
-HStem: 0 21G<357 526> 162 136<211 630> 711 20G<349.221 526>
-VStem: 357 169<0 501>
+HStem: 0 21G<362 526> 162 136<211 630> 711 20G<349.221 526>
+VStem: 362 164<0 501>
 LayerCount: 2
 Fore
 SplineSet
 526 731 m 1
  526 0 l 1
- 357 0 l 1
- 357 501 l 1
+ 362 0 l 5
+ 362 501 l 5
  211 298 l 1
  630 298 l 1
  630 162 l 1
- 60 162 l 5
+ 60 162 l 1
  30 279 l 1
  364 731 l 1
  526 731 l 1
 EndSplineSet
-Validated: 5
 Kerns2: 64 -90 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'sups' Superscript lookup 0 subtable" four.superior
 Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" four.inferior
@@ -2008,7 +2007,7 @@ StartChar: five
 Encoding: 53 53 67
 Width: 597
 Flags: W
-HStem: -9.99805 148.893<122.512 353.519> 355.936 130.435<215.573 362.027> 577.841 153.167<211.805 514.672>
+HStem: -9.99805 148.893<122.512 353.519> 355.936 130.435<215.56 362.027> 577.841 153.167<211.805 514.672>
 VStem: 399.845 162.982<181.328 319.293>
 LayerCount: 2
 Fore
@@ -2019,8 +2018,8 @@ SplineSet
  57.7744140625 186.262695312 144.520789928 138.89453125 256 138.89453125 c 0
  359.910894922 138.89453125 399.844726562 181.159179688 399.844726562 249.576171875 c 0
  399.844726562 316.190463347 361.783466713 355.935546875 285 355.935546875 c 0
- 198.05520802 355.935546875 174.65625 302.7890625 174.65625 302.7890625 c 1
- 51.947265625 325.728515625 l 5
+ 198 355.935546875 174.65625 302.7890625 174.65625 302.7890625 c 1
+ 51.947265625 325.728515625 l 1
  84 731.0078125 l 1
  514.671875 731.0078125 l 1
  514.671875 577.840820312 l 1
@@ -2030,7 +2029,6 @@ SplineSet
  479.072551319 486.370117188 562.827148438 399.458984375 562.827148438 254.497070312 c 0
  562.827148438 90.5595703125 463.190217433 -9.998046875 267 -9.998046875 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" five.superior
 Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" five.inferior
 Substitution2: "'sups' Superscript lookup 0 subtable" five.superior
@@ -2111,21 +2109,20 @@ StartChar: seven
 Encoding: 55 55 70
 Width: 604
 Flags: W
-HStem: 0 21G<143 318.433> 585 146<40 371>
-VStem: 143 170<0 144.52>
+HStem: 0 21G<159 330.674> 585 146<40 371>
+VStem: 159 170<0 159.767>
 LayerCount: 2
 Fore
 SplineSet
-313 0 m 1
- 143 0 l 1
- 161.921161825 322 371 585 371 585 c 5
+329 0 m 5
+ 159 0 l 5
+ 169.786021546 322 371 585 371 585 c 1
  40 585 l 1
  40 731 l 1
  564 731 l 1
  564 625 l 1
- 564 625 323.865800866 356 313 0 c 1
+ 564 625 332.347434032 356 329 0 c 5
 EndSplineSet
-Validated: 1
 Kerns2: 63 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 72 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 68 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 71 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'sups' Superscript lookup 0 subtable" seven.superior
 Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" seven.inferior
