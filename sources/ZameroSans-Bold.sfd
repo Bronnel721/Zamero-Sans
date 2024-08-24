@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8262 27 9
+WinInfo: 8937 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -188,7 +188,7 @@ Flags: W
 LayerCount: 2
 Fore
 Validated: 1
-Kerns2: 17 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 17 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: V
