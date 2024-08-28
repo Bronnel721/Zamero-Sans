@@ -4,7 +4,7 @@ FullName: Zamero Sans Bold
 FamilyName: Zamero Sans
 Weight: Bold
 Copyright: Copyright (c) 2024, Zamero Type Foundry
-UComments: "2024-1-17: Created with FontForge (http://fontforge.org)"
+UComments: "2024-1-17: Created with FontForge (http://fontforge.org)+AAoACgAK-Instead of Charlie and the Alphabet and Charlie and the Numbers, how about Charlie and the Fonts? :)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724765938
+ModificationTime: 1724792720
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -1520,7 +1520,7 @@ SplineSet
  327.928710938 289.010742188 l 2xbc
 EndSplineSet
 Validated: 5
-Kerns2: 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss02' Style Set 2 lookup 3-1" a.ss02
 EndChar
 
@@ -1598,7 +1598,7 @@ SplineSet
  190 42 l 5
 EndSplineSet
 Validated: 1
-Kerns2: 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss04' Style Set 4 lookup 5-1" y.ss04
 EndChar
 
@@ -1701,7 +1701,7 @@ SplineSet
  175 0 l 5
 EndSplineSet
 Validated: 1
-Kerns2: 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: w
@@ -1730,7 +1730,7 @@ SplineSet
  118 0 l 1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: x
