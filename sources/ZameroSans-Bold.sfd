@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1724792720
+ModificationTime: 1725149254
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -44,8 +44,8 @@ HheadDOffset: 1
 OS2Vendor: 'ZAM '
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 18" { "'onum' Oldstyle Figures lookup 18-1" ("osf") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'tnum' Tabular Numbers lookup 17" { "'tnum' Tabular Numbers lookup 17-1" ("tf") } ['tnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'dnom' Denominators lookup 0" { "'dnom' Denominators lookup 0 subtable" ("dnom") } ['dnom' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "'numr' Numerators lookup 0" { "'numr' Numerators lookup 0 subtable" ("numr") } ['numr' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'dnom' Denominators lookup 0" { "'dnom' Denominators lookup 0 subtable" ("dnom") } ['dnom' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'numr' Numerators lookup 0" { "'numr' Numerators lookup 0 subtable" ("numr") } ['numr' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss13' Style Set 13 lookup 14" { "'ss13' Style Set 13 lookup 14-1" ("ss13") } ['ss13' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 13" { "'ss12' Style Set 12 lookup 13-1" ("ss12") } ['ss12' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss11' Style Set 11 lookup 12" { "'ss11' Style Set 11 lookup 12-1" ("ss11") } ['ss11' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -59,8 +59,8 @@ Lookup: 1 0 0 "'ss02' Style Set 2 lookup 3" { "'ss02' Style Set 2 lookup 3-1" ("
 Lookup: 1 0 0 "'ss03' Style Set 3 lookup 4" { "'ss03' Style Set 3 lookup 4-1" ("ss03") } ['ss03' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss04' Style Set 4 lookup 5" { "'ss04' Style Set 4 lookup 5-1" ("ss04") } ['ss04' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss05' Style Set 5 lookup 6" { "'ss05' Style Set 5 lookup 6-1" ("ss05") } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -502,7 +502,7 @@ SplineSet
  265 731.0078125 l 1
  444 731.0078125 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Kerns2: 53 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 0 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 4 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 23 -64 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -170 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -642,7 +642,7 @@ SplineSet
  607.928710938 497.743164062 542.819912041 586.659179688 403.888671875 586.659179688 c 0
  264.957431709 586.659179688 199.848632812 497.743164062 199.848632812 364.561523438 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Kerns2: 25 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss10' Style Set 10 lookup 11-1" Q.ss10
 Substitution2: "'ss09' Style Set 9 lookup 10-1" Q.ss09
@@ -914,7 +914,7 @@ SplineSet
  701.373806919 134.3046875 735.62890625 148.5546875 735.62890625 148.5546875 c 1
  742.451171875 5.5546875 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: i
@@ -1148,7 +1148,7 @@ SplineSet
  214 751.001953125 l 1
  214 191.991210938 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Kerns2: 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1245,7 +1245,7 @@ SplineSet
  192.919921875 191.943155584 224.678293672 145.463867188 298.959960938 145.463867188 c 0
  364.835558052 145.463867188 393 191.666476668 393 235.561523438 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: f
@@ -2065,7 +2065,7 @@ SplineSet
  479.072551319 486.370117188 562.827148438 399.458984375 562.827148438 254.497070312 c 0
  562.827148438 90.5595703125 463.190217433 -9.998046875 267 -9.998046875 c 0
 EndSplineSet
-Validated: 524801
+Validated: 513
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" five.numr
@@ -6040,7 +6040,7 @@ SplineSet
  502.362952971 585.456008252 464.992239786 626.010742188 372 626.010742188 c 0
  261 626.010742188 214 578.544514974 214 467.010742188 c 2xbe
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni2113
@@ -6557,7 +6557,7 @@ SplineSet
  229.848632812 241.507720665 298.478970638 146 459 146 c 1xbe
  405.888671875 50.001953125 l 1x7e
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: gravecomb
@@ -9024,7 +9024,7 @@ SplineSet
  354 387 l 5
 EndSplineSet
 Refer: 35 108 N 1 0 0 1 44 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni01CD
@@ -14060,7 +14060,7 @@ SplineSet
  381.041015625 257.444335938 311.615234375 187.901367188 205.520507812 187.901367188 c 0
  99.42578125 187.901367188 30 257.444335938 30 364 c 0
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: zero.tf
@@ -14227,7 +14227,7 @@ SplineSet
  554.77734375 98.0316972184 456.062086697 -9.998046875 293.888671875 -9.998046875 c 4
  132.958495509 -9.998046875 35 98.0316972184 35 263.561523438 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" zero.tosf
 EndChar
 
@@ -14277,7 +14277,7 @@ SplineSet
  48 163.011673912 150.81150463 233.797741371 290.62109375 287.516601562 c 0
  337.684527355 305.599724658 344.67578125 322.002956019 344.67578125 346.05859375 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" two.tosf
 EndChar
 
@@ -14309,7 +14309,7 @@ SplineSet
  164.138671875 244.481445312 l 1
  218.138671875 244.481445312 l 2xe8
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tosf
 EndChar
 
@@ -14334,7 +14334,7 @@ SplineSet
  344 520.93359375 l 5
  506 520.93359375 l 5
 EndSplineSet
-Validated: 524293
+Validated: 5
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" four.tosf
 EndChar
 
@@ -14364,7 +14364,7 @@ SplineSet
  455.786722895 276.373046875 532.827148438 194.334600827 532.827148438 57.5 c 0
  532.827148438 -95.9000744895 439.926376134 -189.994140625 257 -189.994140625 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tosf
 EndChar
 
@@ -14393,7 +14393,7 @@ SplineSet
  499.619140625 569.3984375 449.29534458 618.529296875 356.778320312 618.529296875 c 0
  252.181595295 618.529296875 199.278202944 553.905536342 193.303710938 434.747070312 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" six.tosf
 EndChar
 
@@ -14415,7 +14415,7 @@ SplineSet
  534 414.93359375 l 5
  534 414.93359375 310.233478831 158.876696875 307 -179.994140625 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" seven.tosf
 EndChar
 
@@ -14449,7 +14449,7 @@ SplineSet
  142.592161215 -9.998046875 35 78.1448113519 35 213.381835938 c 0
  35 351.488603645 132.068730369 427.830078125 308.5 427.830078125 c 0xb9
 EndSplineSet
-Validated: 524293
+Validated: 5
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tosf
 EndChar
 
@@ -14478,7 +14478,7 @@ SplineSet
  100.545898438 -6.453125 159.677365136 -57.521484375 268.38671875 -57.521484375 c 0
  350.589229831 -57.521484375 392.165978004 1.80238126321 396.861328125 111.188476562 c 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" nine.tosf
 EndChar
 
