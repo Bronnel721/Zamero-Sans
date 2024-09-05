@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1725504832
+ModificationTime: 1725504962
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -8632,7 +8632,7 @@ EndChar
 
 StartChar: dcaron
 Encoding: 271 271 406
-Width: 793
+Width: 763
 Flags: W
 HStem: -9.99805 135.649<230.238 354.365> 0 21G<393 552> 374.472 136.462<231.403 364.212> 731 20G<635.343 788> 731.002 20G<393 552>
 VStem: 38.0713 154.849<165.582 331.957> 393 62.8486<75.1885 217.374 317.374 434.496> 393 159<217.374 751.002>
@@ -8641,17 +8641,17 @@ Fore
 SplineSet
 641 751 m 25x34
  788 751 l 25
- 693 553 l 29
+ 693 553 l 25
  585 553 l 25
  641 751 l 25x34
 EndSplineSet
 Refer: 44 100 N 1 0 0 1 0 0 2
-Validated: 5
+Kerns2: 49 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -140 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: tcaron
 Encoding: 357 357 407
-Width: 503
+Width: 463
 Flags: W
 HStem: -10 133<260.918 369.347> 373 128.011<14 382> 731 20G<345.343 498>
 VStem: 95 159<132.999 651.011>
@@ -8660,12 +8660,12 @@ Fore
 SplineSet
 351 751 m 25
  498 751 l 25
- 403 553 l 29
+ 403 553 l 25
  295 553 l 25
  351 751 l 25
 EndSplineSet
 Refer: 41 116 N 1 0 0 1 0 0 2
-Validated: 5
+Kerns2: 49 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: Dcroat
@@ -8696,7 +8696,7 @@ SplineSet
  622 550 l 1x3c
 EndSplineSet
 Refer: 44 100 N 1 0 0 1 0 0 2
-Kerns2: 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: Tbar
