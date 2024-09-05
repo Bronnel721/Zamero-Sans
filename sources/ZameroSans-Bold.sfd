@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1725373908
+ModificationTime: 1725504832
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -912,7 +912,7 @@ SplineSet
  695.190033674 134.3046875 731.62890625 143.5546875 731.62890625 143.5546875 c 1
  742.451171875 4.5546875 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: i
@@ -8682,21 +8682,21 @@ EndChar
 
 StartChar: dcroat
 Encoding: 273 273 409
-Width: 652
+Width: 622
 Flags: W
 HStem: -9.99805 135.649<230.238 354.365> 0 21G<393 552> 374.472 136.462<231.403 364.212> 550 121<288 622> 731.002 20G<393 552>
 VStem: 38.0713 154.849<165.582 331.957> 393 62.8486<75.1885 217.374 317.374 434.496> 393 159<217.374 751.002>
 LayerCount: 2
 Fore
 SplineSet
-622 550 m 5x3c
- 288 550 l 5
- 288 671 l 5
- 622 671 l 5
- 622 550 l 5x3c
+622 550 m 1x3c
+ 288 550 l 1
+ 288 671 l 1
+ 622 671 l 1
+ 622 550 l 1x3c
 EndSplineSet
 Refer: 44 100 N 1 0 0 1 0 0 2
-Validated: 5
+Kerns2: 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: Tbar
