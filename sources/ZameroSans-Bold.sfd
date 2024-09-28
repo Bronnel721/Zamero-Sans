@@ -16,13 +16,13 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 474 1118879153 20760]
-StyleMap: 0x0000
+StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727485859
+ModificationTime: 1727493795
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
