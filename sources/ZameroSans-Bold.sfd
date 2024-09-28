@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727484848
+ModificationTime: 1727485203
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -422,22 +422,21 @@ AnchorPoint: "Anchor-0" 412 731 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-55 0 m 1
- 55 731.0078125 l 1
- 244 731.0078125 l 1
- 415 378.599609375 l 1
- 586 731.0078125 l 1
- 775 731.0078125 l 1
- 775 0 l 1
- 606 0 l 1
- 606 415.004882812 l 1
+55 0 m 5
+ 55 731.0078125 l 5
+ 244 731.0078125 l 5
+ 415 378.599609375 l 5
+ 586 731.0078125 l 5
+ 775 731.0078125 l 5
+ 775 0 l 5
+ 606 0 l 5
+ 606 415.004882812 l 5
  465 150 l 5
  365 150 l 5
- 224 415.004882812 l 1
- 224 0 l 1
- 55 0 l 1
+ 224 415.004882812 l 5
+ 224 0 l 5
+ 55 0 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: G
@@ -680,7 +679,7 @@ EndChar
 
 StartChar: J
 Encoding: 74 74 20
-Width: 406
+Width: 432
 Flags: W
 HStem: -10 149<22.3017 188.762> 585.008 146<50 208>
 VStem: 208 169<161.046 585.008>
@@ -1512,7 +1511,7 @@ SplineSet
  370.655983665 -9.998046875 327.928710938 33 327.928710938 125 c 2
  327.928710938 289.010742188 l 2xbc
 EndSplineSet
-Kerns2: 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 38 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss15' Style Set 15 lookup 20-1" a.ss15
 Substitution2: "'ss02' Style Set 2 lookup 3-1" a.ss02
 EndChar
@@ -8082,7 +8081,8 @@ EndChar
 
 StartChar: Jcircumflex
 Encoding: 308 308 367
-Width: 406
+Width: 432
+Flags: W
 HStem: -10 149<22.3017 188.762> 585.008 146<50 208> 767 215.008
 VStem: 208 169<161.046 585.008>
 LayerCount: 2
@@ -10735,7 +10735,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 367 251 2
 Refer: 12 77 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E3F
@@ -10760,7 +10759,6 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 329 201 2
 Refer: 12 77 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E41
@@ -10785,7 +10783,6 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 329 -48 2
 Refer: 12 77 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E43
