@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727630587
+ModificationTime: 1727630744
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -63,6 +63,7 @@ Lookup: 1 0 0 "'ss04' Style Set 4 lookup 5" { "'ss04' Style Set 4 lookup 5-1" ("
 Lookup: 1 0 0 "'ss05' Style Set 5 lookup 6" { "'ss05' Style Set 5 lookup 6-1" ("ss05") } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -100,7 +101,7 @@ Grid
  2000 731.007568359 l 1028
   Named: "Cap Height"
 EndSplineSet
-AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-0""" 
+AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1-1" "Anchor-2" "'mark' Mark Positioning lookup 1-1" "Anchor-0" "'mark' Mark Positioning lookup 1-1"
 BeginChars: 65607 806
 
 StartChar: I
@@ -2070,6 +2071,7 @@ SplineSet
  559.827148438 89.0388221302 461.200641238 -9.998046875 267 -9.998046875 c 0
 EndSplineSet
 Validated: 1
+Kerns2: 58 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" five.numr

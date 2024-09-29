@@ -2070,6 +2070,7 @@ SplineSet
  564.827148438 89.6091026986 464.516601563 -9.998046875 267 -9.998046875 c 0
 EndSplineSet
 Validated: 524289
+Kerns2: 58 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" five.numr
