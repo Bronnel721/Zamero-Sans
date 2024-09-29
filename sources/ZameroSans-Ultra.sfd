@@ -1,6 +1,6 @@
 SplineFontDB: 3.2
 FontName: ZameroSans-Ultra
-FullName: Zamero Sans Ultra
+FullName: ZameroSans Ultra
 FamilyName: Zamero Sans
 Weight: Ultra
 Copyright: Copyright (c) 2024, Zamero Type Foundry
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 474 1118879153 25271]
+XUID: [1021 474 1118879153 32292]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1727625623
-ModificationTime: 1727625964
-PfmFamily: 17
+CreationTime: 1727626258
+ModificationTime: 1727626382
+PfmFamily: 33
 TTFWeight: 1000
 TTFWidth: 5
 LineGap: 90
@@ -41,29 +41,29 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'ZAM '
-Lookup: 1 0 0 "'ss15' Style Set 15 lookup 20" { "'ss15' Style Set 15 lookup 20-1" ("ss15") } ['ss15' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss14' Style Set 14 lookup 19" { "'ss14' Style Set 14 lookup 19-1" ("ss14") } ['ss14' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 18" { "'onum' Oldstyle Figures lookup 18-1" ("osf") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'tnum' Tabular Numbers lookup 17" { "'tnum' Tabular Numbers lookup 17-1" ("tf") } ['tnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'dnom' Denominators lookup 0" { "'dnom' Denominators lookup 0 subtable" ("dnom") } ['dnom' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'numr' Numerators lookup 0" { "'numr' Numerators lookup 0 subtable" ("numr") } ['numr' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss13' Style Set 13 lookup 14" { "'ss13' Style Set 13 lookup 14-1" ("ss13") } ['ss13' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss12' Style Set 12 lookup 13" { "'ss12' Style Set 12 lookup 13-1" ("ss12") } ['ss12' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss11' Style Set 11 lookup 12" { "'ss11' Style Set 11 lookup 12-1" ("ss11") } ['ss11' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss08' Style Set 8 lookup 9" { "'ss08' Style Set 8 lookup 9-1" ("ss08") } ['ss08' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss09' Style Set 9 lookup 10" { "'ss09' Style Set 9 lookup 10-1" ("ss09") } ['ss09' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss10' Style Set 10 lookup 11" { "'ss10' Style Set 10 lookup 11-1" ("ss10") } ['ss10' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss07' Style Set 7 lookup 8" { "'ss07' Style Set 7 lookup 8-1" ("ss07") } ['ss07' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss06' Style Set 6 lookup 7" { "'ss06' Style Set 6 lookup 7-1" ("ss06") } ['ss06' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Style Set 1 lookup 2" { "'ss01' Style Set 1 lookup 2-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Style Set 2 lookup 3" { "'ss02' Style Set 2 lookup 3-1" ("ss02") } ['ss02' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss03' Style Set 3 lookup 4" { "'ss03' Style Set 3 lookup 4-1" ("ss03") } ['ss03' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss04' Style Set 4 lookup 5" { "'ss04' Style Set 4 lookup 5-1" ("ss04") } ['ss04' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss05' Style Set 5 lookup 6" { "'ss05' Style Set 5 lookup 6-1" ("ss05") } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss15' Style Set 15 lookup 20" { "ZameroSans-Ultra-'ss15' Style Set 15 lookup 20-1"  } ['ss15' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss14' Style Set 14 lookup 19" { "ZameroSans-Ultra-'ss14' Style Set 14 lookup 19-1"  } ['ss14' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18" { "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1"  } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17" { "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1"  } ['tnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'dnom' Denominators lookup 0" { "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable"  } ['dnom' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'numr' Numerators lookup 0" { "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable"  } ['numr' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss13' Style Set 13 lookup 14" { "ZameroSans-Ultra-'ss13' Style Set 13 lookup 14-1"  } ['ss13' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13" { "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13-1"  } ['ss12' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss11' Style Set 11 lookup 12" { "ZameroSans-Ultra-'ss11' Style Set 11 lookup 12-1"  } ['ss11' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss08' Style Set 8 lookup 9" { "ZameroSans-Ultra-'ss08' Style Set 8 lookup 9-1"  } ['ss08' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss09' Style Set 9 lookup 10" { "ZameroSans-Ultra-'ss09' Style Set 9 lookup 10-1"  } ['ss09' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss10' Style Set 10 lookup 11" { "ZameroSans-Ultra-'ss10' Style Set 10 lookup 11-1"  } ['ss10' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss07' Style Set 7 lookup 8" { "ZameroSans-Ultra-'ss07' Style Set 7 lookup 8-1"  } ['ss07' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss06' Style Set 6 lookup 7" { "ZameroSans-Ultra-'ss06' Style Set 6 lookup 7-1"  } ['ss06' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss01' Style Set 1 lookup 2" { "ZameroSans-Ultra-'ss01' Style Set 1 lookup 2-1"  } ['ss01' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss02' Style Set 2 lookup 3" { "ZameroSans-Ultra-'ss02' Style Set 2 lookup 3-1"  } ['ss02' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss03' Style Set 3 lookup 4" { "ZameroSans-Ultra-'ss03' Style Set 3 lookup 4-1"  } ['ss03' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss04' Style Set 4 lookup 5" { "ZameroSans-Ultra-'ss04' Style Set 4 lookup 5-1"  } ['ss04' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'ss05' Style Set 5 lookup 6" { "ZameroSans-Ultra-'ss05' Style Set 5 lookup 6-1"  } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0" { "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "ZameroSans-Ultra-'sups' Superscript lookup 0" { "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable"  } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0" { "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0" { "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "Marco Mahone" "Marco Mahone" "Zamero Sans is a new version of my previous font Mahone Sans. It was based off of, and I'm not kidding, the letters and numbers in Charlie and the Alphabet and Charlie and the Numbers. I turned those characters into a basic sans-serif font, changed a few of them to fit in better, and the rest is history." "https://github.com/Bronnel721" "https://github.com/Bronnel721" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -75,9 +75,9 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 27 9
+OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-TeXData: 1 0 0 262144 131072 87381 525348 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-0""" 
 BeginChars: 65607 806
 
@@ -106,7 +106,6 @@ SplineSet
  311.5 30 l 1
  122.5 30 l 1x54
 EndSplineSet
-Kerns2:
 EndChar
 
 StartChar: O
@@ -129,7 +128,7 @@ SplineSet
  767.77734375 137.916992188 628.196963328 -9.998046875 398.888671875 -9.998046875 c 0
  169.580380422 -9.998046875 30 137.916992188 30 364.561523438 c 0
 EndSplineSet
-Kerns2: 0 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 0 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: H
@@ -164,7 +163,6 @@ Encoding: 32 32 3
 Width: 250
 Flags: W
 LayerCount: 2
-Kerns2:
 EndChar
 
 StartChar: V
@@ -184,7 +182,7 @@ SplineSet
  479 0 l 1
  230 0 l 1
 EndSplineSet
-Kerns2: 1 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 1 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: D
@@ -251,7 +249,6 @@ SplineSet
  239 731.0078125 l 1
  239 163.5 l 1
 EndSplineSet
-Kerns2:
 EndChar
 
 StartChar: F
@@ -276,7 +273,7 @@ SplineSet
  549 567.5078125 l 1
  239 567.5078125 l 1xf0
 EndSplineSet
-Kerns2: 1 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 1 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: C
@@ -300,8 +297,7 @@ SplineSet
  642.827148438 44.595703125 570.452460077 -9.998046875 405.888671875 -9.998046875 c 0
  167.104853903 -9.998046875 31.5 136.337376545 31.5 360.561523438 c 0
 EndSplineSet
-Kerns2:
-Substitution2: "'ss12' Style Set 12 lookup 13-1" C.ss12
+Substitution2: "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13-1" C.ss12
 EndChar
 
 StartChar: E
@@ -328,7 +324,7 @@ SplineSet
  554 567.5078125 l 1
  239 567.5078125 l 1
 EndSplineSet
-Kerns2: 9 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 9 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: N
@@ -408,9 +404,9 @@ SplineSet
  705.482421875 93.0859042083 607.131604622 -9.998046875 399.888671875 -9.998046875 c 0
  164.287903837 -9.998046875 30 137.916992188 30 364.561523438 c 0
 EndSplineSet
-Kerns2: 0 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss08' Style Set 8 lookup 9-1" G.ss08
-Substitution2: "'ss12' Style Set 12 lookup 13-1" G.ss12
+Kerns2: 0 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss08' Style Set 8 lookup 9-1" G.ss08
+Substitution2: "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13-1" G.ss12
 EndChar
 
 StartChar: A
@@ -435,7 +431,7 @@ SplineSet
  255 731.0078125 l 1
  454 731.0078125 l 1
 EndSplineSet
-Kerns2: 0 20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 4 -100 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 0 20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 4 -100 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: P
@@ -461,7 +457,7 @@ SplineSet
  640.77734375 291.297915868 503.951235081 224 353.888671875 224 c 2
  169 224 l 1xec
 EndSplineSet
-Kerns2: 14 -90 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 14 -90 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: R
@@ -513,8 +509,8 @@ SplineSet
  169 248 l 1
  169 402.8515625 l 1xec
 EndSplineSet
-Kerns2: 13 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss01' Style Set 1 lookup 2-1" R.ss01
+Kerns2: 13 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss01' Style Set 1 lookup 2-1" R.ss01
 EndChar
 
 StartChar: T
@@ -537,7 +533,7 @@ SplineSet
  401.5 0 l 1
  212.5 0 l 1
 EndSplineSet
-Kerns2: 13 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 13 -40 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -40 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -120 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Q
@@ -563,9 +559,9 @@ SplineSet
  595.428710938 487.24922752 534.30863891 569.159179688 403.888671875 569.159179688 c 0
  273.46870484 569.159179688 212.348632812 487.24922752 212.348632812 364.561523438 c 0
 EndSplineSet
-Kerns2: 17 -100 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss10' Style Set 10 lookup 11-1" Q.ss10
-Substitution2: "'ss09' Style Set 9 lookup 10-1" Q.ss09
+Kerns2: 17 -100 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss10' Style Set 10 lookup 11-1" Q.ss10
+Substitution2: "ZameroSans-Ultra-'ss09' Style Set 9 lookup 10-1" Q.ss09
 EndChar
 
 StartChar: B
@@ -672,7 +668,7 @@ SplineSet
  337.24881505 154.961914062 370.837890625 174.704874974 370.837890625 213 c 0
  370.837890625 242.233080024 356.168585132 250.579820338 283.3828125 270.640625 c 0
 EndSplineSet
-Kerns2: 22 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 22 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: W
@@ -698,7 +694,7 @@ SplineSet
  397 0 l 1
  149 0 l 1
 EndSplineSet
-Kerns2: 14 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 14 -65 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: X
@@ -727,7 +723,7 @@ SplineSet
  684 0 l 1
  461 0 l 1
 EndSplineSet
-Kerns2: 18 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 18 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 9 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -60 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Y
@@ -753,7 +749,7 @@ SplineSet
  439 0 l 1
  250 0 l 1
 EndSplineSet
-Kerns2: 9 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -165 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 9 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 13 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 1 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -165 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Z
@@ -854,7 +850,7 @@ SplineSet
  559.77734375 94.082658113 459.170182837 -9.998046875 293.888671875 -9.998046875 c 0
  129.850399369 -9.998046875 30 94.082658113 30 253.561523438 c 0
 EndSplineSet
-Kerns2: 25 -130 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 25 -130 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: n
@@ -881,7 +877,7 @@ SplineSet
  229 0 l 1
  50 0 l 1
 EndSplineSet
-Kerns2: 17 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 17 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: m
@@ -918,7 +914,7 @@ SplineSet
  229 0 l 1
  50 0 l 1
 EndSplineSet
-Kerns2: 17 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 17 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: p
@@ -947,7 +943,6 @@ SplineSet
  213.217870276 -9.998046875 131.151367188 66.4393843719 131.151367188 183.561523438 c 1xca
  229 213.561523438 l 1
 EndSplineSet
-Kerns2:
 EndChar
 
 StartChar: j
@@ -999,7 +994,7 @@ SplineSet
  229 0 l 1
  50 0 l 1xf0
 EndSplineSet
-Kerns2: 29 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 29 -40 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: l
@@ -1021,7 +1016,7 @@ SplineSet
  224 751.001953125 l 1
  224 191.991210938 l 2
 EndSplineSet
-Kerns2: 35 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 35 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: h
@@ -1048,7 +1043,6 @@ SplineSet
  366.77734375 335.212575126 346.570826151 362.784179688 299 362.784179688 c 0
  249.964590785 362.784179688 229 331.243210412 229 284 c 9
 EndSplineSet
-Kerns2:
 EndChar
 
 StartChar: q
@@ -1109,7 +1103,7 @@ SplineSet
  207.919921875 200.037611852 235.185881361 159.963867188 298.959960938 159.963867188 c 0
  354.327970363 159.963867188 378 198.730791154 378 235.561523438 c 1
 EndSplineSet
-Substitution2: "'ss14' Style Set 14 lookup 19-1" g.ss14
+Substitution2: "ZameroSans-Ultra-'ss14' Style Set 14 lookup 19-1" g.ss14
 EndChar
 
 StartChar: f
@@ -1136,7 +1130,7 @@ SplineSet
  418 601.010742188 380.494873047 612.010742188 328 612.010742188 c 0
  282.940878378 612.010742188 264 595.444228918 264 557.010742188 c 2
 EndSplineSet
-Kerns2: 35 20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 35 20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: c
@@ -1160,7 +1154,7 @@ SplineSet
  458.327148438 28.595703125 398.430581031 -9.998046875 294.388671875 -9.998046875 c 0
  121.963221427 -9.998046875 30 94.0826581132 30 253.561523438 c 0
 EndSplineSet
-Substitution2: "'ss12' Style Set 12 lookup 13-1" c.ss12
+Substitution2: "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13-1" c.ss12
 EndChar
 
 StartChar: t
@@ -1187,8 +1181,8 @@ SplineSet
  264 671.010742188 l 1
  264 171 l 2
 EndSplineSet
-Kerns2: 29 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss11' Style Set 11 lookup 12-1" t.ss11
+Kerns2: 29 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss11' Style Set 11 lookup 12-1" t.ss11
 EndChar
 
 StartChar: r
@@ -1213,7 +1207,7 @@ SplineSet
  159 293.561523438 l 1
  178.622288602 444 225.151024888 510.93359375 342 510.93359375 c 0xd0
 EndSplineSet
-Kerns2: 17 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 17 -150 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: e
@@ -1241,8 +1235,8 @@ SplineSet
  486.827148438 17.095703125 427.295941065 -9.998046875 323.888671875 -9.998046875 c 0
  120.855668422 -9.998046875 30 94.0826581132 30 253.561523438 c 0
 EndSplineSet
-Kerns2: 25 -130 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss03' Style Set 3 lookup 4-1" e.ss03
+Kerns2: 25 -130 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -120 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss03' Style Set 3 lookup 4-1" e.ss03
 EndChar
 
 StartChar: d
@@ -1271,7 +1265,7 @@ SplineSet
  386.349609375 510.93359375 460.848632812 434.49609375 460.848632812 317.374023438 c 1xba
  378 295.374023438 l 1xbc
 EndSplineSet
-Substitution2: "'ss05' Style Set 5 lookup 6-1" d.ss05
+Substitution2: "ZameroSans-Ultra-'ss05' Style Set 5 lookup 6-1" d.ss05
 EndChar
 
 StartChar: b
@@ -1359,9 +1353,9 @@ SplineSet
  360.956682966 -9.998046875 315.928710938 33 315.928710938 125 c 2xba
  315.928710938 289.010742188 l 2xbc
 EndSplineSet
-Kerns2: 37 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 44 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 41 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss02' Style Set 2 lookup 3-1" a.ss02
-Substitution2: "'ss15' Style Set 15 lookup 20-1" a.ss15
+Kerns2: 37 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 44 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -130 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 41 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -150 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss02' Style Set 2 lookup 3-1" a.ss02
+Substitution2: "ZameroSans-Ultra-'ss15' Style Set 15 lookup 20-1" a.ss15
 EndChar
 
 StartChar: plus
@@ -1384,7 +1378,6 @@ SplineSet
  420 428.5 l 1
  420 287.5 l 1
 EndSplineSet
-Kerns2:
 EndChar
 
 StartChar: s
@@ -1411,7 +1404,7 @@ SplineSet
  248.498371909 130.981445312 268.020507812 139.60669582 268.020507812 156.336914062 c 0
  268.020507812 169.048129127 256.428975642 171.82590592 207.346679688 184.068359375 c 0
 EndSplineSet
-Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 48 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: y
@@ -1432,8 +1425,8 @@ SplineSet
  82.5 -179.994140625 l 1
  179.5 45 l 1
 EndSplineSet
-Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss04' Style Set 4 lookup 5-1" y.ss04
+Kerns2: 48 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -40 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -110 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss04' Style Set 4 lookup 5-1" y.ss04
 EndChar
 
 StartChar: u
@@ -1460,8 +1453,8 @@ SplineSet
  366.77734375 501.010742188 l 1
  545.77734375 501.010742188 l 1
 EndSplineSet
-Kerns2: 25 -110 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss05' Style Set 5 lookup 6-1" u.ss05
+Kerns2: 25 -110 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss05' Style Set 5 lookup 6-1" u.ss05
 EndChar
 
 StartChar: backslash
@@ -1477,7 +1470,7 @@ SplineSet
  431.5 -171.469726562 l 1
  277.5 -171.469726562 l 1
 EndSplineSet
-Kerns2: 51 -140 "'kern' Horizontal Kerning lookup 0 subtable"
+Kerns2: 51 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"
 EndChar
 
 StartChar: equal
@@ -1526,7 +1519,7 @@ SplineSet
  389 0 l 1
  160 0 l 1
 EndSplineSet
-Kerns2: 46 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 48 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 46 -40 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 48 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: w
@@ -1552,7 +1545,7 @@ SplineSet
  323 0 l 1
  103 0 l 1
 EndSplineSet
-Kerns2: 48 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 48 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -110 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: x
@@ -1581,7 +1574,7 @@ SplineSet
  528 0 l 1
  322.5 0 l 1
 EndSplineSet
-Kerns2: 46 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 46 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: z
@@ -1647,13 +1640,13 @@ SplineSet
  48 216.398085283 145.071610507 306.784254196 314.821289062 401.876953125 c 0
  383.851200333 440.589974249 389.67578125 467.387791813 389.67578125 493.516113282 c 0
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" two.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" two.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" two.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" two.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" two.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" two.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" two.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" two.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" two.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" two.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" two.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" two.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" two.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" two.osf
 EndChar
 
 StartChar: three
@@ -1684,13 +1677,13 @@ SplineSet
  164.138671875 445.481445312 l 1
  224.638671875 445.481445312 l 2xe8
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" three.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" three.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" three.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" three.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" three.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" three.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" three.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" three.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" three.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" three.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" three.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" three.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" three.osf
 EndChar
 
 StartChar: semicolon
@@ -1756,13 +1749,13 @@ SplineSet
  653.77734375 137.916992188 545.92759286 -9.998046875 341.888671875 -9.998046875 c 0
  137.84975089 -9.998046875 30 137.916992188 30 364.561523438 c 0
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" zero.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" zero.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" zero.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" zero.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" zero.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" zero.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" zero.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" zero.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" zero.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" zero.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" zero.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" zero.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" zero.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" zero.osf
 EndChar
 
 StartChar: one
@@ -1783,13 +1776,13 @@ SplineSet
  193 731 l 1
  365 731 l 1
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" one.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" one.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" one.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" one.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" one.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" one.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" one.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" one.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" one.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" one.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" one.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" one.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" one.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" one.osf
 EndChar
 
 StartChar: four
@@ -1813,14 +1806,14 @@ SplineSet
  347.5 731 l 1
  530 731 l 1
 EndSplineSet
-Kerns2: 64 -90 "'kern' Horizontal Kerning lookup 0 subtable"
-Substitution2: "'sups' Superscript lookup 0 subtable" four.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" four.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" four.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" four.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" four.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" four.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" four.osf
+Kerns2: 64 -90 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" four.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" four.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" four.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" four.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" four.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" four.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" four.osf
 EndChar
 
 StartChar: exclam
@@ -1871,13 +1864,13 @@ SplineSet
  487.079967992 481.370117188 564.827148438 395.396039522 564.827148438 251.997070312 c 0
  564.827148438 89.6091026986 464.516601563 -9.998046875 267 -9.998046875 c 0
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" five.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" five.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" five.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" five.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" five.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" five.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" five.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" five.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" five.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" five.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" five.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" five.osf
 EndChar
 
 StartChar: six
@@ -1923,15 +1916,14 @@ SplineSet
  524.619140625 531.388671875 472.181503623 580.51953125 375.778320312 580.51953125 c 0
  268.622256559 580.51953125 214.424390589 525.744908036 208.303710938 424.747070312 c 1
 EndSplineSet
-Kerns2:
-Substitution2: "'sups' Superscript lookup 0 subtable" six.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" six.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" six.inferior
-Substitution2: "'ss07' Style Set 7 lookup 8-1" six.ss07
-Substitution2: "'numr' Numerators lookup 0 subtable" six.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" six.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" six.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" six.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" six.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" six.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" six.inferior
+Substitution2: "ZameroSans-Ultra-'ss07' Style Set 7 lookup 8-1" six.ss07
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" six.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" six.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" six.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" six.osf
 EndChar
 
 StartChar: parenright
@@ -1971,14 +1963,14 @@ SplineSet
  569 625 l 1
  569 625 342.276212031 356 339 0 c 1
 EndSplineSet
-Kerns2: 63 -50 "'kern' Horizontal Kerning lookup 0 subtable" 68 -50 "'kern' Horizontal Kerning lookup 0 subtable"
-Substitution2: "'sups' Superscript lookup 0 subtable" seven.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" seven.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" seven.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" seven.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" seven.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" seven.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" seven.osf
+Kerns2: 63 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable" 68 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" seven.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" seven.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" seven.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" seven.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" seven.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" seven.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" seven.osf
 EndChar
 
 StartChar: eight
@@ -2011,13 +2003,13 @@ SplineSet
  145.459960938 -9.998046875 30 76.1718750001 30 208.381835938 c 0
  30 346.488603645 134.166992188 422.830078125 323.5 422.830078125 c 0xb9
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" eight.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" eight.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" eight.inferior
-Substitution2: "'numr' Numerators lookup 0 subtable" eight.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" eight.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" eight.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" eight.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" eight.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" eight.inferior
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" eight.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" eight.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" eight.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" eight.osf
 EndChar
 
 StartChar: nine
@@ -2045,14 +2037,14 @@ SplineSet
  100.545898438 197.60546875 158.268137832 148.474609375 264.38671875 148.474609375 c 0
  361.945262245 148.474609375 411.288852139 203.249232589 416.861328125 304.247070312 c 1
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0 subtable" nine.superior
-Substitution2: "'sups' Superscript lookup 0 subtable" nine.superior
-Substitution2: "'sinf' Scientific Inferiors lookup 0 subtable" nine.inferior
-Substitution2: "'ss07' Style Set 7 lookup 8-1" nine.ss07
-Substitution2: "'numr' Numerators lookup 0 subtable" nine.numr
-Substitution2: "'dnom' Denominators lookup 0 subtable" nine.dnom
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" nine.tf
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" nine.osf
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" nine.superior
+Substitution2: "ZameroSans-Ultra-'sups' Superscript lookup 0 subtable" nine.superior
+Substitution2: "ZameroSans-Ultra-'sinf' Scientific Inferiors lookup 0 subtable" nine.inferior
+Substitution2: "ZameroSans-Ultra-'ss07' Style Set 7 lookup 8-1" nine.ss07
+Substitution2: "ZameroSans-Ultra-'numr' Numerators lookup 0 subtable" nine.numr
+Substitution2: "ZameroSans-Ultra-'dnom' Denominators lookup 0 subtable" nine.dnom
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" nine.tf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" nine.osf
 EndChar
 
 StartChar: question
@@ -2138,7 +2130,7 @@ SplineSet
  198 456 l 1
  72 456 l 1
 EndSplineSet
-Kerns2: 48 -50 "'kern' Horizontal Kerning lookup 0 subtable"
+Kerns2: 48 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"
 EndChar
 
 StartChar: quotedbl
@@ -2197,7 +2189,7 @@ SplineSet
  132.534179688 738.9921875 l 1
  267.905273438 738.9921875 l 1
 EndSplineSet
-Substitution2: "'ss13' Style Set 13 lookup 14-1" asterisk.ss13
+Substitution2: "ZameroSans-Ultra-'ss13' Style Set 13 lookup 14-1" asterisk.ss13
 EndChar
 
 StartChar: less
@@ -2249,7 +2241,7 @@ SplineSet
  156.5 -171.469726562 l 1
  2.5 -171.469726562 l 1
 EndSplineSet
-Kerns2: 81 -140 "'kern' Horizontal Kerning lookup 0 subtable"
+Kerns2: 81 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning lookup 0 subtable"
 EndChar
 
 StartChar: bar
@@ -4877,7 +4869,7 @@ SplineSet
  220 0 l 1
  45 0 l 1
 EndSplineSet
-Substitution2: "'ss06' Style Set 6 lookup 7-1" Eng.ss06
+Substitution2: "ZameroSans-Ultra-'ss06' Style Set 6 lookup 7-1" Eng.ss06
 EndChar
 
 StartChar: eng
@@ -4965,7 +4957,7 @@ SplineSet
  378 601.010742188 340.494873047 612.010742188 288 612.010742188 c 0
  242.940878378 612.010742188 224 595.444228918 224 557.010742188 c 2
 EndSplineSet
-Kerns2: 187 95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 45 105 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 187 95 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 39 50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 105 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 105 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 105 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 45 105 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: uni018F
@@ -5814,7 +5806,7 @@ SplineSet
  602 804 568.080078125 825.799804688 568.080078125 825.799804688 c 1xd4
 EndSplineSet
 Refer: 6 85 N 1 0 0 1 0 0 2
-Kerns2: 225 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 225 -55 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: uhorn
@@ -5835,7 +5827,7 @@ SplineSet
  485 588.140961505 442.759765625 615.799804688 442.759765625 615.799804688 c 1x34
 EndSplineSet
 Refer: 50 117 N 1 0 0 1 0 0 2
-Kerns2: 226 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 226 -55 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: integral
@@ -8042,7 +8034,7 @@ SplineSet
  636 751 l 25x34
 EndSplineSet
 Refer: 44 100 N 1 0 0 1 0 0 2
-Kerns2: 49 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -140 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 49 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -140 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: tcaron
@@ -8061,7 +8053,7 @@ SplineSet
  346 751 l 25
 EndSplineSet
 Refer: 41 116 N 1 0 0 1 0 0 2
-Kerns2: 49 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 49 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -50 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Dcroat
@@ -8091,7 +8083,7 @@ SplineSet
  627 542.5 l 1x3c
 EndSplineSet
 Refer: 44 100 N 1 0 0 1 0 0 2
-Kerns2: 49 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 49 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 42 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 50 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Tbar
@@ -11405,7 +11397,7 @@ SplineSet
  61.5 -102.5 138.971075133 -44.2446891587 177.427734374 40.48046875 c 2
  179.5 45 l 1
 EndSplineSet
-Kerns2: 684 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 684 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 683 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: d.ss05
@@ -11924,8 +11916,8 @@ SplineSet
  738.482421875 107.695349612 629.511043929 -9.998046875 399.888671875 -9.998046875 c 0
  164.287903837 -9.998046875 30 137.916992188 30 364.561523438 c 0
 EndSplineSet
-Kerns2: 25 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
-Substitution2: "'ss12' Style Set 12 lookup 13-1" G.ss08.ss12
+Kerns2: 25 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Substitution2: "ZameroSans-Ultra-'ss12' Style Set 12 lookup 13-1" G.ss08.ss12
 EndChar
 
 StartChar: Q.ss09
@@ -11946,7 +11938,7 @@ SplineSet
  579 114 390 224 390 224 c 25xf0
 EndSplineSet
 Refer: 1 79 N 1 0 0 1 0 0 2
-Kerns2: 25 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 25 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Q.ss10
@@ -11967,7 +11959,7 @@ SplineSet
  489.138643068 -108 421.150442478 52 342 256 c 1xb8
 EndSplineSet
 Refer: 1 79 N 1 0 0 1 0 0 2
-Kerns2: 25 -80 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 25 -80 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: t.ss11
@@ -12090,7 +12082,7 @@ SplineSet
  705.482421875 93.0859042083 607.131604622 -9.998046875 399.888671875 -9.998046875 c 0
  164.287903837 -9.998046875 30 137.916992188 30 364.561523438 c 0
 EndSplineSet
-Substitution2: "'ss08' Style Set 8 lookup 9-1" G.ss08.ss12
+Substitution2: "ZameroSans-Ultra-'ss08' Style Set 8 lookup 9-1" G.ss08.ss12
 EndChar
 
 StartChar: G.ss08.ss12
@@ -13053,7 +13045,7 @@ VStem: 13.1113 182.849<235.301 493.822> 454.04 182.849<235.301 493.822>
 LayerCount: 2
 Fore
 Refer: 63 48 N 1 0 0 1 -16.8887 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" zero.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" zero.tosf
 EndChar
 
 StartChar: one.tf
@@ -13079,7 +13071,7 @@ SplineSet
  253 731 l 1
  425 731 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" one.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" one.tosf
 EndChar
 
 StartChar: two.tf
@@ -13091,7 +13083,7 @@ VStem: 401.401 186.086<442.625 547.95>
 LayerCount: 2
 Fore
 Refer: 58 50 N 1 0 0 1 11.7256 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" two.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" two.tosf
 EndChar
 
 StartChar: three.tf
@@ -13103,7 +13095,7 @@ VStem: 380.803 198.086<464.318 552.88> 400.646 194.084<177.896 272.509>
 LayerCount: 2
 Fore
 Refer: 59 51 N 1 0 0 1 44.8188 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" three.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" three.tosf
 EndChar
 
 StartChar: four.tf
@@ -13115,7 +13107,7 @@ VStem: 340.5 184.5<0 476>
 LayerCount: 2
 Fore
 Refer: 65 52 N 1 0 0 1 -5 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" four.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" four.tosf
 EndChar
 
 StartChar: five.tf
@@ -13127,7 +13119,7 @@ VStem: 413.706 186.982<186.863 309.074>
 LayerCount: 2
 Fore
 Refer: 67 53 N 1 0 0 1 35.8608 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" five.tosf
 EndChar
 
 StartChar: six.tf
@@ -13139,7 +13131,7 @@ VStem: 34.9175 198.398<192.813 440.809> 438.316 176.767<174.26 300.134>
 LayerCount: 2
 Fore
 Refer: 68 54 N 1 0 0 1 4.91748 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" six.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" six.tosf
 EndChar
 
 StartChar: seven.tf
@@ -13151,7 +13143,7 @@ VStem: 172 190<0 154.851>
 LayerCount: 2
 Fore
 Refer: 70 55 N 1 0 0 1 23 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" seven.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" seven.tosf
 EndChar
 
 StartChar: eight.tf
@@ -13163,7 +13155,7 @@ VStem: 26.5 181.768<171.266 279.201> 61.7598 176.688<472.138 567.56> 406.552 176
 LayerCount: 2
 Fore
 Refer: 71 56 N 1 0 0 1 -3.5 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" eight.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" eight.tosf
 EndChar
 
 StartChar: nine.tf
@@ -13175,7 +13167,7 @@ VStem: 34.9175 180.267<425.82 549.184> 420.184 194.898<292.649 536.86>
 LayerCount: 2
 Fore
 Refer: 72 57 N 1 0 0 1 4.91748 0 2
-Substitution2: "'onum' Oldstyle Figures lookup 18-1" nine.tosf
+Substitution2: "ZameroSans-Ultra-'onum' Oldstyle Figures lookup 18-1" nine.tosf
 EndChar
 
 StartChar: zero.osf
@@ -13198,7 +13190,7 @@ SplineSet
  559.77734375 98.0316972185 459.170182837 -9.998046875 293.888671875 -9.998046875 c 0
  129.850399369 -9.998046875 30 98.0316972185 30 263.561523438 c 0
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" zero.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" zero.tosf
 EndChar
 
 StartChar: one.osf
@@ -13219,7 +13211,7 @@ SplineSet
  173 521 l 1
  345 521 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" one.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" one.tosf
 EndChar
 
 StartChar: two.osf
@@ -13245,7 +13237,7 @@ SplineSet
  43 170.014067308 149.351758896 241.651667955 290.62109375 302.516601562 c 0
  323.523120164 317.075333805 332.17578125 328.166643869 332.17578125 346.05859375 c 0
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" two.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" two.tosf
 EndChar
 
 StartChar: three.osf
@@ -13276,7 +13268,7 @@ SplineSet
  164.138671875 249.481445312 l 1
  203.138671875 249.481445312 l 2xe8
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" three.tosf
 EndChar
 
 StartChar: four.osf
@@ -13300,7 +13292,7 @@ SplineSet
  329 520.93359375 l 1
  511 520.93359375 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" four.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" four.tosf
 EndChar
 
 StartChar: five.osf
@@ -13329,7 +13321,7 @@ SplineSet
  459.019835638 276.373046875 537.827148438 194.334600827 537.827148438 57.5 c 0
  537.827148438 -95.9000744895 443.242336459 -189.994140625 257 -189.994140625 c 0
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" five.tosf
 EndChar
 
 StartChar: six.osf
@@ -13357,7 +13349,7 @@ SplineSet
  499.619140625 551.8984375 449.29534458 601.029296875 356.778320312 601.029296875 c 0
  261.779115554 601.029296875 213.729999279 546.07542362 208.303710938 444.747070312 c 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" six.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" six.tosf
 EndChar
 
 StartChar: seven.osf
@@ -13378,7 +13370,7 @@ SplineSet
  539 414.93359375 l 1
  539 414.93359375 320.16225683 158.876696875 317 -179.994140625 c 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" seven.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" seven.tosf
 EndChar
 
 StartChar: eight.osf
@@ -13411,7 +13403,7 @@ SplineSet
  139.559111146 -9.998046875 30 78.144811352 30 213.381835938 c 0
  30 351.488603645 128.843295824 427.830078125 308.5 427.830078125 c 0xb9
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" eight.tosf
 EndChar
 
 StartChar: nine.osf
@@ -13439,7 +13431,7 @@ SplineSet
  100.545898438 11.046875 159.677365136 -40.021484375 268.38671875 -40.021484375 c 0
  340.991709572 -40.021484375 377.71418167 13.1488166312 381.861328125 111.188476562 c 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 17-1" nine.tosf
+Substitution2: "ZameroSans-Ultra-'tnum' Tabular Numbers lookup 17-1" nine.tosf
 EndChar
 
 StartChar: zero.tosf
@@ -13608,7 +13600,7 @@ SplineSet
  292 460 l 1
  311.890527344 548.34375 385.1971875 587.649414062 477.5 587.649414062 c 0xe880
 EndSplineSet
-Kerns2: 48 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 100 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 48 -10 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 46 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 43 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -20 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 100 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: a.ss15
