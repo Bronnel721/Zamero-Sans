@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1727626258
-ModificationTime: 1727628748
+ModificationTime: 1727630483
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -1038,7 +1038,7 @@ SplineSet
  224 751.001953125 l 1
  224 191.991210938 l 2
 EndSplineSet
-Kerns2: 35 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 43 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -30 "ZameroSans-Ultra-'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: h
@@ -3286,15 +3286,15 @@ StartChar: ordfeminine
 Encoding: 170 170 122
 Width: 402
 Flags: W
-HStem: 369.992 104<288.154 395.096> 369.992 95<98 215.441> 511.992 80.5<145.323 233> 629.992 109<67.5694 212.732>
-VStem: 221 37<416.992 487.492> 221 12<511.992 592.492>
+HStem: 369.992 104<288.154 395.096> 369.992 95<98 215.523> 521.992 70.5<155.366 233> 629.992 109<67.5694 212.732>
+VStem: 221 37<416.992 487.492> 221 12<521.992 592.492>
 LayerCount: 2
 Fore
 SplineSet
 221 502.4921875 m 1x74
- 221 479.817768895 203.074074074 464.9921875 177 464.9921875 c 0
- 153.658536585 464.9921875 144 474.669606855 144 489.9921875 c 0
- 144 507.9921875 165.626168224 511.9921875 233 511.9921875 c 1
+ 221 479.817768895 205.111111111 464.9921875 182 464.9921875 c 0
+ 158.658536585 464.9921875 149 474.669606855 149 489.9921875 c 0
+ 149 516.174005682 169.411214953 521.9921875 233 521.9921875 c 5
  233 592.4921875 l 1x74
  105.914798206 592.4921875 15 576.695577331 15 475.9921875 c 0
  15 411.9921875 61 369.9921875 135 369.9921875 c 0
