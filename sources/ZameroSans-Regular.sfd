@@ -22,9 +22,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727575931
+ModificationTime: 1727576088
 PfmFamily: 33
-TTFWeight: 700
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 90
@@ -100,6 +100,7 @@ Grid
  2000 731.007568359 l 1028
   Named: "Cap Height"
 EndSplineSet
+TeXData: 1 0 0 262144 131072 87381 525348 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-0""" 
 BeginChars: 65607 806
 
@@ -606,15 +607,15 @@ LayerCount: 2
 Fore
 SplineSet
 564 620 m 5xd0
- 50 620 l 1
- 50 731 l 1
+ 50 620 l 5
+ 50 731 l 5
  564 731 l 5
  564 620 l 5xd0
-242.5 0 m 1
- 242.5 701 l 1
- 371.5 701 l 1xb0
- 371.5 0 l 1
- 242.5 0 l 1
+242.5 0 m 5
+ 242.5 701 l 5
+ 371.5 701 l 5xb0
+ 371.5 0 l 5
+ 242.5 0 l 5
 EndSplineSet
 Validated: 524293
 Kerns2: 49 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 20 -21 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
@@ -5728,16 +5729,16 @@ StartChar: uni2116
 Encoding: 8470 8470 209
 Width: 1126
 Flags: W
-HStem: 0 21G<55 214 482.371 664> 239 99<738 1068> 378.061 116.526<859.989 957.413> 622.278 116.714<857.252 957.845> 711.008 20G<55 236.997 505 664>
-VStem: 55 159<0 445.005> 505 159<298.6 731.008> 724.111 122.412<506.584 610.049> 969.477 122.412<507.03 609.635>
+HStem: 0 21G<75 202 499 644> 239 99<738 1068> 378.061 116.526<859.989 957.413> 622.278 116.714<857.252 957.845> 711.008 20G<75 220.301 517 644>
+VStem: 75 127<0 515.005> 517 127<228.6 731.008> 724.111 122.412<506.584 610.049> 969.477 122.412<507.03 609.635>
 LayerCount: 2
 Fore
 SplineSet
-738 338 m 5xe780
- 1068 338 l 5
- 1068 239 l 5
- 738 239 l 5
- 738 338 l 5xe780
+738 338 m 1xe780
+ 1068 338 l 1
+ 1068 239 l 1
+ 738 239 l 1
+ 738 338 l 1xe780
 846.5234375 560.844726562 m 0
  846.5234375 521.11328125 864.60546875 494.586914062 906.897460938 494.586914062 c 0
  950.734375 494.586914062 969.4765625 521.11328125 969.4765625 560.844726562 c 0
@@ -5748,19 +5749,8 @@ SplineSet
  1021.93066406 738.9921875 1091.88867188 668.552734375 1091.88867188 560.620117188 c 0
  1091.88867188 450.154296875 1021.93066406 378.060546875 907 378.060546875 c 0
  793.3125 378.060546875 724.111328125 450.154296875 724.111328125 560.620117188 c 0
-55 0 m 1
- 55 731.0078125 l 1
- 224 731.0078125 l 1
- 505 298.599609375 l 1
- 505 731.0078125 l 1
- 664 731.0078125 l 1xef80
- 664 0 l 1
- 495 0 l 1
- 214 445.004882812 l 1
- 214 0 l 1
- 55 0 l 1
 EndSplineSet
-Validated: 1
+Refer: 11 78 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni20BF
@@ -6084,28 +6074,27 @@ StartChar: uni20B8
 Encoding: 8376 8376 223
 Width: 614
 Flags: W
-HStem: 0 21G<222.5 391.5> 365 146<30 222.5 391.5 584> 365 116<222.5 391.5> 585 146<30 584>
-VStem: 222.5 169<0 481>
+HStem: 0 21G<242.5 371.5> 400 111<50 242.5 371.5 564> 400 81<242.5 371.5> 620 111<50 564>
+VStem: 242.5 129<0 481>
 LayerCount: 2
 Fore
 SplineSet
-584 585 m 5x98
- 30 585 l 5
- 30 731 l 5
- 584 731 l 5
- 584 585 l 5x98
-584 365 m 1xd8
- 30 365 l 1
- 30 511 l 1
- 584 511 l 1
- 584 365 l 1xd8
-222.5 0 m 1
- 222.5 481 l 1
- 391.5 481 l 1xb8
- 391.5 0 l 1
- 222.5 0 l 1
+564 620 m 1x98
+ 50 620 l 1
+ 50 731 l 1
+ 564 731 l 1
+ 564 620 l 1x98
+564 400 m 1xd8
+ 50 400 l 1
+ 50 511 l 1
+ 564 511 l 1
+ 564 400 l 1xd8
+242.5 0 m 5
+ 242.5 481 l 5
+ 371.5 481 l 1xb8
+ 371.5 0 l 1
+ 242.5 0 l 5
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni20BC
@@ -10304,33 +10293,32 @@ StartChar: uni20AE
 Encoding: 8366 8366 532
 Width: 614
 Flags: W
-HStem: 0 21G<222.5 391.5> 585 146<30 222.5 391.5 584> 585 116<222.5 391.5>
-VStem: 222.5 169<0 701>
+HStem: 0 21G<242.5 371.5> 620 111<50 242.5 371.5 564> 620 81<242.5 371.5>
+VStem: 242.5 129<0 701>
 LayerCount: 2
 Fore
 SplineSet
-584 585 m 1xd0
- 30 585 l 1
- 30 731 l 1
- 584 731 l 1
- 584 585 l 1xd0
-222.5 0 m 1
- 222.5 701 l 1
- 391.5 701 l 1xb0
- 391.5 0 l 1
- 222.5 0 l 1
-494 255 m 5
- 120 145 l 5
- 120 231 l 5
- 494 341 l 5
- 494 255 l 5
-494 385 m 5
- 120 275 l 5
- 120 361 l 5
- 494 471 l 5
- 494 385 l 5
+564 620 m 5xd0
+ 50 620 l 5
+ 50 731 l 1
+ 564 731 l 1
+ 564 620 l 5xd0
+242.5 0 m 1
+ 242.5 701 l 1
+ 371.5 701 l 1xb0
+ 371.5 0 l 1
+ 242.5 0 l 1
+494 255 m 1
+ 120 145 l 1
+ 120 231 l 1
+ 494 341 l 1
+ 494 255 l 1
+494 385 m 1
+ 120 275 l 1
+ 120 361 l 1
+ 494 471 l 1
+ 494 385 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: estimated
