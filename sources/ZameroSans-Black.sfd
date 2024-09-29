@@ -2211,6 +2211,7 @@ SplineSet
  30 346.488603645 134.166992188 422.830078125 323.5 422.830078125 c 0xb9
 EndSplineSet
 Validated: 524293
+Kerns2: 70 -35 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" eight.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" eight.numr
