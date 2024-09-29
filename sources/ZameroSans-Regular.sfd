@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727569081
+ModificationTime: 1727569293
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -10353,34 +10353,32 @@ StartChar: uni2E3A
 Encoding: 11834 11834 536
 Width: 1080
 Flags: W
-HStem: 209 141<30 1050>
+HStem: 228 103<50 1030>
 LayerCount: 2
 Fore
 SplineSet
-30 209 m 1
- 30 350 l 1
- 1050 350 l 5
- 1050 209 l 5
- 30 209 l 1
+50 228 m 1
+ 50 331 l 1
+ 1030 331 l 5
+ 1030 228 l 5
+ 50 228 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2E3B
 Encoding: 11835 11835 537
 Width: 1380
 Flags: W
-HStem: 209 141<30 1350>
+HStem: 228 103<50 1330>
 LayerCount: 2
 Fore
 SplineSet
-30 209 m 1
- 30 350 l 1
- 1350 350 l 5
- 1350 209 l 5
- 30 209 l 1
+50 228 m 5
+ 50 331 l 1
+ 1330 331 l 1
+ 1330 228 l 5
+ 50 228 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: pi
@@ -12142,28 +12140,27 @@ StartChar: .notdef
 Encoding: 65536 -1 681
 Width: 639
 Flags: W
-HStem: 0 126<224 445> 50 76<194 224> 605.008 126<194 415> 605.008 75.9922<415 445>
-VStem: 55 139<126 605.008>
+HStem: 0 90<209 465> 50 40<174 209> 641.008 90<174 430> 641.008 39.9922<430 465>
+VStem: 75 99<90 641.008>
 LayerCount: 2
 Fore
 SplineSet
-194 605.0078125 m 1x28
- 194 126 l 1x68
- 445 126 l 1
- 445 605.0078125 l 1x98
- 194 605.0078125 l 1x28
-584 0 m 1xa8
- 55 0 l 1
- 55 731.0078125 l 1
- 584 731.0078125 l 1
- 584 0 l 1xa8
-95 50 m 5x58
- 415 681 l 1
- 544 681 l 1
- 224 50 l 5
- 95 50 l 5x58
+174 641.0078125 m 1x28
+ 174 90 l 1x68
+ 465 90 l 1
+ 465 641.0078125 l 1x98
+ 174 641.0078125 l 1x28
+564 0 m 1xa8
+ 75 0 l 1
+ 75 731.0078125 l 1
+ 564 731.0078125 l 1
+ 564 0 l 1xa8
+110 50 m 5x58
+ 430 681 l 5
+ 529 681 l 5
+ 209 50 l 5
+ 110 50 l 5x58
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: R.ss01
