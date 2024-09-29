@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727630776
+ModificationTime: 1727639449
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -1326,7 +1326,7 @@ Encoding: 116 116 41
 Width: 412
 Flags: W
 HStem: -10 98<255.166 367.082> 409 92.0107<24 372>
-VStem: 115 119<109.473 651.011>
+VStem: 115 119<109.473 653.011>
 AnchorPoint: "Anchor-2" 208 0.0117188 basechar 0
 AnchorPoint: "Anchor-0" 173 660 basechar 0
 LayerCount: 2
@@ -1339,15 +1339,14 @@ SplineSet
  24 501.010742188 l 1
 234 186 m 2
  234 117.518514554 255.900390625 88 308 88 c 0
- 341.246752929 88 365 99 365 99 c 5
- 377 6 l 5
+ 341.246752929 88 365 99 365 99 c 1
+ 377 6 l 1
  377 6 338.157902644 -10 282 -10 c 0
  146.087170563 -10 115 62.0570343178 115 171 c 2
- 115 651.010742188 l 1
- 234 671.010742188 l 1
+ 115 653.010742188 l 5
+ 234 668.010742188 l 5
  234 186 l 2
 EndSplineSet
-Validated: 5
 Kerns2: 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss11' Style Set 11 lookup 12-1" t.ss11
 EndChar
@@ -8630,12 +8629,11 @@ StartChar: uni0163
 Encoding: 355 355 403
 Width: 412
 HStem: -277.988 68<169.507 310.298> -108.988 65<254.791 313.081> -10 98<255.166 367.082> 409 92.0107<24 372>
-VStem: 115 119<109.473 651.011> 319 89<-198.996 -115.022>
+VStem: 115 119<109.473 653.011> 319 89<-198.996 -115.022>
 LayerCount: 2
 Fore
 Refer: 255 807 N 1 0 0 1 151 -22.9883 2
 Refer: 41 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Dcaron
@@ -8687,7 +8685,7 @@ Encoding: 357 357 407
 Width: 463
 Flags: W
 HStem: -10 98<255.166 367.082> 409 92.0107<24 372> 731 20G<355.343 488>
-VStem: 115 119<109.473 651.011>
+VStem: 115 119<109.473 653.011>
 LayerCount: 2
 Fore
 SplineSet
@@ -8698,7 +8696,6 @@ SplineSet
  361 751 l 25
 EndSplineSet
 Refer: 41 116 N 1 0 0 1 0 0 2
-Validated: 5
 Kerns2: 49 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -8756,7 +8753,7 @@ Encoding: 359 359 411
 Width: 412
 Flags: W
 HStem: -10 98<255.166 367.082> 219 91<39 343> 409 92.0107<24 372>
-VStem: 115 119<109.473 651.011>
+VStem: 115 119<109.473 653.011>
 LayerCount: 2
 Fore
 SplineSet
@@ -9286,12 +9283,11 @@ StartChar: uni021B
 Encoding: 539 539 452
 Width: 412
 HStem: -279.988 232.449 -10 98<255.166 367.082> 409 92.0107<24 372>
-VStem: 115 119<109.473 651.011> 210 145.227<-176.14 -70.2852>
+VStem: 115 119<109.473 653.011> 210 145.227<-176.139 -70.2852>
 LayerCount: 2
 Fore
 Refer: 254 806 N 1 0 0 1 190 -47.9883 2
 Refer: 41 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01C4
@@ -11176,12 +11172,11 @@ StartChar: uni1E6B
 Encoding: 7787 7787 599
 Width: 412
 HStem: -10 98<255.166 367.082> 409 92.0107<24 372> 722.543 146.449<118.64 226.586>
-VStem: 100 145.227<741.34 850.195> 115 119<109.473 651.011>
+VStem: 100 145.227<741.34 850.195> 115 119<109.473 653.011>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 90 130 2
 Refer: 41 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E6C
@@ -11200,12 +11195,11 @@ StartChar: uni1E6D
 Encoding: 7789 7789 601
 Width: 412
 HStem: -194.445 146.449<154.64 262.586> -10 98<255.166 367.082> 409 92.0107<24 372>
-VStem: 115 119<109.473 651.011> 136 145.227<-175.649 -66.7931>
+VStem: 115 119<109.473 653.011> 136 145.227<-175.648 -66.7931>
 LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 126 -47.9883 2
 Refer: 41 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E6E
@@ -11224,12 +11218,11 @@ StartChar: uni1E6F
 Encoding: 7791 7791 603
 Width: 412
 HStem: -148.98 101<72 346> -10 98<255.166 367.082> 409 92.0107<24 372>
-VStem: 72 274<-148.98 -47.9805> 115 119<109.473 651.011>
+VStem: 72 274<-148.98 -47.9805> 115 119<109.473 653.011>
 LayerCount: 2
 Fore
 Refer: 257 817 N 1 0 0 1 52 -47.9883 2
 Refer: 41 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Wgrave
