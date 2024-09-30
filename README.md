@@ -1,4 +1,3 @@
-# Zamero Sans
 # Hey, what is this font about?
 Zamero Sans is a versatile sans-serif with a basic but playful and modern feeling to it.
 It's also a new version of my first font made from scratch, Mahone Sans, but with a few characters fully changed. While Mahone Sans had only one weight, I decided to add eight more styles to this font to make it an actual font family.
