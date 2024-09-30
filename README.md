@@ -7,3 +7,6 @@ The font has 806 characters in 298 languages (according to Hyperglot).
 
 # And what's the license?
 This font has an OFL license, so you can use if for both personal and commercial use. You can even modify it if you want!
+
+# "Can you add more styles"
+That's actually on eof my plans for this font! I don't know when, but I'll add more widths and probably an italic version later on.
