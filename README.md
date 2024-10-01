@@ -25,4 +25,4 @@ That's actually one of my plans for this font! I don't know when, but I'll add m
 
 
 
-![zamero_type_zamero_sans_poster_05](https://github.com/user-attachments/assets/5b6e3fb2-843b-4848-9573-5be57861bdd6)
+![zamero_type_zamero_sans_poster_05](https://github.com/user-attachments/assets/3c18b553-45b4-42f2-9f4c-ab43b7c7f006)
