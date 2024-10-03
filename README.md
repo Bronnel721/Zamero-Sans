@@ -21,7 +21,7 @@ This font has an OFL license, so you can use if for both personal and commercial
 # Can you add more styles?
 That's actually one of my plans for this font! I don't know when, but I'll add more widths and probably an italic version later on.
 
-![zamero_type_zamero_sans_poster_06](https://github.com/user-attachments/assets/76eb6009-eba9-40cb-886c-27d7ad973e11)
+![zamero_type_zamero_sans_poster_06 5](https://github.com/user-attachments/assets/580fd6c7-4a7d-4da1-b9f7-ccbc2d9ea279)
 
 
 
