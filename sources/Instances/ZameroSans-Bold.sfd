@@ -3,9 +3,9 @@ FontName: ZameroSans-Bold
 FullName: Zamero Sans Bold
 FamilyName: Zamero Sans
 Weight: Bold
-Copyright: Copyright (c) 2024, Zamero Type Foundry
+Copyright: Copyright (c) 2024-2025, Zamero Type Foundry
 UComments: "2024-1-17: Created with FontForge (http://fontforge.org)+AAoACgAK-Instead of Charlie and the Alphabet and Charlie and the Numbers, how about Charlie and the Fonts? :)"
-Version: 001.000
+Version: 001.100
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1727735400
+ModificationTime: 1743186857
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -42,6 +42,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'ZAM '
+Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "'ss15' Style Set 15 lookup 20" { "'ss15' Style Set 15 lookup 20-1" ("ss15") } ['ss15' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss14' Style Set 14 lookup 19" { "'ss14' Style Set 14 lookup 19-1" ("ss14") } ['ss14' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 18" { "'onum' Oldstyle Figures lookup 18-1" ("osf") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -63,10 +65,27 @@ Lookup: 1 0 0 "'ss04' Style Set 4 lookup 5" { "'ss04' Style Set 4 lookup 5-1" ("
 Lookup: 1 0 0 "'ss05' Style Set 5 lookup 6" { "'ss05' Style Set 5 lookup 6-1" ("ss05") } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions in Latin lookup 25" { "'frac' Diagonal Fractions in Latin lookup 25 subtable"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions in Latin lookup 26" { "'frac' Diagonal Fractions in Latin lookup 26 subtable"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'frac' Diagonal Fractions in Latin lookup 27" { "'frac' Diagonal Fractions in Latin lookup 27 contextual 0"  "'frac' Diagonal Fractions in Latin lookup 27 contextual 1"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 27 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
+  BCoverage: 99 zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 27 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
+  BCoverage: 8 fraction
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "Marco Mahone" "Marco Mahone" "Zamero Sans is a new version of my previous font Mahone Sans. It was based off of, and I'm not kidding, the letters and numbers in Charlie and the Alphabet and Charlie and the Numbers. I turned those characters into a basic sans-serif font, changed a few of them to fit in better, and the rest is history." "https://github.com/Bronnel721" "https://github.com/Bronnel721" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 Compacted: 1
@@ -190,7 +209,7 @@ SplineSet
  224 0 l 1
  55 0 l 1xf0
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: space
@@ -222,7 +241,7 @@ SplineSet
  464 0 l 1
  245 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 1 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -250,7 +269,7 @@ SplineSet
  522.928710938 540.163085938 425.013969929 580.411132812 293.888671875 580.545898438 c 6
  224 580.649809292 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: U
@@ -299,7 +318,7 @@ SplineSet
  224 731.0078125 l 1
  224 146 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 25 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -327,7 +346,7 @@ SplineSet
  544 585.0078125 l 1
  224 585.0078125 l 1xf0
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 50 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -354,7 +373,7 @@ SplineSet
  642.827148438 44.595703125 570.452460077 -9.998046875 405.888671875 -9.998046875 c 4
  169.974938555 -9.998046875 36 136.337376545 36 360.561523438 c 4
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 25 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss12' Style Set 12 lookup 13-1" C.ss12
 EndChar
@@ -413,7 +432,7 @@ SplineSet
  214 0 l 1
  55 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: M
@@ -442,40 +461,39 @@ SplineSet
  224 0 l 5
  55 0 l 5
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: G
 Encoding: 71 71 13
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 138<406 536.019 687.827 764> 286 18.5957<536.019 687.827> 586.659 152.462<314.065 534.547>
-VStem: 35 171.849<245.278 476.942> 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 138<406 527.019 687.827 764> 286 18.5957<527.019 687.827> 586.659 152.462<314.065 534.547>
+VStem: 35 171.849<245.278 476.942> 538.481 163.001<184.322 285.806>
 AnchorPoint: "Anchor-2" 401 0 basechar 0
 AnchorPoint: "Anchor-0" 408 731 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-764 286 m 5xdc
- 406 286 l 5
- 406 424 l 5
- 764 424 l 5
- 764 286 l 5xdc
+764 286 m 1xdc
+ 406 286 l 1
+ 406 424 l 1
+ 764 424 l 1
+ 764 286 l 1xdc
 35 364.561523438 m 0
  35 591.206054688 176.472284282 739.12109375 408.888671875 739.12109375 c 0
  579.531707116 739.12109375 649.681640625 672.891601562 649.681640625 672.891601562 c 1
  588.35546875 535.138671875 l 1
  588.35546875 535.138671875 531.390088144 586.659179688 415.888671875 586.659179688 c 0
  269.454902478 586.659179688 206.848632812 497.743164062 206.848632812 364.561523438 c 0
- 206.848632812 231.379882812 260.455078125 142.463867188 406.888671875 142.463867188 c 0
- 507.297596209 142.463867188 547.481445312 186.262045972 547.481445312 252 c 0
- 547.481445312 288.78559257 536.018554688 304.595703125 536.018554688 304.595703125 c 1
+ 206.848632812 231.379882812 259.651142389 142.463867188 403.888671875 142.463867188 c 4
+ 500.012500103 142.463867188 538.481445312 186.262045972 538.481445312 252 c 0
+ 538.481445312 288.78559257 527.018554688 304.595703125 527.018554688 304.595703125 c 1
  687.827148438 304.595703125 l 1xbc
  687.827148438 304.595703125 701.482421875 285.24972273 701.482421875 222 c 0
  701.482421875 93.0859042083 604.418945312 -9.998046875 399.888671875 -9.998046875 c 0
  167.47265625 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
-Validated: 1048581
 Kerns2: 0 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss12' Style Set 12 lookup 13-1" G.ss12
 Substitution2: "'ss08' Style Set 8 lookup 9-1" G.ss08
@@ -512,30 +530,29 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 15
-Width: 665
+Width: 655
 Flags: W
-HStem: 0 21G<55 224> 224 142.352<164 424.464> 584.649 146.358<224 424.777>
-VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 465.929 169.849<403.752 546.496>
+HStem: 0 21G<55 224> 234 142.352<164 421.243> 584.649 146.358<224 415.672>
+VStem: 55 169<0 234 376.352 584.649> 164 60<234 376.352> 455.929 169.849<410.105 550.173>
 AnchorPoint: "Anchor-2" 342 0 basechar 0
 AnchorPoint: "Anchor-0" 339 731 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-164 224 m 1xec
- 164 366.3515625 l 1xec
- 326.888671875 366.461914062 l 6
- 406.48895039 366.581032774 465.928710938 385.899706784 465.928710938 474.561523438 c 4
- 465.928710938 563.982010918 406.488959202 584.433630949 326.888671875 584.545898438 c 6
+164 234 m 1xec
+ 164 376.3515625 l 1xec
+ 326.888671875 376.461914062 l 2
+ 400.763960736 376.575523101 455.928710938 395.000638192 455.928710938 479.561523438 c 4
+ 455.928710938 564.91686587 400.763968914 584.438734742 326.888671875 584.545898438 c 2
  224 584.649414062 l 1
  224 0 l 1
  55 0 l 1
  55 731.0078125 l 1xf4
- 348.888671875 731.0078125 l 6
- 499.834707979 731.0078125 635.77734375 661.164588003 635.77734375 474.561523438 c 4
- 635.77734375 291.297915868 498.951235081 224 348.888671875 224 c 6
- 164 224 l 1xec
+ 348.888671875 731.0078125 l 2
+ 494.573223267 731.0078125 625.77734375 662.526339517 625.77734375 479.561523438 c 4
+ 625.77734375 299.954973924 493.720545343 234 348.888671875 234 c 2
+ 164 234 l 1xec
 EndSplineSet
-Validated: 1048581
 Kerns2: 30 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -543,8 +560,8 @@ StartChar: R
 Encoding: 82 82 16
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 435.929 174.849<427.752 550.878>
 AnchorPoint: "Anchor-2" 342 0.0117188 basechar 0
 AnchorPoint: "Anchor-0" 325 731 basechar 0
 LayerCount: 2
@@ -572,15 +589,15 @@ EndSplineSet
 Fore
 SplineSet
 164 396.3515625 m 1xec
- 312.888671875 396.461914062 l 6
- 386.19140625 396.50390625 440.928710938 413.202148438 440.928710938 489.561523438 c 4
- 440.928710938 566.786132812 386.19140625 584.486328125 312.888671875 584.545898438 c 6
+ 307.888671875 396.461914062 l 6
+ 381.19140625 396.50390625 435.928710938 413.202148438 435.928710938 489.561523438 c 4
+ 435.928710938 566.786132812 381.19140625 584.486328125 307.888671875 584.545898438 c 6
  224 584.649414062 l 1
  224 0 l 1
  55 0 l 1
  55 731.0078125 l 1xf4
  328.888671875 731.0078125 l 2
- 477.204101562 731.0078125 610.77734375 669.334960938 610.77734375 504.561523438 c 4
+ 477.204101562 731.0078125 610.77734375 669.334960938 610.77734375 504.561523438 c 0
  610.77734375 368.825734629 500.688476562 331.276367188 500.688476562 331.276367188 c 1
  500.688476562 331.276367188 559.537247499 313.979456456 593.702148438 195.399414062 c 2
  650 0 l 1
@@ -590,7 +607,6 @@ SplineSet
  164 256 l 1
  164 396.3515625 l 1xec
 EndSplineSet
-Validated: 1048581
 Kerns2: 46 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss01' Style Set 1 lookup 2-1" R.ss01
 EndChar
@@ -617,16 +633,16 @@ SplineSet
  391.5 0 l 1
  222.5 0 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 49 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 20 -21 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: Q
 Encoding: 81 81 18
-Width: 866
+Width: 856
 Flags: W
-HStem: -9.99805 152.462<303.577 642.356 687.938 780.925> 586.659 152.462<303.576 504.474>
-VStem: 35 164.849<252.181 476.942> 607.929 166.849<252.098 477.935>
+HStem: -9.99805 152.462<303.577 640.09 677.938 781.289> 586.659 152.462<303.576 500.661>
+VStem: 35 164.849<252.181 476.942> 597.929 166.849<252.098 477.935>
 AnchorPoint: "Anchor-2" 518 0 basechar 0
 AnchorPoint: "Anchor-0" 404 731 basechar 0
 LayerCount: 2
@@ -634,19 +650,18 @@ Fore
 SplineSet
 35 364.561523438 m 0
  35 591.206054687 174.580380422 739.12109375 403.888671875 739.12109375 c 0
- 634.440201784 739.12109375 774.77734375 589.104132899 774.77734375 384.561523438 c 4
- 774.77734375 217.238678644 687.938476562 146.598632812 687.938476562 146.598632812 c 1
- 749.859737014 147.78125078 826.888671875 161.001953125 826.888671875 161.001953125 c 1
- 841.888671875 19.001953125 l 1
- 841.888671875 19.001953125 736.311406133 -9.998046875 464 -9.998046875 c 0
+ 628.224009503 739.12109375 764.77734375 589.104132899 764.77734375 384.561523438 c 4
+ 764.77734375 217.238678644 677.938476562 146.598632812 677.938476562 146.598632812 c 5
+ 739.859737014 147.78125078 816.888671875 161.001953125 816.888671875 161.001953125 c 5
+ 831.888671875 19.001953125 l 5
+ 831.888671875 19.001953125 729.105278339 -9.998046875 464 -9.998046875 c 0
  167.001220226 -9.998046875 35 137.916992188 35 364.561523438 c 0
 199.848632812 364.561523438 m 0
  199.848632812 231.379882812 264.957431709 142.463867188 403.888671875 142.463867188 c 0
- 542.819912041 142.463867188 607.928710938 231.379882812 607.928710938 364.561523438 c 0
- 607.928710938 497.743164062 542.819912041 586.659179688 403.888671875 586.659179688 c 0
+ 536.010893536 142.463867188 597.928710938 231.379882812 597.928710938 364.561523438 c 4
+ 597.928710938 497.743164062 536.010893536 586.659179688 403.888671875 586.659179688 c 0
  264.957431709 586.659179688 199.848632812 497.743164062 199.848632812 364.561523438 c 0
 EndSplineSet
-Validated: 1048577
 Kerns2: 25 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss10' Style Set 10 lookup 11-1" Q.ss10
 Substitution2: "'ss09' Style Set 9 lookup 10-1" Q.ss09
@@ -683,7 +698,7 @@ SplineSet
  224 584.649414062 l 1
  224 146.46 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: J
@@ -693,7 +708,7 @@ Flags: W
 HStem: -10 149<22.3017 188.762> 585.008 146<50 208>
 VStem: 208 169<161.046 585.008>
 AnchorPoint: "Anchor-2" 175 0 basechar 0
-AnchorPoint: "Anchor-0" 209 731 basechar 0
+AnchorPoint: "Anchor-0" 219 731 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -709,7 +724,6 @@ SplineSet
  24 154 l 1
  24 154 67.3388671875 139 128 139 c 0
 EndSplineSet
-Validated: 1048577
 EndChar
 
 StartChar: K
@@ -742,7 +756,7 @@ SplineSet
  224 0 l 1
  55 0 l 1xf0
 EndSplineSet
-Validated: 1572869
+Validated: 5
 EndChar
 
 StartChar: S
@@ -772,7 +786,7 @@ SplineSet
  349.104492188 137.461914062 388.337890625 161.45703125 388.337890625 208 c 0
  388.337890625 246.108398438 370.831054688 259.4765625 283.3828125 283.140625 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 22 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -801,7 +815,7 @@ SplineSet
  377 0 l 1
  164 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 14 -65 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -833,7 +847,7 @@ SplineSet
  679 0 l 1
  478 0 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 18 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -862,7 +876,7 @@ SplineSet
  429 0 l 1
  260 0 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 50 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 723 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 725 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 724 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -165 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -888,7 +902,7 @@ SplineSet
  564 146 l 1
  564 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -948,7 +962,7 @@ SplineSet
  227.11328125 600.297394673 190.606886418 563.55078125 134.499023438 563.55078125 c 0
  78.3921276895 563.55078125 41.88671875 600.297394673 41.88671875 656.775390625 c 0xf0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: o
@@ -1004,7 +1018,7 @@ SplineSet
  214 0 l 1
  55 0 l 1
 EndSplineSet
-Validated: 1572869
+Validated: 5
 Kerns2: 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -140 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1044,7 +1058,7 @@ SplineSet
  214 0 l 1
  55 0 l 1
 EndSplineSet
-Validated: 1572869
+Validated: 5
 Kerns2: 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -140 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1076,7 +1090,7 @@ SplineSet
  208.217870276 -9.998046875 126.151367188 66.4393843718 126.151367188 183.561523438 c 1xca
  214 213.561523438 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1105,7 +1119,7 @@ SplineSet
  227.11328125 600.297394673 190.606886418 563.55078125 134.499023438 563.55078125 c 0
  78.3921276895 563.55078125 41.88671875 600.297394673 41.88671875 656.775390625 c 0xf0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: k
@@ -1138,7 +1152,7 @@ SplineSet
  214 0 l 1
  55 0 l 1xf8
 EndSplineSet
-Validated: 1572869
+Validated: 5
 Kerns2: 29 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1163,7 +1177,7 @@ SplineSet
  214 751.001953125 l 1
  214 191.991210938 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 54 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1193,7 +1207,7 @@ SplineSet
  381.77734375 346.298243276 357.098863291 380.284179688 299 380.284179688 c 0
  239.457003096 380.284179688 214 341.737146954 214 284 c 13
 EndSplineSet
-Validated: 1572869
+Validated: 5
 Kerns2: 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1225,7 +1239,7 @@ SplineSet
  192.919921875 177.346966901 224.678293672 126.463867188 298.959960938 126.463867188 c 4
  364.835558052 126.463867188 393 167.025611795 393 205.561523438 c 5
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: g
@@ -1260,7 +1274,7 @@ SplineSet
  192.919921875 191.943155584 224.678293672 145.463867188 298.959960938 145.463867188 c 0
  364.835558052 145.463867188 393 191.666476668 393 235.561523438 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "'ss14' Style Set 14 lookup 19-1" g.ss14
 EndChar
 
@@ -1290,7 +1304,7 @@ SplineSet
  408 619.010742188 374.662109375 630.010742188 328 630.010742188 c 0
  275.900390625 630.010742188 254 608.022460938 254 557.010742188 c 2
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 296 100 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 66 10 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 34 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 36 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 45 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1298,26 +1312,25 @@ StartChar: c
 Encoding: 99 99 40
 Width: 492
 Flags: W
-HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214>
+HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111>
 VStem: 35 161.849<169.133 331.105>
 AnchorPoint: "Anchor-0" 291 501.011 basechar 0
 AnchorPoint: "Anchor-2" 297 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-35 253.561523438 m 4
+35 253.561523438 m 0
  35 409.296356709 123.444972422 510.93359375 289.888671875 510.93359375 c 0
- 415.885423315 510.93359375 467.681640625 450.704101562 467.681640625 450.704101562 c 1
- 415.35546875 333.951171875 l 1
- 415.35546875 333.951171875 381.877993906 375.284179688 314 375.284179688 c 0
- 231.934782427 375.284179688 196.848632812 326.55294232 196.848632812 253.561523438 c 4
+ 408.7987116 510.93359375 457.681640625 466.704101562 457.681640625 466.704101562 c 5
+ 425.35546875 339.951171875 l 5
+ 425.35546875 339.951171875 388.575017238 375.284179688 314 375.284179688 c 0
+ 231.934782427 375.284179688 196.848632812 326.55294232 196.848632812 253.561523438 c 0
  196.848632812 175.54800635 233.09941692 123.463867188 317.888671875 123.463867188 c 0
  389.885903396 123.463867188 428.018554688 154.595703125 428.018554688 154.595703125 c 1
  460.827148438 28.595703125 l 1
  460.827148438 28.595703125 400.930581031 -9.998046875 296.888671875 -9.998046875 c 0
- 126.093637825 -9.998046875 35 94.0826581131 35 253.561523438 c 4
+ 126.093637825 -9.998046875 35 94.0826581131 35 253.561523438 c 0
 EndSplineSet
-Validated: 1048577
 Substitution2: "'ss12' Style Set 12 lookup 13-1" c.ss12
 EndChar
 
@@ -1347,7 +1360,7 @@ SplineSet
  254 671.010742188 l 1
  254 176 l 2
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss11' Style Set 11 lookup 12-1" t.ss11
 EndChar
@@ -1376,7 +1389,7 @@ SplineSet
  149 293.561523438 l 1
  168.622288602 444 215.151024888 510.93359375 332 510.93359375 c 0xd0
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 179 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 61 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1441,7 +1454,7 @@ SplineSet
  386.349609375 510.93359375 460.848632812 434.49609375 460.848632812 317.374023438 c 5
  393 295.374023438 l 5xbc
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "'ss05' Style Set 5 lookup 6-1" d.ss05
 EndChar
 
@@ -1473,15 +1486,15 @@ SplineSet
  414.080078125 323.588867188 382.321289062 374.471679688 308.040039062 374.471679688 c 0
  242.1640625 374.471679688 214 333.91015625 214 295.374023438 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: a
 Encoding: 97 97 46
 Width: 566
 Flags: W
-HStem: -9.99805 123.998<414.292 548.059> -9.99805 116.462<193.023 301.389> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
-VStem: 30 154.849<116.168 196.864> 327.929 159<123.252 214.284 289.011 356.236> 327.929 49.8486<53.4076 150.562> 327.929 15.8486<214.284 309.934>
+HStem: -9.99805 123.998<414.292 548.059> -9.99805 116.462<145.707 301.522> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
+VStem: 30 159.849<116.168 196.864> 327.929 159<123.252 214.284 289.011 356.236> 327.929 49.8486<53.4076 150.562> 327.929 15.8486<214.284 309.934>
 AnchorPoint: "Anchor-3" 458 0 basechar 0
 AnchorPoint: "Anchor-2" 284 0 basechar 0
 AnchorPoint: "Anchor-0" 274 501.011 basechar 0
@@ -1519,14 +1532,14 @@ SplineSet
  93.5258452633 -9.998046875 30 50 30 141 c 0
  30 286.71747631 160.824693226 309.798279039 343.928710938 309.93359375 c 1
  343.77734375 214.284179688 l 1x79
- 222.93827097 214.20023574 184.848632812 204.1737758 184.848632812 158.561523438 c 0
- 184.848632812 127.320980654 203.42926183 106.463867188 246.888671875 106.463867188 c 0
- 295.657692992 106.463867188 327.928710938 135 327.928710938 177.561523438 c 1x7c
+ 226.739946327 214.20023574 189.848632812 204.1737758 189.848632812 158.561523438 c 4
+ 189.848632812 127.320980654 208.42926183 106.463867188 251.888671875 106.463867188 c 4
+ 297.64874694 106.463867188 327.928710938 135 327.928710938 177.561523438 c 1x7c
 327.928710938 289.010742188 m 2xbc
- 327.928710938 353.998274294 300.405247044 382.010742188 234.928710938 382.010742188 c 4
- 163.76899414 382.010742188 112.928710938 346.010742188 112.928710938 346.010742188 c 5
- 69.9287109375 467.010742188 l 5
- 69.9287109375 467.010742188 148.021769831 511.010742188 260.928710938 511.010742188 c 4
+ 327.928710938 353.998274294 300.405247044 382.010742188 234.928710938 382.010742188 c 0
+ 163.76899414 382.010742188 112.928710938 346.010742188 112.928710938 346.010742188 c 1
+ 69.9287109375 467.010742188 l 1
+ 69.9287109375 467.010742188 148.021769831 511.010742188 260.928710938 511.010742188 c 0
  420.687524785 511.010742188 486.928710938 427.01055301 486.928710938 300.010742188 c 2
  486.928710938 148 l 2
  486.928710938 123.251950046 495.36431245 114 517.928710938 114 c 0
@@ -1536,7 +1549,6 @@ SplineSet
  370.655983665 -9.998046875 327.928710938 33 327.928710938 125 c 2
  327.928710938 289.010742188 l 2xbc
 EndSplineSet
-Validated: 5
 Kerns2: 37 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss15' Style Set 15 lookup 20-1" a.ss15
 Substitution2: "'ss02' Style Set 2 lookup 3-1" a.ss02
@@ -1592,7 +1604,7 @@ SplineSet
  260.482893686 114.981445312 284.520507812 127.008427649 284.520507812 150.336914062 c 4
  284.520507812 169.236100993 270.983660149 176.99821258 208.846679688 191.568359375 c 4
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1616,7 +1628,7 @@ SplineSet
  97 -179.994140625 l 1
  190 42 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss04' Style Set 4 lookup 5-1" y.ss04
 EndChar
@@ -1648,7 +1660,7 @@ SplineSet
  381.77734375 501.010742188 l 1
  540.77734375 501.010742188 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Kerns2: 25 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -140 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss05' Style Set 5 lookup 6-1" u.ss05
 EndChar
@@ -1719,7 +1731,7 @@ SplineSet
  374 0 l 5
  175 0 l 5
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 46 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1748,7 +1760,7 @@ SplineSet
  308 0 l 1
  118 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 684 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1780,7 +1792,7 @@ SplineSet
  523 0 l 1
  340 0 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Kerns2: 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -1806,7 +1818,7 @@ SplineSet
  448 136 l 1
  448 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: period
@@ -1852,6 +1864,7 @@ SplineSet
  384.820018002 431.922955395 404.67578125 464.674452541 404.67578125 501.010742188 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" two.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" two.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" two.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" two.numr
@@ -1863,33 +1876,33 @@ EndChar
 
 StartChar: three
 Encoding: 51 51 59
-Width: 579
+Width: 589
 Flags: W
-HStem: -9.99805 144.938<121.442 336.641> 307 131.481<164.139 332.892> 589.599 149.394<123.863 329.226>
-VStem: 354.984 174.086<461.159 564.334> 371.827 173.084<168.882 275.829>
+HStem: -9.99805 142.938<125.382 346.641> 305 135.481<164.139 342.892> 591.599 147.394<127.222 339.226>
+VStem: 364.984 174.086<464.152 565.334> 381.827 173.084<164.639 272.519>
 LayerCount: 2
 Fore
 SplineSet
-238.138671875 438.481445312 m 2xe8
- 326.262570983 438.481445313 354.984375 463.76171875 354.984375 514.05859375 c 0
- 354.984375 557 328.549468755 589.598632812 242.63671875 589.598632812 c 0
- 141.442308315 589.598632812 79.8466796875 546.754882812 79.8466796875 546.754882812 c 1
- 37.630859375 686.796875 l 5
- 37.630859375 686.796875 116.056376743 738.9921875 252 738.9921875 c 0
- 423.542041916 738.9921875 529.0703125 667.857421875 529.0703125 532.868164062 c 0xf0
- 529.0703125 412 419.163085938 375.697265625 419.163085938 375.697265625 c 1
- 419.163085938 375.697265625 544.911132812 341 544.911132812 205.670898438 c 0
- 544.911132812 51.681640625 427.018800887 -9.998046875 250 -9.998046875 c 0
- 102.934570312 -9.998046875 15.451171875 40.9091796875 15.451171875 40.9091796875 c 1
- 62.7744140625 186.262695312 l 1
- 62.7744140625 186.262695312 130.993503656 134.939453125 238 134.939453125 c 0
- 330.576256296 134.939453125 371.827148438 166 371.827148438 222 c 0
- 371.827148438 278.995117188 325.858092301 306.498046875 238.138671875 306.737304688 c 2
- 164 307 l 1
- 164.138671875 438.481445312 l 1
- 238.138671875 438.481445312 l 2xe8
+248.138671875 440.481445312 m 2xe8
+ 336.262570983 440.481445313 364.984375 465.76171875 364.984375 516.05859375 c 0
+ 364.984375 559 338.549468755 591.598632812 252.63671875 591.598632812 c 0
+ 145.226055096 591.598632812 79.8466796875 548.754882812 79.8466796875 548.754882812 c 1
+ 37.630859375 686.796875 l 1
+ 37.630859375 686.796875 119.714809908 738.9921875 262 738.9921875 c 0
+ 433.542041916 738.9921875 539.0703125 667.857421875 539.0703125 532.868164062 c 0xf0
+ 539.0703125 412 429.163085938 375.697265625 429.163085938 375.697265625 c 1
+ 429.163085938 375.697265625 554.911132812 341 554.911132812 205.670898438 c 0
+ 554.911132812 51.6816406249 437.018800887 -9.998046875 260 -9.998046875 c 0
+ 106.664429 -9.998046875 15.451171875 40.9091796875 15.451171875 40.9091796875 c 1
+ 62.7744140625 184.262695312 l 5
+ 62.7744140625 184.262695312 134.886718749 132.939453125 248 132.939453125 c 4
+ 340.576256296 132.939453125 381.827148438 164 381.827148438 220 c 4
+ 381.827148438 276.995117188 335.858092301 304.498046875 248.138671875 304.737304688 c 6
+ 164 305 l 5
+ 164.138671875 440.481445312 l 1
+ 248.138671875 440.481445312 l 2xe8
 EndSplineSet
-Validated: 1
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" three.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" three.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" three.numr
@@ -1966,6 +1979,7 @@ SplineSet
  141.120772562 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" zero.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" zero.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" zero.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" zero.numr
@@ -1994,6 +2008,7 @@ SplineSet
  360 731 l 5
 EndSplineSet
 Validated: 513
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" one.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" one.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" one.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" one.numr
@@ -2026,6 +2041,7 @@ SplineSet
 EndSplineSet
 Validated: 517
 Kerns2: 64 -90 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" four.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" four.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" four.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" four.numr
@@ -2086,6 +2102,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Kerns2: 58 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" five.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" five.numr
@@ -2140,6 +2157,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Kerns2: 72 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" six.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" six.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" six.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" six.numr
@@ -2190,6 +2208,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Kerns2: 63 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 72 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 68 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 71 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" seven.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" seven.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" seven.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" seven.numr
@@ -2231,6 +2250,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 70 -35 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" eight.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" eight.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" eight.numr
@@ -2266,6 +2286,7 @@ SplineSet
  376.182617188 132.474609375 430.704101562 194.633510147 436.861328125 309.247070312 c 1
 EndSplineSet
 Validated: 513
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" nine.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" nine.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" nine.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" nine.numr
@@ -2480,6 +2501,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Kerns2: 81 -140 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 25 subtable" fraction
 EndChar
 
 StartChar: bar
@@ -2695,40 +2717,39 @@ StartChar: at
 Encoding: 64 64 91
 Width: 924
 Flags: W
-HStem: -159.727 116.758<364.054 655.17> 71.9697 119.754<394.457 505.596> 72.709 111.676<673.306 751.682> 361.303 117.773<403.412 510.655> 592.738 114.988<343.104 598.179>
-VStem: 35 123.175<148.478 406.306> 234.842 142.517<208.814 335.117> 530.183 135.902<226.287 334.466> 543.533 65.4717<151.351 350.156> 772.417 116.87<202.889 431.089>
+HStem: -159.727 116.758<355.415 649.553> 71.9697 119.754<398.457 509.596> 72.709 111.676<677.041 753.127> 361.303 117.773<407.412 514.655> 592.738 114.988<343.104 598.179>
+VStem: 35 123.175<144.73 406.306> 238.842 142.517<208.814 335.117> 534.183 135.902<226.287 334.466> 547.533 65.4717<151.351 350.156> 772.417 116.87<202.889 431.089>
 LayerCount: 2
 Fore
 SplineSet
-377.358398438 267.0546875 m 0xdf40
- 377.358398438 217.760873355 401.494675435 191.723632812 447.194335938 191.723632812 c 0
- 499.604261194 191.723632812 530.182617188 226.286712856 530.182617188 285.529296875 c 0
- 530.182617188 334.466150018 502.614306044 361.302734375 457.834960938 361.302734375 c 0
- 406.956654467 361.302734375 377.358398438 326.63942379 377.358398438 267.0546875 c 0xdf40
-421.392578125 71.9697265625 m 0
- 309.713023639 71.9697265625 234.841796875 147.449266989 234.841796875 260.037109375 c 0
- 234.841796875 389.849351006 322.387779575 479.076171875 437.166015625 479.076171875 c 0
- 554.342051082 479.076171875 609.004882812 405.033063343 609.004882812 264.27734375 c 0xdec0
- 609.004882812 151.351094313 531.563026385 71.9697265625 421.392578125 71.9697265625 c 0
+381.358398438 267.0546875 m 0xdf40
+ 381.358398438 217.760873355 405.494675434 191.723632812 451.194335938 191.723632812 c 0
+ 503.604261194 191.723632812 534.182617188 226.286712856 534.182617188 285.529296875 c 0
+ 534.182617188 334.466150018 506.614306043 361.302734375 461.834960938 361.302734375 c 0
+ 410.956654467 361.302734375 381.358398438 326.63942379 381.358398438 267.0546875 c 0xdf40
+425.392578125 71.9697265625 m 0
+ 313.713023639 71.9697265625 238.841796875 147.449266989 238.841796875 260.037109375 c 0
+ 238.841796875 389.849351006 326.387779575 479.076171875 441.166015625 479.076171875 c 0
+ 558.342051082 479.076171875 613.004882812 405.033063343 613.004882812 264.27734375 c 0xdec0
+ 613.004882812 151.351094313 535.563026385 71.9697265625 425.392578125 71.9697265625 c 0
 487.713867188 -159.7265625 m 0
  207.397460938 -159.7265625 35 14.611328125 35 268.08984375 c 0
  35 524.041992188 211.735351562 707.7265625 466.420898438 707.7265625 c 0
  713.297851562 707.7265625 889.287109375 561.379882812 889.287109375 321.901367188 c 0
- 889.287109375 171.18359375 819.111374469 72.708984375 696.626953125 72.708984375 c 0
- 600.64453125 72.708984375 543.533203125 120.982421875 543.533203125 228.081054688 c 0xbec0
- 543.533203125 350.15625 582.563476562 476.46484375 582.563476562 476.46484375 c 1
- 707.37890625 476.46484375 l 1
- 707.37890625 476.46484375 666.084960938 337.17578125 666.084960938 236.827148438 c 0
- 666.084960938 202.5 680.93392853 184.384765625 708.943359375 184.384765625 c 0xbf40
+ 889.287109375 171.18359375 820.568359375 72.708984375 700.626953125 72.708984375 c 0
+ 604.64453125 72.708984375 547.533203125 120.982421875 547.533203125 228.081054688 c 0xbec0
+ 547.533203125 350.15625 586.563476562 476.46484375 586.563476562 476.46484375 c 1
+ 711.37890625 476.46484375 l 1
+ 711.37890625 476.46484375 670.084960938 337.17578125 670.084960938 236.827148438 c 0
+ 670.084960938 202.5 683.548065489 184.384765625 708.943359375 184.384765625 c 0xbf40
  750.739382807 184.384765625 772.416992188 212.455078125 772.416992188 318.072265625 c 0
  772.416992188 493.614257812 654.612304688 592.73828125 462.984375 592.73828125 c 0
  276.40234375 592.73828125 158.174804688 470.235351562 158.174804688 279.489257812 c 0
- 158.174804688 79.1181640625 276.118164062 -42.96875 507.6796875 -42.96875 c 0
- 667.01171875 -42.96875 766.61328125 28.5576171875 766.61328125 28.5576171875 c 1
+ 158.174804688 79.1181640625 272.743580038 -42.96875 497.6796875 -42.96875 c 4
+ 663.165112326 -42.96875 766.61328125 28.5576171875 766.61328125 28.5576171875 c 1
  805.250976562 -72.2255859375 l 1
  805.250976562 -72.2255859375 701.004882812 -159.7265625 487.713867188 -159.7265625 c 0
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: numbersign
@@ -2824,7 +2845,7 @@ StartChar: cent
 Encoding: 162 162 95
 Width: 492
 Flags: W
-HStem: -5 189.47<228 359> 105.002 133.462<243.026 412.959> 490.284 135.649<238.357 391.214> 570 159.47<228 359>
+HStem: -5 189.47<228 359> 105.002 133.462<243.026 412.959> 490.284 135.649<238.357 405.111> 570 159.47<228 359>
 VStem: 35 161.849<284.133 446.105> 228 131<-5 184.47 570 729.47>
 LayerCount: 2
 Fore
@@ -2841,7 +2862,6 @@ SplineSet
  228 570 l 1x1c
 EndSplineSet
 Refer: 40 99 N 1 0 0 1 0 115 2
-Validated: 5
 EndChar
 
 StartChar: sterling
@@ -2982,38 +3002,37 @@ Encoding: 167 167 100
 Width: 593
 Flags: W
 HStem: -19.6709 124.391<162.664 331.064> 630.212 124.391<262.669 431.069>
-VStem: 30 143.858<348.622 433.151> 100.9 156.231<558.3 622.463> 336.602 156.231<112.468 176.632> 419.875 143.858<301.78 386.31>
+VStem: 30 143.858<352.339 446.768> 100.9 156.231<558.512 622.463> 336.602 156.231<112.468 176.48> 419.875 143.858<288.164 382.175>
 LayerCount: 2
 Fore
 SplineSet
 175.081054688 535.153320312 m 1xe8
  239.889648438 459.951171875 l 1
- 239.889648438 459.951171875 173.858398438 445.112304688 173.858398438 382.393554688 c 0
- 173.858398438 352.024414062 198.733398438 332.931640625 316.55078125 316.138671875 c 0
+ 239.889648438 459.951171875 173.858398438 447.025574812 173.858398438 392.393554688 c 0
+ 173.858398438 357.440730666 198.353197499 332.985684604 316.55078125 316.138671875 c 0
  457.129882812 296.1015625 492.833007812 230.323242188 492.833007812 145.370117188 c 0
  492.833007812 42.560546875 410.662109375 -19.6708984375 275.66796875 -19.6708984375 c 0
  162.953125 -19.6708984375 108.135742188 19.734375 108.135742188 19.734375 c 1
  146.263671875 133.825195312 l 1
  146.263671875 133.825195312 196.752929688 104.719726562 271.170898438 104.719726562 c 0
  316.3046875 104.719726562 336.6015625 118.776367188 336.6015625 141.443359375 c 0
- 336.6015625 162.831054688 324.018554688 182.041015625 276.34765625 188.119140625 c 0
- 81.7333984375 212.931640625 30 273.618164062 30 362.309570312 c 0
- 30 482.905273438 175.081054688 535.153320312 175.081054688 535.153320312 c 1xe8
+ 336.6015625 162.831054688 323.926284892 181.356577653 276.34765625 188.119140625 c 0
+ 81.7333984375 215.780534223 30 293.43489436 30 382.309570312 c 0
+ 30 508.950970419 175.081054688 535.153320312 175.081054688 535.153320312 c 1xe8
 418.65234375 199.778320312 m 1
  353.84375 274.98046875 l 1
- 353.84375 274.98046875 419.875 289.819335938 419.875 352.538085938 c 0
- 419.875 382.907226562 395 402 277.182617188 418.79296875 c 0
- 136.603515625 438.830078125 100.900390625 504.608398438 100.900390625 589.561523438 c 0
+ 353.84375 274.98046875 419.875 287.906065814 419.875 342.538085938 c 0
+ 419.875 377.490909958 395 399.465399071 277.182617188 418.79296875 c 0
+ 137.055710202 441.780345434 100.900390625 504.608398438 100.900390625 589.561523438 c 0
  100.900390625 692.37109375 183.071289062 754.602539062 318.065429688 754.602539062 c 0
  430.780273438 754.602539062 485.59765625 715.197265625 485.59765625 715.197265625 c 1
  447.469726562 601.106445312 l 1
  447.469726562 601.106445312 396.98046875 630.211914062 322.5625 630.211914062 c 0
  277.428710938 630.211914062 257.131835938 616.155273438 257.131835938 593.48828125 c 0
- 257.131835938 572.100585938 269.71484375 552.890625 317.385742188 546.8125 c 0
- 512 522 563.733398438 461.313476562 563.733398438 372.622070312 c 0xd4
- 563.733398438 252.026367188 418.65234375 199.778320312 418.65234375 199.778320312 c 1
+ 257.131835938 572.100585938 269.807113546 553.575062972 317.385742188 546.8125 c 0
+ 512 519.151106402 563.733398438 441.496746264 563.733398438 352.622070312 c 0xd4
+ 563.733398438 225.980670207 418.65234375 199.778320312 418.65234375 199.778320312 c 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: dieresis
@@ -3233,7 +3252,7 @@ SplineSet
  381.77734375 501.010742188 l 1
  540.77734375 501.010742188 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: acute
@@ -3618,7 +3637,7 @@ SplineSet
  317.848632812 500.16015625 l 5
  157.561523438 358.638671875 l 5
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: arrowup
@@ -3929,9 +3948,9 @@ SplineSet
  35 591.206054688 162.092858137 739.12109375 385.888671875 739.12109375 c 0
  537.397841668 739.12109375 599.681640625 672.891601562 599.681640625 672.891601562 c 1
  538.35546875 535.138671875 l 1
- 538.35546875 535.138671875 493.611082679 586.659179688 402.888671875 586.659179688 c 4
- 267.66339581 586.659179688 209.848632812 497.743164062 209.848632812 364.561523438 c 4
- 209.848632812 231.379882812 267.66339581 142.463867188 402.888671875 142.463867188 c 4
+ 538.35546875 535.138671875 490.308104599 586.659179688 392.888671875 586.659179688 c 4
+ 264.668433559 586.659179688 209.848632812 497.743164062 209.848632812 364.561523438 c 0
+ 209.848632812 231.379882812 267.66339581 142.463867188 402.888671875 142.463867188 c 0
  502.99694999 142.463867188 556.018554688 188.595703125 556.018554688 188.595703125 c 1
  602.827148438 44.595703125 l 1
  602.827148438 44.595703125 536.561329272 -9.998046875 385.888671875 -9.998046875 c 0
@@ -3947,7 +3966,6 @@ SplineSet
  444 655 l 1
  305 655 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni20B2
@@ -3955,7 +3973,7 @@ Encoding: 8370 8370 136
 Width: 739
 Flags: W
 HStem: -9.99805 79.4678<305 444> 286 138<366 482.019 640.827 714> 286 18.5957<482.019 640.827> 655 84.1211<305 444>
-VStem: 35 174.849<234.094 486.107> 305 139<-105 69.4697 655 829.47> 497.481 154.001<181.442 285.806>
+VStem: 35 169.849<236.268 486.107> 305 139<-105 69.4697 655 829.47> 497.481 154.001<181.442 285.806>
 LayerCount: 2
 Fore
 SplineSet
@@ -3969,18 +3987,18 @@ SplineSet
  444 829.469726562 l 1
  444 655 l 1
  305 655 l 1
-714 286 m 5xde
+714 286 m 1xde
  366 286 l 1
  366 424 l 1
- 714 424 l 5
- 714 286 l 5xde
+ 714 424 l 1
+ 714 286 l 1xde
 35 364.561523438 m 0
  35 591.206054688 165.120861124 739.12109375 378.888671875 739.12109375 c 0
  535.358283687 739.12109375 599.681640625 672.891601562 599.681640625 672.891601562 c 1
  538.35546875 535.138671875 l 1
- 538.35546875 535.138671875 488.986934481 586.659179688 388.888671875 586.659179688 c 0
- 263.470077856 586.659179688 209.848632812 497.743164062 209.848632812 364.561523438 c 0
- 209.848632812 231.379882812 252.735934985 142.463867188 369.888671875 142.463867188 c 0
+ 538.35546875 535.138671875 487.335446147 586.659179688 383.888671875 586.659179688 c 4
+ 258.470077856 586.659179688 204.848632812 497.743164062 204.848632812 364.561523438 c 4
+ 204.848632812 231.379882812 249.075827878 142.463867188 369.888671875 142.463867188 c 0
  461.013221313 142.463867188 497.481445312 186.262045972 497.481445312 252 c 0
  497.481445312 288.78559257 482.018554688 304.595703125 482.018554688 304.595703125 c 1
  640.827148438 304.595703125 l 1xbe
@@ -3988,7 +4006,6 @@ SplineSet
  651.482421875 93.0859042083 560.855648762 -9.998046875 369.888671875 -9.998046875 c 0
  156.581170726 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni20BA
@@ -4078,33 +4095,32 @@ StartChar: Euro
 Encoding: 8364 8364 141
 Width: 683
 Flags: W
-HStem: -9.99805 152.462<366.642 573.313> 260 86<30 454.957> 390 86<30 477.879> 586.659 152.462<366.642 554.407>
+HStem: -9.99805 152.462<366.642 573.313> 260 86<30 454.957> 390 86<30 477.879> 586.659 152.462<364.133 552.831>
 LayerCount: 2
 Fore
 SplineSet
-454.95703125 260 m 5
+454.95703125 260 m 1
  30 260 l 1
  30 346 l 1
- 470.12109375 346 l 5
- 454.95703125 260 l 5
-477.87890625 390 m 5
+ 470.12109375 346 l 1
+ 454.95703125 260 l 1
+477.87890625 390 m 1
  30 390 l 1
  30 476 l 1
- 493.04296875 476 l 5
- 477.87890625 390 l 5
+ 493.04296875 476 l 1
+ 477.87890625 390 l 1
 95 364.561523438 m 0
  95 591.206054688 222.092773438 739.12109375 445.888671875 739.12109375 c 0
  597.397460938 739.12109375 659.681640625 672.891601562 659.681640625 672.891601562 c 1
  598.35546875 535.138671875 l 1
- 598.35546875 535.138671875 553.610628775 586.659179688 462.888671875 586.659179688 c 4
- 327.663085938 586.659179688 269.848632812 497.743164062 269.848632812 364.561523438 c 4
- 269.848632812 231.379882812 327.663085938 142.463867188 462.888671875 142.463867188 c 4
+ 598.35546875 535.138671875 550.307617188 586.659179688 452.888671875 586.659179688 c 4
+ 324.668139739 586.659179688 269.848632812 497.743164062 269.848632812 364.561523438 c 0
+ 269.848632812 231.379882812 327.663085938 142.463867188 462.888671875 142.463867188 c 0
  562.996719722 142.463867188 616.018554688 188.595703125 616.018554688 188.595703125 c 1
  662.827148438 44.595703125 l 1
  662.827148438 44.595703125 596.561523438 -9.998046875 445.888671875 -9.998046875 c 0
  222.092773438 -9.998046875 95 137.916992188 95 364.561523438 c 0
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni20AD
@@ -4214,7 +4230,7 @@ StartChar: colonmonetary
 Encoding: 8353 8353 145
 Width: 623
 Flags: W
-HStem: -9.99805 79.4678<163.378 262.378 323.378 422.378> 586.659 152.462<270.265 424.74> 655 84.1211<266.622 365.622 426.622 525.622>
+HStem: -9.99805 79.4678<163.378 262.378 323.378 422.378> 586.659 152.462<271.588 424.627> 655 84.1211<266.622 365.622 426.622 525.622>
 VStem: 35 174.849<245.278 483.845>
 LayerCount: 2
 Fore
@@ -4229,17 +4245,17 @@ SplineSet
  556.385742188 829.469726562 l 1
  525.622070312 655 l 1
  426.622070312 655 l 1xb0
-35 364.561523438 m 4
- 35 591.206054688 162.092858137 739.12109375 385.888671875 739.12109375 c 4
- 537.397841668 739.12109375 599.681640625 672.891601562 599.681640625 672.891601562 c 5
- 538.35546875 535.138671875 l 5
- 538.35546875 535.138671875 493.611082679 586.659179688 402.888671875 586.659179688 c 4xd0
- 267.66339581 586.659179688 209.848632812 497.743164062 209.848632812 364.561523438 c 4
- 209.848632812 231.379882812 267.66339581 142.463867188 402.888671875 142.463867188 c 4
- 502.99694999 142.463867188 556.018554688 188.595703125 556.018554688 188.595703125 c 5
- 602.827148438 44.595703125 l 5
- 602.827148438 44.595703125 536.561329272 -9.998046875 385.888671875 -9.998046875 c 4
- 162.092858137 -9.998046875 35 137.916992188 35 364.561523438 c 4
+35 364.561523438 m 0
+ 35 591.206054688 162.092858137 739.12109375 385.888671875 739.12109375 c 0
+ 537.397841668 739.12109375 599.681640625 672.891601562 599.681640625 672.891601562 c 1
+ 538.35546875 535.138671875 l 1
+ 538.35546875 535.138671875 490.308104599 586.659179688 392.888671875 586.659179688 c 4xd0
+ 264.668433559 586.659179688 209.848632812 497.743164062 209.848632812 364.561523438 c 0
+ 209.848632812 231.379882812 267.66339581 142.463867188 402.888671875 142.463867188 c 0
+ 502.99694999 142.463867188 556.018554688 188.595703125 556.018554688 188.595703125 c 1
+ 602.827148438 44.595703125 l 1
+ 602.827148438 44.595703125 536.561329272 -9.998046875 385.888671875 -9.998046875 c 0
+ 162.092858137 -9.998046875 35 137.916992188 35 364.561523438 c 0
 132.614257812 -105 m 1
  163.377929688 69.4697265625 l 1
  262.377929688 69.4697265625 l 1
@@ -4251,7 +4267,6 @@ SplineSet
  365.622070312 655 l 1
  266.622070312 655 l 1xb0
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: exclamdown
@@ -4280,530 +4295,510 @@ EndChar
 
 StartChar: zero.inferior
 Encoding: 8320 8320 148
-Width: 455
+Width: 456
 Flags: W
-HStem: -358 107.75<173.237 282.502> 35.25 107.75<173.237 282.502>
-VStem: 19.5 115.75<-207.214 -5.58112> 319.25 115.75<-211.281 -4.39062>
+HStem: -358 108<173.956 282.044> 35 108<173.956 282.044>
+VStem: 21.25 116<-211.172 -4.5> 318.75 116<-211.172 -4.5>
 LayerCount: 2
 Fore
 SplineSet
-135.25 -108 m 0
- 135.25 -194 163.5 -250.25 228 -250.25 c 0
- 292.5 -250.25 319.25 -194 319.25 -108 c 0
- 319.25 -22 292.5 35.25 228 35.25 c 0
- 163.5 35.25 135.25 -22 135.25 -108 c 0
-19.5 -108 m 0
- 19.5 44 91.75 143 228 143 c 0
- 364.25 143 435 44 435 -108 c 0
- 435 -260 364.25 -358 228 -358 c 0
- 91.75 -358 19.5 -260 19.5 -108 c 0
+137.25 -108 m 0
+ 137.25 -193.75 164.5 -250 228 -250 c 0
+ 291.5 -250 318.75 -193.75 318.75 -108 c 0
+ 318.75 -22.25 291.5 35 228 35 c 0
+ 164.5 35 137.25 -22.25 137.25 -108 c 0
+21.25 -108 m 0
+ 21.25 44 92.75 143 228 143 c 0
+ 363.25 143 434.75 44 434.75 -108 c 0
+ 434.75 -260 363.25 -358 228 -358 c 0
+ 92.75 -358 21.25 -260 21.25 -108 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: one.inferior
 Encoding: 8321 8321 149
-Width: 277
+Width: 276
 Flags: W
-VStem: 124.75 119.75<-350 16.5>
+VStem: 122.5 120<-350 15.5>
 LayerCount: 2
 Fore
 SplineSet
-244.5 137 m 1
- 244.5 -350 l 1
- 124.75 -350 l 1
- 124.75 16.5 l 1
- 37 -30 l 1
- 3.75 57 l 1
- 135.75 137 l 1
- 244.5 137 l 1
+242.5 137 m 1
+ 242.5 -350 l 1
+ 122.5 -350 l 1
+ 122.5 15.5 l 1
+ 37 -30.5 l 1
+ 3.5 57 l 1
+ 135.25 137 l 1
+ 242.5 137 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two.inferior
 Encoding: 8322 8322 150
 Width: 404
 Flags: W
-HStem: -350 103<155 388> 1 21G<67.7 74.5> 37 106<98.4596 254.165>
-VStem: 265.25 117.75<-60.357 23.7642>
+HStem: -350 107<162 387.5> 36.75 106.25<98.1753 250.076>
+VStem: 262 120.5<-61.2415 24.5105>
 LayerCount: 2
 Fore
 SplineSet
-265.25 -18.5 m 0
- 265.25 17.25 245.25 37 187.75 37 c 0
- 120.75 37 74.5 1 74.5 1 c 1
+262 -18.5 m 0
+ 262 16 242.5 36.75 186.25 36.75 c 0
+ 121.75 36.75 75.75 1.5 75.75 1.5 c 1
  40.5 101 l 1
- 40.5 101 101 143 191 143 c 0
- 311 143 383 92 383 -9 c 0
- 383 -102.75 340.5 -141 233 -191.5 c 0
- 154.25 -228 155.75 -241.75 155 -247 c 5
- 388 -247 l 1
- 388 -350 l 1
- 30.25 -350 l 1
- 30.25 -314 l 2
- 30.25 -206.75 94.75 -146.75 208.75 -84.25 c 0
- 256.75 -59 265.25 -39 265.25 -18.5 c 0
+ 40.5 101 101.25 143 191 143 c 0
+ 310 143 382.5 92.75 382.5 -7.5 c 0
+ 382.5 -99.5 333.75 -138.5 234.5 -185.5 c 0
+ 163.75 -219 162.5 -242 162 -243 c 1
+ 387.5 -243 l 1
+ 387.5 -350 l 1
+ 32 -350 l 1
+ 32 -314 l 2
+ 32 -206.75 95.25 -146.5 207.25 -84.25 c 0
+ 248.75 -62 262 -40.75 262 -18.5 c 0
 EndSplineSet
-Validated: 524289
 EndChar
 
 StartChar: three.inferior
 Encoding: 8323 8323 151
-Width: 389
+Width: 393
 Flags: W
-HStem: -358 104.25<66.2737 233.673> -148.25 92.5<112.5 228.219> 35.75 107.25<63.5008 226.472>
-VStem: 234.25 124<-46.1944 26.0341> 247.5 122<-238.351 -162.223>
+HStem: -358 103.5<64.8931 236.127> -150.25 96.5<109 229.001> 36.5 106.5<65.9694 227.762>
+VStem: 235.75 125.25<-43.9485 26.9347> 247 124.75<-241.512 -163.348>
 LayerCount: 2
 Fore
 SplineSet
-158.5 -55.75 m 2xe8
- 216 -55.75 234.25 -40 234.25 -9.75 c 0
- 234.25 15.5 218.5 35.75 163.75 35.75 c 0
- 95.25 35.75 53 8.75 53 8.75 c 1
- 23.75 108.5 l 1
- 23.75 108.5 77.25 143 169 143 c 0
- 286 143 358.25 95 358.25 5 c 0xf0
- 358.25 -76 286.5 -100 286.5 -100 c 1
- 286.5 -100 369.5 -123 369.5 -214 c 0
- 369.5 -317 289 -358 168 -358 c 0
- 67.75 -358 8.25 -323 8.25 -323 c 1
- 44 -220 l 1
- 44 -220 89.75 -253.75 161 -253.75 c 0
- 220.5 -253.75 247.5 -234.25 247.5 -199.75 c 0
- 247.5 -164.75 218.25 -148.25 159.75 -148.25 c 2
- 112.5 -148.25 l 1
- 112.5 -55.75 l 1
- 158.5 -55.75 l 2xe8
+161.25 -53.75 m 2xe8
+ 217.5 -53.75 235.75 -38.25 235.75 -8 c 0
+ 235.75 17.5 220.25 36.5 168.5 36.5 c 0
+ 98 36.5 54.5 8.75 54.5 8.75 c 1
+ 24.75 107.5 l 1
+ 24.75 107.5 79.25 143 174.75 143 c 0
+ 290.25 143 361 95 361 5 c 0xf0
+ 361 -76 288.5 -100 288.5 -100 c 1
+ 288.5 -100 371.75 -123 371.75 -214 c 0
+ 371.75 -317 292.75 -358 173.5 -358 c 0
+ 71.25 -358 10 -323 10 -323 c 1
+ 43 -220.75 l 1
+ 43 -220.75 90.75 -254.5 165.5 -254.5 c 0
+ 222.25 -254.5 247 -235.75 247 -201.5 c 0
+ 247 -167.5 217.25 -150.25 161.25 -150.25 c 2
+ 108 -150.25 l 1
+ 109 -53.75 l 1
+ 161.25 -53.75 l 2xe8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: four.inferior
 Encoding: 8324 8324 152
 Width: 439
 Flags: W
-HStem: -242.5 96<142.5 422.25>
-VStem: 237.25 115.75<-350 -26>
+HStem: -242.75 96.5<145.5 421>
+VStem: 237 116.25<-350 -26.5>
 LayerCount: 2
 Fore
 SplineSet
-353 137 m 1
- 353 -350 l 1
- 237.25 -350 l 1
- 237.25 -26 l 1
- 142.5 -146.5 l 1
- 422.25 -146.5 l 1
- 422.25 -242.5 l 1
- 36.75 -242.5 l 1
- 16.25 -161.25 l 1
+353.25 137 m 1
+ 353.25 -350 l 1
+ 237 -350 l 1
+ 237 -26.5 l 1
+ 145.5 -146.25 l 1
+ 421 -146.25 l 1
+ 421 -242.75 l 1
+ 39 -242.75 l 1
+ 17.75 -161 l 1
  238 137 l 1
- 353 137 l 1
+ 353.25 137 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: five.inferior
 Encoding: 8325 8325 153
-Width: 390
+Width: 395
 Flags: W
-HStem: -357 104.75<57.4039 236.628> -120.25 91.25<140.469 236.824> 36.5 100.5<146 343.25>
-VStem: 252.5 117.5<-235.176 -135.921>
+HStem: -357 105.25<63.5713 239.214> -120.5 91.25<145.988 241.548> 36 101<152.5 344>
+VStem: 255 119<-234.879 -135.392>
 LayerCount: 2
 Fore
 SplineSet
-175.25 -357 m 0
- 70 -357 6.5 -323 6.5 -323 c 1
- 36.5 -220.75 l 1
- 36.5 -220.75 91.75 -252.25 164.25 -252.25 c 0
- 228 -252.25 252.5 -227.5 252.5 -187.25 c 0
- 252.5 -146 229.75 -120.25 181.75 -120.25 c 0
- 130.75 -120.25 113.5 -148.25 113.5 -148.25 c 1
- 29.5 -129.5 l 1
- 48.25 137 l 1
- 343.25 137 l 1
- 343.25 36.5 l 1
- 146 36.5 l 1
- 139.25 -52 l 1
- 139.25 -52 159 -29 222.25 -29 c 0
- 317.75 -29 370 -87 370 -182.5 c 0
- 370 -290.75 304 -357 175.25 -357 c 0
+178 -357 m 0
+ 71.75 -357 8.25 -321.5 8.25 -321.5 c 1
+ 39 -218.75 l 1
+ 39 -218.75 95 -251.75 168 -251.75 c 0
+ 231.5 -251.75 255 -226.5 255 -185.5 c 0
+ 255 -145.25 232.25 -120.5 185.25 -120.5 c 0
+ 135.75 -120.5 118.75 -152 118.75 -152 c 1
+ 33.25 -133 l 1
+ 57 137 l 1
+ 344 137 l 1
+ 344 36 l 1
+ 152.5 36 l 1
+ 144.25 -52.25 l 1
+ 144.25 -52.25 164.25 -29.25 228.25 -29.25 c 0
+ 323 -29.25 374 -87 374 -182.75 c 0
+ 374 -291 308.25 -357 178 -357 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: six.inferior
 Encoding: 8326 8326 154
-Width: 427
+Width: 426
 Flags: W
-HStem: -358 98<160.631 278.137> -125 88<160.536 278.795> 41.75 101.25<173.833 337.427>
-VStem: 19.5 125.75<-244.039 -47.8102> 295.5 111.75<-242.965 -141.696>
+HStem: -358 98.25<160.948 276.501> -125.25 90<160.993 276.773> 41.25 101.75<174.35 338.48>
+VStem: 21.25 124.5<-244.44 -47.8102> 292.25 113.25<-242.851 -141.543>
 LayerCount: 2
 Fore
 SplineSet
-145.25 -192 m 0
- 145.25 -231.25 167.25 -260 219.75 -260 c 0
- 273.5 -260 295.5 -231.25 295.5 -192 c 0
- 295.5 -152.75 273.5 -125 219.75 -125 c 0
- 167.25 -125 145.25 -152.75 145.25 -192 c 0
-132.25 -68.25 m 1
- 132.25 -68.25 157.75 -37 241.25 -37 c 0
- 343 -37 407.25 -99.5 407.25 -191 c 0
- 407.25 -298 336 -358 221 -358 c 0
- 95 -358 19.5 -285 19.5 -107 c 0
- 19.5 54 100.25 143 244.5 143 c 0
- 344.75 143 395.5 102 395.5 102 c 1
- 354 9.75 l 1
- 354 9.75 316.25 41.75 249.25 41.75 c 0
- 174.5 41.75 136 3.25 132.25 -68.25 c 1
+145.75 -192 m 0
+ 145.75 -231 167.25 -259.75 218.5 -259.75 c 0
+ 270.75 -259.75 292.25 -231 292.25 -192 c 0
+ 292.25 -153 270.75 -125.25 218.5 -125.25 c 0
+ 167.25 -125.25 145.75 -153 145.75 -192 c 0
+133 -70 m 1
+ 133 -70 159.25 -35.25 240.25 -35.25 c 0
+ 341.5 -35.25 405.5 -98.5 405.5 -191 c 0
+ 405.5 -298 335.25 -358 221 -358 c 0
+ 96 -358 21.25 -285 21.25 -107 c 0
+ 21.25 54 101.5 143 244.75 143 c 0
+ 343.5 143 393.5 102 393.5 102 c 1
+ 354.5 9.25 l 1
+ 354.5 9.25 316.5 41.25 248.25 41.25 c 0
+ 174.75 41.25 137 2.25 133 -70 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven.inferior
 Encoding: 8327 8327 155
 Width: 402
 Flags: W
-HStem: 34 103<23.75 240.75>
-VStem: 102.75 119.5<-350 -213.664>
+HStem: 33.5 103.5<25.25 238.75>
+VStem: 105.5 120<-350 -213.691>
 LayerCount: 2
 Fore
 SplineSet
-222.25 -350 m 1
- 102.75 -350 l 1
- 109.5 -138.25 240.75 34 240.75 34 c 1
- 23.75 34 l 1
- 23.75 137 l 1
- 379.25 137 l 1
- 379.25 67 l 1
- 379.25 67 224.25 -113 222.25 -350 c 1
+225.5 -350 m 5
+ 105.5 -350 l 5
+ 112.101376147 -138.75 238.75 33.5 238.75 33.5 c 1
+ 25.25 33.5 l 1
+ 25.25 137 l 1
+ 377.75 137 l 1
+ 377.75 66.75 l 1
+ 377.75 66.75 227.461352657 -113 225.5 -350 c 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight.inferior
 Encoding: 8328 8328 156
-Width: 435
+Width: 443
 Flags: W
-HStem: -358 96.25<149.959 286.089> -141.75 91.5<180.25 260> -111 41.75<106 334> 45.75 97.25<162.234 275.882>
-VStem: 19.5 114.75<-244.944 -157.758> 43.75 110.5<-38.8139 35.0131> 284 110.5<-39.1652 35.0131> 301 114.75<-244.944 -157.758>
+HStem: -358 96<153.013 289.987> -141 90.5<181.25 264> -111 41.75<106.75 338.25> 47.25 95.75<167.048 279.958>
+VStem: 21.25 116<-244.4 -158.043> 45.25 111<-39.1376 35.5194> 289.75 111<-38.7777 35.1617> 305.75 116<-244.4 -158.043>
 LayerCount: 2
 Fore
 SplineSet
-218.5 -50.25 m 0xd6
- 260 -50.25 284 -31.75 284 -2.25 c 0
- 284 28.25 261 45.75 218.5 45.75 c 0
- 178 45.75 154.25 28.25 154.25 -2.25 c 0
- 154.25 -31.75 180.25 -50.25 218.5 -50.25 c 0xd6
-218.5 143 m 0
- 329 143 394.5 93 394.5 12 c 0
- 394.5 -68 334 -111 218.5 -111 c 0xb6
- 106 -111 43.75 -68 43.75 12 c 0
- 43.75 93 110 143 218.5 143 c 0
-218.25 -261.75 m 0
- 272.75 -261.75 301 -240.25 301 -200.75 c 0
- 301 -164 272.75 -141.75 218.25 -141.75 c 0
- 163.75 -141.75 134.25 -164 134.25 -200.75 c 0xd9
- 134.25 -240.25 163.75 -261.75 218.25 -261.75 c 0
-218.25 -69.25 m 0xb9
- 346 -69.25 415.75 -121 415.75 -212 c 0
- 415.75 -301 339 -358 218.25 -358 c 0
- 97.5 -358 19.5 -301 19.5 -212 c 0
- 19.5 -121 90.5 -69.25 218.25 -69.25 c 0xb9
+221.5 -50.5 m 0xd6
+ 264 -50.5 289.75 -31.25 289.75 -1.75 c 0
+ 289.75 28.5 264.75 47.25 221.5 47.25 c 0
+ 180.25 47.25 156.25 28.5 156.25 -1.75 c 0
+ 156.25 -31.25 181.25 -50.5 221.5 -50.5 c 0xd6
+221.5 143 m 0
+ 333.25 143 400.75 93 400.75 12 c 0
+ 400.75 -68 338.25 -111 221.5 -111 c 0xb6
+ 106.75 -111 45.25 -68 45.25 12 c 0
+ 45.25 93 111.75 143 221.5 143 c 0
+221.5 -262 m 0
+ 275 -262 305.75 -239.75 305.75 -200.5 c 0
+ 305.75 -164.25 275 -141 221.5 -141 c 0
+ 168 -141 137.25 -164.25 137.25 -200.5 c 0xd9
+ 137.25 -239.75 168 -262 221.5 -262 c 0
+221.5 -69.25 m 0xb9
+ 350.5 -69.25 421.75 -120.75 421.75 -212 c 0
+ 421.75 -301 343.25 -358 221.5 -358 c 0
+ 99.75 -358 21.25 -301 21.25 -212 c 0
+ 21.25 -120.75 92.5 -69.25 221.5 -69.25 c 0xb9
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: nine.inferior
 Encoding: 8329 8329 157
-Width: 427
+Width: 426
 Flags: W
-HStem: -358 101.25<83.8735 246.76> -180.5 88<149.256 268.244> 42.5 100.5<149.91 267.494>
-VStem: 19.5 114<-76.0057 25.3755> 284 123.5<-164.369 25.2624>
+HStem: -358 100.75<84.2956 247.158> -182.5 90.25<151.244 266.057> 42.25 100.75<150.87 266.057>
+VStem: 21.25 114<-76.4644 25.0285> 281 123.75<-167.19 25.6516>
 LayerCount: 2
 Fore
 SplineSet
-284 -24.5 m 0
- 284 14.75 262 42.5 209.5 42.5 c 0
- 155.75 42.5 133.5 14.75 133.5 -24.5 c 0
- 133.5 -63.75 155.75 -92.5 209.5 -92.5 c 0
- 262 -92.5 284 -63.75 284 -24.5 c 0
-287.25 -145.5 m 1
- 287.25 -145.5 261.75 -180.5 185.75 -180.5 c 0
- 84 -180.5 19.5 -115.5 19.5 -22.75 c 0
- 19.5 84.25 91 143 206 143 c 0
- 332 143 407.5 70 407.5 -108 c 0
- 407.5 -269 326.75 -358 182.5 -358 c 0
- 82.25 -358 31.5 -317 31.5 -317 c 1
- 65.25 -223.5 l 1
- 65.25 -223.5 104.25 -256.75 177.75 -256.75 c 0
- 247.5 -256.75 283.5 -217 287.25 -145.5 c 1
+281 -24.5 m 0
+ 281 14.5 260.25 42.25 209 42.25 c 0
+ 157.5 42.25 135.25 14.5 135.25 -24.5 c 0
+ 135.25 -63.5 157.5 -92.25 209 -92.25 c 0
+ 260.25 -92.25 281 -63.5 281 -24.5 c 0
+286.75 -145.25 m 1
+ 286.75 -145.25 261.5 -182.5 183 -182.5 c 0
+ 84 -182.5 21.25 -117.25 21.25 -23.25 c 0
+ 21.25 83.75 91.75 143 206 143 c 0
+ 331 143 404.75 70 404.75 -108 c 0
+ 404.75 -269 326.25 -358 184 -358 c 0
+ 84.75 -358 34 -317 34 -317 c 1
+ 64.5 -223.5 l 1
+ 64.5 -223.5 105.25 -257.25 178.75 -257.25 c 0
+ 248.25 -257.25 282.75 -217.5 286.75 -145.25 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: zero.superior
 Encoding: 8304 8304 158
-Width: 456
+Width: 455
 Flags: W
-HStem: 342 107.75<173.237 282.719> 735.25 107.75<173.237 282.719>
-VStem: 19.5 115.75<492.786 694.419> 320.5 115.75<489.898 694.419>
+HStem: 342 108<174.05 281.906> 735 108<174.05 281.906>
+VStem: 21.25 116<488.828 695.5> 318.5 116<488.828 695.5>
 LayerCount: 2
 Fore
 SplineSet
-135.25 592 m 0
- 135.25 506 163.5 449.75 228 449.75 c 0
- 292.5 449.75 320.5 506 320.5 592 c 0
- 320.5 678 292.5 735.25 228 735.25 c 0
- 163.5 735.25 135.25 678 135.25 592 c 0
-19.5 592 m 0
- 19.5 744 91.75 843 228 843 c 0
- 364.25 843 436.25 744 436.25 592 c 0
- 436.25 440 364.25 342 228 342 c 0
- 91.75 342 19.5 440 19.5 592 c 0
+137.25 592 m 0
+ 137.25 506.25 164.75 450 228 450 c 0
+ 291.25 450 318.5 506.25 318.5 592 c 0
+ 318.5 677.75 291.25 735 228 735 c 0
+ 164.75 735 137.25 677.75 137.25 592 c 0
+21.25 592 m 0
+ 21.25 744 93 843 228 843 c 0
+ 363 843 434.5 744 434.5 592 c 0
+ 434.5 440 363 342 228 342 c 0
+ 93 342 21.25 440 21.25 592 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: one.superior
 Encoding: 185 185 159
-Width: 277
+Width: 276
 Flags: W
-VStem: 124.75 119.75<350 716.5>
+VStem: 122.5 120<350 715.5>
 LayerCount: 2
 Fore
 SplineSet
-244.5 837 m 1
- 244.5 350 l 1
- 124.75 350 l 1
- 124.75 716.5 l 1
- 37 670 l 1
- 3.75 757 l 1
- 135.75 837 l 1
- 244.5 837 l 1
+242.5 837 m 1
+ 242.5 350 l 1
+ 122.5 350 l 1
+ 122.5 715.5 l 1
+ 37 669.5 l 1
+ 3.5 757 l 1
+ 135.25 837 l 1
+ 242.5 837 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two.superior
 Encoding: 178 178 160
-Width: 405
+Width: 404
 Flags: W
-HStem: 350 103<155 389.5> 737 106<100.157 254.942>
-VStem: 266.75 117.75<639.643 723.764>
+HStem: 350 104.5<162 387.5> 736.75 106.25<98.1753 250.076>
+VStem: 262 120.5<638.158 724.092>
 LayerCount: 2
 Fore
 SplineSet
-266.75 681.5 m 0
- 266.75 717.25 246.5 737 189 737 c 0
- 122 737 74.5 701 74.5 701 c 1
- 40.5 799.75 l 1
- 40.5 799.75 101 843 191 843 c 0
- 311 843 384.5 792 384.5 691 c 0
- 384.5 597.25 340.5 559 233 508.5 c 0
- 154.25 472 155.75 458.25 155 453 c 5
- 389.5 453 l 1
- 389.5 350 l 1
- 30.25 350 l 1
- 30.25 386 l 2
- 30.25 493.25 95.75 553.25 210 615.75 c 0
- 258 641 266.75 661 266.75 681.5 c 0
+262 681.5 m 0
+ 262 716 242.5 736.75 186.25 736.75 c 0
+ 121.75 736.75 75.75 701.25 75.75 701.25 c 1
+ 40.5 801 l 1
+ 40.5 801 101.25 843 191 843 c 0
+ 310 843 382.5 792.25 382.5 691.5 c 0
+ 382.5 599.25 333.75 559.75 234.5 512 c 0
+ 163.75 477.75 162.5 455.5 162 454.5 c 1
+ 387.5 454.5 l 1
+ 387.5 350 l 1
+ 32 350 l 1
+ 32 386 l 2
+ 32 493.25 95.25 553.5 207.25 615.75 c 0
+ 248.75 638 262 659.25 262 681.5 c 0
 EndSplineSet
-Validated: 524289
 EndChar
 
 StartChar: three.superior
 Encoding: 179 179 161
-Width: 389
+Width: 393
 Flags: W
-HStem: 342 104.25<66.2737 233.673> 551.75 92.5<112.5 228.219> 735.75 107.25<64.6105 226.472>
-VStem: 234.25 124<653.806 726.034> 247.5 122<461.526 539.134>
+HStem: 342 103.5<64.8931 236.127> 549.75 96.5<109 229.001> 736.5 106.5<67.8053 227.762>
+VStem: 235.75 125.25<654.813 726.935> 247 124.75<458.854 535.471>
 LayerCount: 2
 Fore
 SplineSet
-158.5 644.25 m 2xe8
- 216 644.25 234.25 660 234.25 690.25 c 0
- 234.25 715.5 218.5 735.75 163.75 735.75 c 0
- 95.25 735.75 53 707.5 53 707.5 c 1
- 23.75 807.25 l 1
- 23.75 807.25 77.25 843 169 843 c 0
- 286 843 358.25 795 358.25 705 c 0xf0
- 358.25 624 286.5 600 286.5 600 c 1
- 286.5 600 369.5 576.75 369.5 485.75 c 0
- 369.5 382.75 289 342 168 342 c 0
- 67.75 342 8.25 376 8.25 376 c 1
- 44 480 l 1
- 44 480 89.75 446.25 161 446.25 c 0
- 220.5 446.25 247.5 465.75 247.5 500.25 c 0
- 247.5 535.25 218.25 551.75 159.75 551.75 c 2
- 112.5 551.75 l 1
- 112.5 644.25 l 1
- 158.5 644.25 l 2xe8
+161.25 646.25 m 2xe8
+ 217.5 646.25 235.75 661.75 235.75 692 c 0
+ 235.75 717.5 220.25 736.5 168.5 736.5 c 0
+ 98 736.5 54.5 708 54.5 708 c 1
+ 24.75 806.75 l 1
+ 24.75 806.75 79.25 843 174.75 843 c 0
+ 290.25 843 361 795 361 705 c 0xf0
+ 361 624 288.5 600.75 288.5 600.75 c 1
+ 288.5 600.75 371.75 577.5 371.75 486.75 c 0
+ 371.75 383.75 292.75 342 173.5 342 c 0
+ 71.25 342 10 376.75 10 376.75 c 1
+ 43 479.25 l 1
+ 43 479.25 90.75 445.5 165.5 445.5 c 0
+ 222.25 445.5 247 464.25 247 498.5 c 0
+ 247 532.5 217.25 549.75 161.25 549.75 c 2
+ 108 549.75 l 1
+ 109 646.25 l 1
+ 161.25 646.25 l 2xe8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: four.superior
 Encoding: 8308 8308 162
 Width: 439
 Flags: W
-HStem: 457.5 96<142.5 422.25>
-VStem: 237.25 115.75<350 673.25>
+HStem: 457.25 96.5<145.5 421>
+VStem: 237 116.25<350 671.25>
 LayerCount: 2
 Fore
 SplineSet
-353 837 m 1
- 353 350 l 1
- 237.25 350 l 1
- 237.25 673.25 l 1
- 142.5 553.5 l 1
- 422.25 553.5 l 1
- 422.25 457.5 l 1
- 36.75 457.5 l 1
- 16.25 538.75 l 1
+353.25 837 m 1
+ 353.25 350 l 1
+ 237 350 l 1
+ 237 671.25 l 1
+ 145.5 553.75 l 1
+ 421 553.75 l 1
+ 421 457.25 l 1
+ 39 457.25 l 1
+ 17.75 539 l 1
  238 837 l 1
- 353 837 l 1
+ 353.25 837 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: five.superior
 Encoding: 8309 8309 163
-Width: 390
+Width: 395
 Flags: W
-HStem: 343 104.75<57.4039 236.628> 579.75 91.25<140.469 236.824> 736.5 100.5<146 343.25>
-VStem: 252.5 117.5<464.824 564.079>
+HStem: 343 105.25<63.5713 239.214> 579.5 91.25<145.988 241.548> 736 101<152.5 344>
+VStem: 255 119<465.121 564.608>
 LayerCount: 2
 Fore
 SplineSet
-175.25 343 m 0
- 70 343 6.5 377 6.5 377 c 1
- 36.5 479.25 l 1
- 36.5 479.25 91.75 447.75 164.25 447.75 c 0
- 228 447.75 252.5 472.5 252.5 512.75 c 0
- 252.5 554 229.75 579.75 181.75 579.75 c 0
- 130.75 579.75 113.5 551.75 113.5 551.75 c 1
- 29.5 570.5 l 1
- 48.25 837 l 1
- 343.25 837 l 1
- 343.25 736.5 l 1
- 146 736.5 l 1
- 139.25 648 l 1
- 139.25 648 159 671 222.25 671 c 0
- 317.75 671 370 613 370 517.5 c 0
- 370 409.25 304 343 175.25 343 c 0
+178 343 m 0
+ 71.75 343 8.25 378.5 8.25 378.5 c 1
+ 39 481.25 l 1
+ 39 481.25 95 448.25 168 448.25 c 0
+ 231.5 448.25 255 473.5 255 514.5 c 0
+ 255 554.75 232.25 579.5 185.25 579.5 c 0
+ 135.75 579.5 118.75 548 118.75 548 c 1
+ 33.25 567 l 1
+ 57 837 l 1
+ 344 837 l 1
+ 344 736 l 1
+ 152.5 736 l 1
+ 144.25 647.75 l 1
+ 144.25 647.75 164.25 670.75 228.25 670.75 c 0
+ 323 670.75 374 613 374 517.25 c 0
+ 374 409 308.25 343 178 343 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: six.superior
 Encoding: 8310 8310 164
-Width: 427
+Width: 426
 Flags: W
-HStem: 342 98<160.631 278.137> 575 88<160.536 278.795> 741.75 101.25<173.833 336.779>
-VStem: 19.5 125.75<455.961 652.19> 295.5 111.75<457.035 558.304>
+HStem: 342 98.25<160.948 276.501> 574.75 90<160.993 276.773> 741.25 101.75<174.35 338.48>
+VStem: 21.25 124.5<455.56 652.19> 292.25 113.25<457.149 558.457>
 LayerCount: 2
 Fore
 SplineSet
-145.25 508 m 0
- 145.25 468.75 167.25 440 219.75 440 c 0
- 273.5 440 295.5 468.75 295.5 508 c 0
- 295.5 547.25 273.5 575 219.75 575 c 0
- 167.25 575 145.25 547.25 145.25 508 c 0
-132.25 630.75 m 1
- 132.25 630.75 157.75 663 241.25 663 c 0
- 343 663 407.25 600.5 407.25 509 c 0
- 407.25 402 336 342 221 342 c 0
- 95 342 19.5 415 19.5 593 c 0
- 19.5 754 100.25 843 244.5 843 c 0
- 344.75 843 395.5 802 395.5 802 c 1
- 354 708.5 l 1
- 354 708.5 316.25 741.75 249.25 741.75 c 0
- 174.5 741.75 136 703.5 132.25 630.75 c 1
+145.75 508 m 0
+ 145.75 469 167.25 440.25 218.5 440.25 c 0
+ 270.75 440.25 292.25 469 292.25 508 c 0
+ 292.25 547 270.75 574.75 218.5 574.75 c 0
+ 167.25 574.75 145.75 547 145.75 508 c 0
+133 629.25 m 1
+ 133 629.25 159.25 664.75 240.25 664.75 c 0
+ 341.5 664.75 405.5 601.5 405.5 509 c 0
+ 405.5 402 335.25 342 221 342 c 0
+ 96 342 21.25 415 21.25 593 c 0
+ 21.25 754 101.5 843 244.75 843 c 0
+ 343.5 843 393.5 802.75 393.5 802.75 c 1
+ 354.5 709.25 l 1
+ 354.5 709.25 316.5 741.25 248.25 741.25 c 0
+ 174.75 741.25 137 702.25 133 629.25 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven.superior
 Encoding: 8311 8311 165
 Width: 402
 Flags: W
-HStem: 734 103<23.75 240.75>
-VStem: 102.75 119.5<350 486.202>
+HStem: 733.5 103.5<25.25 238.75>
+VStem: 105.5 120<350 486.309>
 LayerCount: 2
 Fore
 SplineSet
-222.25 350 m 1
- 102.75 350 l 1
- 109.5 561.75 240.75 734 240.75 734 c 1
- 23.75 734 l 1
- 23.75 837 l 1
- 379.25 837 l 1
- 379.25 765.75 l 1
- 379.25 765.75 224.25 587 222.25 350 c 1
+225.5 350 m 5
+ 105.5 350 l 5
+ 112.101376147 561.25 238.75 733.5 238.75 733.5 c 1
+ 25.25 733.5 l 1
+ 25.25 837 l 1
+ 377.75 837 l 1
+ 377.75 766.75 l 1
+ 377.75 766.75 227.461352657 587 225.5 350 c 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight.superior
 Encoding: 8312 8312 166
 Width: 443
 Flags: W
-HStem: 342 96.25<151.918 291.63> 558.25 91.5<181.5 266.25> 589 41.75<107.25 340.25> 745.75 97.25<163.839 281.923>
-VStem: 19.5 114.75<455.546 540.028> 43.75 110.5<661.549 734.669> 291.5 110.5<661.186 734.669> 308.5 114.75<455.546 541.76>
+HStem: 342 96<153.013 289.987> 559 90.5<181.25 264> 589 41.75<106.75 338.25> 747.25 95.75<167.048 279.958>
+VStem: 21.25 116<455.6 541.957> 45.25 111<660.862 735.519> 289.75 111<661.222 735.162> 305.75 116<455.6 541.957>
 LayerCount: 2
 Fore
 SplineSet
-222.25 649.75 m 0xd6
- 266.25 649.75 291.5 668.25 291.5 697.75 c 0
- 291.5 728.25 267.25 745.75 222.25 745.75 c 0
- 180.5 745.75 154.25 728.25 154.25 697.75 c 0
- 154.25 668.25 181.5 649.75 222.25 649.75 c 0xd6
-222.25 843 m 0
- 335.25 843 402 793 402 712 c 0
- 402 632 340.25 589 222.25 589 c 0xb6
- 107.25 589 43.75 632 43.75 712 c 0
- 43.75 793 111.25 843 222.25 843 c 0
-222 438.25 m 0
- 277.75 438.25 308.5 459.75 308.5 499.25 c 0
- 308.5 536 277.75 558.25 222 558.25 c 0
- 166.25 558.25 134.25 536 134.25 499.25 c 0xd9
- 134.25 459.75 166.25 438.25 222 438.25 c 0
-222 630.75 m 0xb9
- 352.25 630.75 423.25 579 423.25 488 c 0
- 423.25 399 344 342 222 342 c 0
- 100 342 19.5 399 19.5 488 c 0
- 19.5 579 91.75 630.75 222 630.75 c 0xb9
+221.5 649.5 m 0xd6
+ 264 649.5 289.75 668.75 289.75 698.25 c 0
+ 289.75 728.5 264.75 747.25 221.5 747.25 c 0
+ 180.25 747.25 156.25 728.5 156.25 698.25 c 0
+ 156.25 668.75 181.25 649.5 221.5 649.5 c 0xd6
+221.5 843 m 0
+ 333.25 843 400.75 793 400.75 712 c 0
+ 400.75 632 338.25 589 221.5 589 c 0xb6
+ 106.75 589 45.25 632 45.25 712 c 0
+ 45.25 793 111.75 843 221.5 843 c 0
+221.5 438 m 0
+ 275 438 305.75 460.25 305.75 499.5 c 0
+ 305.75 535.75 275 559 221.5 559 c 0
+ 168 559 137.25 535.75 137.25 499.5 c 0xd9
+ 137.25 460.25 168 438 221.5 438 c 0
+221.5 630.75 m 0xb9
+ 350.5 630.75 421.75 579.25 421.75 488 c 0
+ 421.75 399 343.25 342 221.5 342 c 0
+ 99.75 342 21.25 399 21.25 488 c 0
+ 21.25 579.25 92.5 630.75 221.5 630.75 c 0xb9
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: nine.superior
 Encoding: 8313 8313 167
-Width: 427
+Width: 426
 Flags: W
-HStem: 342 101.25<83.8735 246.76> 519.5 88<149.256 268.244> 742.5 100.5<149.91 267.494>
-VStem: 19.5 114<623.994 725.376> 284 123.5<535.631 725.262>
+HStem: 342 100.75<84.2956 247.158> 517.5 90.25<151.244 266.057> 742.25 100.75<150.87 266.057>
+VStem: 21.25 114<623.536 725.029> 281 123.75<532.81 725.652>
 LayerCount: 2
 Fore
 SplineSet
-284 675.5 m 0
- 284 714.75 262 742.5 209.5 742.5 c 0
- 155.75 742.5 133.5 714.75 133.5 675.5 c 0
- 133.5 636.25 155.75 607.5 209.5 607.5 c 0
- 262 607.5 284 636.25 284 675.5 c 0
-287.25 554.25 m 1
- 287.25 554.25 261.75 519.5 185.75 519.5 c 0
- 84 519.5 19.5 584.5 19.5 677.25 c 0
- 19.5 784.25 91 843 206 843 c 0
- 332 843 407.5 770 407.5 592 c 0
- 407.5 431 326.75 342 182.5 342 c 0
- 82.25 342 31.5 383 31.5 383 c 1
- 65.25 476.5 l 1
- 65.25 476.5 104.25 443.25 177.75 443.25 c 0
- 247.5 443.25 283.5 482.75 287.25 554.25 c 1
+281 675.5 m 0
+ 281 714.5 260.25 742.25 209 742.25 c 0
+ 157.5 742.25 135.25 714.5 135.25 675.5 c 0
+ 135.25 636.5 157.5 607.75 209 607.75 c 0
+ 260.25 607.75 281 636.5 281 675.5 c 0
+286.75 554.5 m 1
+ 286.75 554.5 261.5 517.5 183 517.5 c 0
+ 84 517.5 21.25 582.75 21.25 676.75 c 0
+ 21.25 783.75 91.75 843 206 843 c 0
+ 331 843 404.75 770 404.75 592 c 0
+ 404.75 431 326.25 342 184 342 c 0
+ 84.75 342 34 382.75 34 382.75 c 1
+ 64.5 476.5 l 1
+ 64.5 476.5 105.25 442.75 178.75 442.75 c 0
+ 248.25 442.75 282.75 482.25 286.75 554.5 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -4984,7 +4979,7 @@ Encoding: 198 198 176
 Width: 1024
 Flags: W
 HStem: 0 146<674 994> 145 146<232 626> 292 146<590 934> 585.008 146<674 994>
-VStem: 505 121<145 291> 505 81<627 731.008> 590 84<292 438>
+VStem: 505 121<145 291> 505 61<627 731.008> 590 84<292 438>
 AnchorPoint: "Anchor-0" 592 731 basechar 0
 LayerCount: 2
 Fore
@@ -5008,47 +5003,45 @@ SplineSet
  232 291 l 1
  626 291 l 1
  626 145 l 1x78
-586 731.0078125 m 1xb4
- 586 627 l 1
+566 731.0078125 m 5xb4
+ 566 627 l 5
  196 0 l 1
  5 0 l 1
- 495 731.0078125 l 1
- 586 731.0078125 l 1xb4
+ 475 731.0078125 l 5
+ 566 731.0078125 l 5xb4
 EndSplineSet
-Validated: 1048581
 EndChar
 
 StartChar: ae
 Encoding: 230 230 177
 Width: 872
 Flags: W
-HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<194.395 316.577> 205 101<458 687> 214.284 95.6494<202.297 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316>
-VStem: 30 154.849<123.088 195.732> 347.929 119<188 351.186> 347.929 15.8486<214.284 309.934> 458 52.8486<205 306>
+HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<199.484 317.254> 205 101<458 687> 214.284 95.6494<209.881 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316>
+VStem: 30 158.849<123.088 195.732> 347.929 119<188 351.186> 347.929 15.8486<214.284 309.934> 458 52.8486<205 306>
 AnchorPoint: "Anchor-0" 417 501.011 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-347.928710938 207.561523438 m 1x5280
+347.928710938 207.561523438 m 1x53
  466 182 l 1
  444 61 369.880859375 -9.998046875 227.888671875 -9.998046875 c 0
  83.525390625 -9.998046875 30 50 30 141 c 0
  30 286.71747631 140.82421875 309.797851562 363.928710938 309.93359375 c 1
- 363.77734375 214.284179688 l 1
- 202.938476562 214.200195312 184.848632812 194.1737758 184.848632812 158.561523438 c 0
- 184.848632812 127.320980654 211.4296875 111.463867188 254.888671875 111.463867188 c 0
- 303.657226562 111.463867188 347.928710938 143 347.928710938 207.561523438 c 1x5280
-466.928710938 188 m 1
+ 363.77734375 214.284179688 l 1x5280
+ 206.534073185 214.200195312 188.848632812 194.1737758 188.848632812 158.561523438 c 4
+ 188.848632812 127.320980654 215.4296875 111.463867188 258.888671875 111.463867188 c 4
+ 305.560556991 111.463867188 347.928710938 143 347.928710938 207.561523438 c 1x53
+466.928710938 188 m 1x0b
  347.928710938 165 l 1x0a80
- 347.928710938 291.010742188 l 6
+ 347.928710938 291.010742188 l 2
  347.928710937 354.602381552 302.014186429 382.010742188 239.928710938 382.010742188 c 0
  167.602441406 382.010742188 115.928710938 346.010742188 115.928710938 346.010742188 c 1
  72.9287109375 467.010742188 l 1
  72.9287109375 467.010742188 135.38767299 511.010742188 255.928710938 511.010742188 c 0
- 376.570945945 511.010742188 466.928710937 434.963103524 466.928710938 320.010742188 c 2x0b
- 466.928710938 188 l 1
+ 376.570945945 511.010742188 466.928710937 434.963103524 466.928710938 320.010742188 c 2
+ 466.928710938 188 l 1x0b
 EndSplineSet
 Refer: 43 101 N 1 0 0 1 321 0 2
-Validated: 1048581
 EndChar
 
 StartChar: Eth
@@ -5079,15 +5072,15 @@ VStem: 38.0713 154.849<169.94 335.354> 400 158.849<175.051 440> 400 62.8486<281.
 LayerCount: 2
 Fore
 SplineSet
-181.078125 616.658203125 m 1xe0
- 507.991210938 710.080078125 l 1
- 532.170898438 625.467773438 l 1
- 205.256835938 532.044921875 l 1
- 181.078125 616.658203125 l 1xe0
-400 251.561523438 m 4xf0
- 400 495 347 558 212.93359375 694.548828125 c 5
- 357.827148438 771.274414062 l 1
- 357.827148438 771.274414062 558.848632812 601 558.848632812 279 c 0xf0
+156.078125 616.658203125 m 5xe0
+ 482.991210938 710.080078125 l 5
+ 507.170898438 625.467773438 l 5
+ 180.256835938 532.044921875 l 5
+ 156.078125 616.658203125 l 5xe0
+400 251.561523438 m 0xf0
+ 400 495 335.960422217 558 187.93359375 694.548828125 c 5
+ 332.827148438 771.274414062 l 5
+ 332.827148438 771.274414062 558.848632812 601 558.848632812 279 c 0xf0
  558.848632812 93.8330078125 459.133789062 -9.998046875 296.959960938 -9.998046875 c 0
  136.029296875 -9.998046875 38.0712890625 94.0830078125 38.0712890625 253.561523438 c 0
  38.0712890625 409.295898438 119.759765625 510.93359375 262 510.93359375 c 0
@@ -5096,9 +5089,8 @@ SplineSet
  400 333.360351562 364.801757812 375.284179688 298.848632812 375.284179688 c 0
  224.64453125 375.284179688 192.919921875 326.552734375 192.919921875 253.561523438 c 0
  192.919921875 180.9453125 224.079101562 132.463867188 296.959960938 132.463867188 c 0
- 371.241210938 132.463867188 400 191.32421875 400 251.561523438 c 4xf0
+ 371.241210938 132.463867188 400 191.32421875 400 251.561523438 c 0xf0
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: Thorn
@@ -5187,7 +5179,7 @@ SplineSet
  214 0 l 1
  55 0 l 1xf0
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: Eng
@@ -5332,7 +5324,7 @@ SplineSet
  368 619.010742188 334.662109375 630.010742188 288 630.010742188 c 0
  235.900390625 630.010742188 214 608.022460938 214 557.010742188 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 187 95 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 50 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 105 "'kern' Horizontal Kerning in Latin lookup 0-1" 34 105 "'kern' Horizontal Kerning in Latin lookup 0-1" 36 105 "'kern' Horizontal Kerning in Latin lookup 0-1" 45 105 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -5451,7 +5443,7 @@ SplineSet
  534 625 l 1
  361 428 l 5
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0292
@@ -5481,7 +5473,7 @@ SplineSet
  474 405.010742188 l 1
  311 213 l 5
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -5518,14 +5510,13 @@ AnchorPoint: "Anchor-3" 377 28 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-57.5 -91.4697265625 m 1
+47.5 -91.4697265625 m 5
  418.5 581.403320312 l 1
  531.5 581.403320312 l 1
- 170.5 -91.4697265625 l 1
- 57.5 -91.4697265625 l 1
+ 160.5 -91.4697265625 l 5
+ 47.5 -91.4697265625 l 5
 EndSplineSet
 Refer: 29 111 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: IJ
@@ -5537,7 +5528,6 @@ LayerCount: 2
 Fore
 Refer: 20 74 N 1 0 0 1 434 0 2
 Refer: 0 73 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: ij
@@ -6023,8 +6013,8 @@ StartChar: uni1E9E
 Encoding: 7838 7838 220
 Width: 743
 Flags: W
-HStem: -10 133.124<338.878 526.471> 0 21G<55 224> 585.008 146<263.633 461>
-VStem: 55 169<0 539.977> 560 158<156.948 283.795>
+HStem: -10 133.124<329.789 514.933> 0 21G<55 224> 585.008 146<263.633 461>
+VStem: 55 169<0 539.977> 550 168<156.948 283.795>
 LayerCount: 2
 Fore
 SplineSet
@@ -6035,13 +6025,13 @@ SplineSet
  525 425 l 1
  594 425 718 387 718 218 c 0
  718 64 625 -10 472 -10 c 0
- 355.880859375 -10 305 26 305 26 c 1
- 338 147 l 1
- 338 147 380 123.124023438 450.015625 123.124023438 c 0xb8
- 517 123.124023438 560 156 560 222 c 0
- 560 289 518 319 419 319 c 2
- 341 319 l 1
- 341 389 l 1
+ 348.927617421 -10 295 26 295 26 c 1
+ 328 147 l 1
+ 328 147 370 123.124023438 440.015625 123.124023438 c 0xb8
+ 507 123.124023438 550 156 550 222 c 0
+ 550 289 508 319 409 319 c 2
+ 331 319 l 1
+ 331 379 l 5
  461 585.0078125 l 1
  345 585.0078125 l 2
  253 585.0078125 224 543 224 445.0078125 c 2
@@ -6049,7 +6039,6 @@ SplineSet
  55 0 l 1
  55 478 l 2x78
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: germandbls
@@ -6264,7 +6253,7 @@ SplineSet
  490 588.140961505 447.759765625 615.799804688 447.759765625 615.799804688 c 1x34
 EndSplineSet
 Refer: 50 117 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 Kerns2: 226 -55 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -6346,7 +6335,7 @@ SplineSet
  -89 -40 -59.8296086238 -51 -19 -51 c 0
  33.0999023437 -51 55 -26 55 32 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni20B3
@@ -6910,7 +6899,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 169 251 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Atilde
@@ -6934,7 +6923,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 166 191 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Aring
@@ -6947,7 +6936,7 @@ LayerCount: 2
 Fore
 Refer: 248 778 N 1 0 0 1 203 299 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Ccedilla
@@ -6961,7 +6950,7 @@ LayerCount: 2
 Fore
 Refer: 255 807 N 1 0 0 1 285 -23 2
 Refer: 9 67 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Egrave
@@ -7001,7 +6990,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 123 251 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Edieresis
@@ -7063,7 +7052,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 30 191 2
 Refer: 0 73 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Ntilde
@@ -7112,7 +7101,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 216 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Otilde
@@ -7125,7 +7114,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 225 211 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -7138,7 +7127,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 213 191 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -7187,7 +7176,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 176 191 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Yacute
@@ -7205,90 +7194,83 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 285
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
-VStem: 30 154.849<116.168 196.864> 81 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
+VStem: 30 159.849<116.168 196.864> 81 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 81 21.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: aacute
 Encoding: 225 225 286
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
-VStem: 30 154.849<116.168 196.864> 229 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
+VStem: 30 159.849<116.168 196.864> 229 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 229 21.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: acircumflex
 Encoding: 226 226 287
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008
-VStem: 30 154.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008
+VStem: 30 159.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 272 752.002 basechar 0
 LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 91 21.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: atilde
 Encoding: 227 227 288
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 553.948 112.938<286.553 405.732> 596.517 112.068<153.134 274.934>
-VStem: 30 154.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 553.948 112.938<286.553 405.732> 596.517 112.068<153.134 274.934>
+VStem: 30 159.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 100 -18.9893 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: adieresis
 Encoding: 228 228 289
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 533.554 166.449<111.906 229.32 321.906 439.32>
-VStem: 30 154.849<116.168 196.864> 88 165.227<557.637 675.92> 298 165.227<557.637 675.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 533.554 166.449<111.906 229.32 321.906 439.32>
+VStem: 30 159.849<116.168 196.864> 88 165.227<557.637 675.92> 298 165.227<557.637 675.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 275 690 basechar 0
 LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 88 -38.989 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: aring
 Encoding: 229 229 290
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.081 91.8965<234.648 310.259> 737.929 92.084<234.182 312.662>
-VStem: 30 154.849<116.168 196.864> 125 102.953<646.252 732.678> 317.824 102.953<646.252 732.678> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.081 91.8965<234.648 310.259> 737.929 92.084<234.182 312.662>
+VStem: 30 159.849<116.168 196.864> 125 102.953<646.252 732.678> 317.824 102.953<646.252 732.678> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 271 820 basechar 0
 LayerCount: 2
 Fore
 Refer: 248 778 N 1 0 0 1 125 69.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 291
 Width: 492
 Flags: W
-HStem: -278 88<194.633 321.201> -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214>
+HStem: -278 88<194.633 321.201> -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111>
 VStem: 35 161.849<169.133 331.105> 324 109<-185.785 -122.751>
 AnchorPoint: "Anchor-0" 291 501.011 basechar 0
 LayerCount: 2
 Fore
 Refer: 255 807 N 1 0 0 1 176 -23 2
 Refer: 40 99 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: egrave
@@ -7328,7 +7310,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 106 21.0107 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: edieresis
@@ -7390,7 +7372,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 -52 -38.989 2
 Refer: 231 305 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -7439,7 +7421,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 111 21.0107 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: otilde
@@ -7452,7 +7434,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 120 -18.9893 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: odieresis
@@ -7465,7 +7447,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 108 -38.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -7514,7 +7496,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 116 -38.989 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: yacute
@@ -7556,13 +7538,12 @@ EndChar
 StartChar: amacron
 Encoding: 257 257 313
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 561.019 121<128 442>
-VStem: 30 154.849<116.168 196.864> 128 314<561.019 682.019> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 561.019 121<128 442>
+VStem: 30 159.849<116.168 196.864> 128 314<561.019 682.019> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 128 -48.989 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Abreve
@@ -7575,20 +7556,19 @@ LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 195 203 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: abreve
 Encoding: 259 259 315
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.947 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72>
-VStem: 30 154.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72>
+VStem: 30 159.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 273 688 basechar 0
 LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 117 -26.9893 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: Emacron
@@ -7602,7 +7582,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 160 181 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: emacron
@@ -7616,7 +7596,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 143 -48.989 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Ebreve
@@ -7839,7 +7819,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 253 181 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: omacron
@@ -7852,7 +7832,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 148 -48.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Obreve
@@ -7913,7 +7893,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 178 211 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: utilde
@@ -7926,7 +7906,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 118 -18.9893 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Umacron
@@ -7939,7 +7919,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 216 181 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: umacron
@@ -7952,7 +7932,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 156 -48.989 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Ubreve
@@ -8042,13 +8022,12 @@ EndChar
 StartChar: cacute
 Encoding: 263 263 352
 Width: 492
-HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214> 537.011 225.008
+HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111> 537.011 225.008
 VStem: 35 161.849<169.133 331.105> 246 240
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 246 21.0107 2
 Refer: 40 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ccircumflex
@@ -8066,13 +8045,12 @@ EndChar
 StartChar: ccircumflex
 Encoding: 265 265 354
 Width: 492
-HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214> 537.011 215.008
+HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111> 537.011 215.008
 VStem: 35 161.849<169.133 331.105>
 LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 108 21.0107 2
 Refer: 40 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Cdotaccent
@@ -8090,13 +8068,12 @@ EndChar
 StartChar: cdotaccent
 Encoding: 267 267 356
 Width: 492
-HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214> 543.554 166.449<231.906 349.32>
+HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111> 543.554 166.449<231.906 349.32>
 VStem: 35 161.849<169.133 331.105> 208 165.227<567.637 685.92>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 208 -28.9893 2
 Refer: 40 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ccaron
@@ -8114,26 +8091,24 @@ EndChar
 StartChar: ccaron
 Encoding: 269 269 358
 Width: 492
-HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 391.214> 547.011 215.008
+HStem: -9.99805 133.462<243.026 412.959> 375.284 135.649<238.357 405.111> 547.011 215.008
 VStem: 35 161.849<169.133 331.105>
 LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 112 21.0107 2
 Refer: 40 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Gcircumflex
 Encoding: 284 284 359
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 767 215.008
-VStem: 35 171.849<245.278 476.942> 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 767 215.008
+VStem: 35 171.849<245.278 476.942> 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 225 251 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: gcircumflex
@@ -8152,13 +8127,12 @@ StartChar: Gbreve
 Encoding: 286 286 361
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 775.937 112.938<343.602 471.218> 918 20G<298.1 320.943 493.877 516.72>
-VStem: 35 171.849<245.278 476.942> 251 312.82 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 775.937 112.938<343.602 471.218> 918 20G<298.1 320.943 493.877 516.72>
+VStem: 35 171.849<245.278 476.942> 251 312.82 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 251 203 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: gbreve
@@ -8177,13 +8151,12 @@ StartChar: Gdotaccent
 Encoding: 288 288 363
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 773.543 166.449<348.906 466.32>
-VStem: 35 171.849<245.278 476.942> 325 165.227<797.626 915.909> 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 773.543 166.449<348.906 466.32>
+VStem: 35 171.849<245.278 476.942> 325 165.227<797.626 915.909> 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 325 201 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: gdotaccent
@@ -8230,9 +8203,8 @@ HStem: -10 149<22.3017 188.762> 585.008 146<50 208> 767 215.008
 VStem: 208 169<161.046 585.008>
 LayerCount: 2
 Fore
-Refer: 242 770 N 1 0 0 1 26 251 2
+Refer: 242 770 N 1 0 0 1 36 251 2
 Refer: 20 74 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: jcircumflex
@@ -8276,13 +8248,12 @@ StartChar: Racute
 Encoding: 340 340 371
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454> 767 225.008
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 280 240 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454> 767 225.008
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 280 240 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 280 251 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: racute
@@ -8301,13 +8272,12 @@ StartChar: Rcaron
 Encoding: 344 344 373
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454> 777 215.008
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454> 777 215.008
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 146 251 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: rcaron
@@ -8596,13 +8566,12 @@ StartChar: uni0156
 Encoding: 342 342 398
 Width: 660
 Flags: W
-HStem: -309.988 262.449 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 260 165.227<-187.457 -76.1313> 440.929 169.849<427.752 550.878>
+HStem: -309.988 262.449 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 260 165.227<-187.457 -76.1313> 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 254 806 N 1 0 0 1 260 -47.9883 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0157
@@ -8834,20 +8803,19 @@ SplineSet
  364 550 l 5
 EndSplineSet
 Refer: 36 104 N 1 0 0 1 42 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0122
 Encoding: 290 290 414
 Width: 789
 Flags: W
-HStem: -310 262.449 -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547>
-VStem: 35 171.849<245.278 476.942> 319 165.227<-187.469 -76.143> 547.481 154.001<185.349 285.806>
+HStem: -310 262.449 -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547>
+VStem: 35 171.849<245.278 476.942> 319 165.227<-187.469 -76.143> 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 254 806 S 1 0 0 1 319 -48 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0123
@@ -8862,7 +8830,7 @@ LayerCount: 2
 Fore
 Refer: 38 103 S 1 0 0 1 0 0 2
 Refer: 254 806 N -1 0 0 -1 388.227 543.449 2
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Aogonek
@@ -8880,13 +8848,12 @@ EndChar
 StartChar: aogonek
 Encoding: 261 261 417
 Width: 566
-HStem: -274 92<443.517 552.728> -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
-VStem: 30 154.849<116.168 196.864> 320 115<-173.943 -65.049> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -274 92<443.517 552.728> -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
+VStem: 30 159.849<116.168 196.864> 320 115<-173.943 -65.049> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 320 -19 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Eogonek
@@ -9089,13 +9056,12 @@ EndChar
 StartChar: uni01CE
 Encoding: 462 462 432
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 547.011 215.008
-VStem: 30 154.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 547.011 215.008
+VStem: 30 159.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 95 21.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01CF
@@ -9174,13 +9140,12 @@ StartChar: Gcaron
 Encoding: 486 486 439
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 777 215.008
-VStem: 35 171.849<245.278 476.942> 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 777 215.008
+VStem: 35 171.849<245.278 476.942> 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 229 251 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: gcaron
@@ -9229,7 +9194,7 @@ LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 333 1 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni01EB
@@ -9242,20 +9207,19 @@ LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 219 9 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni01F4
 Encoding: 500 500 445
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 767 225.008
-VStem: 35 171.849<245.278 476.942> 363 240 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 767 225.008
+VStem: 35 171.849<245.278 476.942> 363 240 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 363 251 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01F5
@@ -9387,7 +9351,6 @@ LayerCount: 2
 Fore
 Refer: 20 74 N 1 0 0 1 568 0 2
 Refer: 7 76 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni01C8
@@ -9423,7 +9386,6 @@ LayerCount: 2
 Fore
 Refer: 20 74 N 1 0 0 1 719 0 2
 Refer: 11 78 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni01CB
@@ -9500,13 +9462,12 @@ EndChar
 StartChar: uni0201
 Encoding: 513 513 466
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
-VStem: 30 154.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 225.008
+VStem: 30 159.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 251 783 N 1 0 0 1 19 21.0107 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0202
@@ -9524,13 +9485,12 @@ EndChar
 StartChar: uni0203
 Encoding: 515 515 468
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.951 20G<164.1 186.943 359.877 382.72> 599.077 112.938<209.602 337.218>
-VStem: 30 154.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.951 20G<164.1 186.943 359.877 382.72> 599.077 112.938<209.602 337.218>
+VStem: 30 159.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 252 785 N 1 0 0 1 117 -26.9893 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0204
@@ -9685,13 +9645,12 @@ StartChar: uni0210
 Encoding: 528 528 481
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454> 767 225.008
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454> 767 225.008
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 251 783 N 1 0 0 1 70 251 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0211
@@ -9710,13 +9669,12 @@ StartChar: uni0212
 Encoding: 530 530 483
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454> 779.94 20G<215.1 237.943 410.877 433.72> 829.066 112.938<260.602 388.218>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 168 312.82 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454> 779.94 20G<215.1 237.943 410.877 433.72> 829.066 112.938<260.602 388.218>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 168 312.82 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 252 785 N 1 0 0 1 168 203 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0213
@@ -9825,20 +9783,19 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 269 201 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni0227
 Encoding: 551 551 493
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 543.554 166.449<214.906 332.32>
-VStem: 30 154.849<116.168 196.864> 191 165.227<567.637 685.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 543.554 166.449<214.906 332.32>
+VStem: 30 159.849<116.168 196.864> 191 165.227<567.637 685.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 273 700 basechar 0
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 191 -28.9893 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: uni0228
@@ -9852,7 +9809,7 @@ LayerCount: 2
 Fore
 Refer: 255 807 N 1 0 0 1 185 -23 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni0229
@@ -9866,57 +9823,53 @@ LayerCount: 2
 Fore
 Refer: 255 807 N 1 0 0 1 181 -23 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni01E2
 Encoding: 482 482 496
 Width: 1024
 HStem: 0 146<674 994> 145 146<232 626> 292 146<590 934> 585.008 146<674 994> 801.008 121<435 749>
-VStem: 435 314<801.008 922.008> 505 81<627 731.008> 505 121<145 291> 590 84<292 438>
+VStem: 435 314<801.008 922.008> 505 61<627 731.008> 505 121<145 291> 590 84<292 438>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 435 191 2
 Refer: 176 198 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01E3
 Encoding: 483 483 497
 Width: 872
 Flags: W
-HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<194.395 316.577> 205 101<458 687> 214.284 95.6494<202.297 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316> 571.019 121<260 574>
-VStem: 30 154.849<123.088 195.732> 260 314<571.019 692.019> 347.929 119<188 351.186> 347.929 15.8486<214.284 309.934> 458 52.8486<205 306>
+HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<199.484 317.254> 205 101<458 687> 214.284 95.6494<209.881 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316> 571.019 121<260 574>
+VStem: 30 158.849<123.088 195.732> 260 314<571.019 692.019> 347.929 15.8486<214.284 309.934> 347.929 119<188 351.186> 458 52.8486<205 306>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 260 -38.989 2
 Refer: 177 230 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: AEacute
 Encoding: 508 508 498
 Width: 1024
 HStem: 0 146<674 994> 145 146<232 626> 292 146<590 934> 585.008 146<674 994> 767 225.008
-VStem: 505 81<627 731.008> 505 121<145 291> 547 240 590 84<292 438>
+VStem: 505 61<627 731.008> 505 121<145 291> 547 240 590 84<292 438>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 547 251 2
 Refer: 176 198 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: aeacute
 Encoding: 509 509 499
 Width: 872
 Flags: W
-HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<194.395 316.577> 205 101<458 687> 214.284 95.6494<202.297 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316> 537.011 225.008
-VStem: 30 154.849<123.088 195.732> 347.929 119<188 351.186> 347.929 15.8486<214.284 309.934> 372 240 458 52.8486<205 306>
+HStem: -9.99805 134.462<558.497 779.342> -9.99805 121.462<199.484 317.254> 205 101<458 687> 214.284 95.6494<209.881 363.777> 382.011 129<144.029 316.178> 386.284 124.649<544.656 658.316> 537.011 225.008
+VStem: 30 158.849<123.088 195.732> 347.929 15.8486<214.284 309.934> 347.929 119<188 351.186> 372 240 458 52.8486<205 306>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 372 21.011 2
 Refer: 177 230 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01EE
@@ -9964,7 +9917,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 249 21.011 2
 Refer: 194 248 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Aringacute
@@ -9982,13 +9934,12 @@ EndChar
 StartChar: aringacute
 Encoding: 507 507 505
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.081 91.8965<234.648 310.259> 737.929 92.084<234.182 312.662> 856 225.008
-VStem: 30 154.849<116.168 196.864> 125 102.953<646.252 732.678> 226 240 317.824 102.953<646.252 732.678> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 549.081 91.8965<234.648 310.259> 737.929 92.084<234.182 312.662> 856 225.008
+VStem: 30 159.849<116.168 196.864> 125 102.953<646.252 732.678> 226 240 317.824 102.953<646.252 732.678> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 226 340 2
 Refer: 290 229 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01EC
@@ -10025,7 +9976,7 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 316 201 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni022F
@@ -10038,7 +9989,7 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 211 -28.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0232
@@ -10080,13 +10031,12 @@ EndChar
 StartChar: uni01DF
 Encoding: 479 479 513
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 533.554 166.449<111.906 229.32 321.906 439.32> 750.008 121<127 441>
-VStem: 30 154.849<116.168 196.864> 88 165.227<557.637 675.92> 127 314<750.008 871.008> 298 165.227<557.637 675.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 533.554 166.449<111.906 229.32 321.906 439.32> 750.008 121<127 441>
+VStem: 30 159.849<116.168 196.864> 88 165.227<557.637 675.92> 127 314<750.008 871.008> 298 165.227<557.637 675.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 127 140 2
 Refer: 289 228 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01E0
@@ -10104,13 +10054,12 @@ EndChar
 StartChar: uni01E1
 Encoding: 481 481 515
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 543.554 166.449<214.906 332.32> 770.008 121<116 430>
-VStem: 30 154.849<116.168 196.864> 116 314<770.008 891.008> 191 165.227<567.637 685.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 543.554 166.449<214.906 332.32> 770.008 121<116 430>
+VStem: 30 159.849<116.168 196.864> 116 314<770.008 891.008> 191 165.227<567.637 685.92> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 116 160 2
 Refer: 493 551 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni01D5
@@ -10695,13 +10644,12 @@ StartChar: uni1E20
 Encoding: 7712 7712 554
 Width: 789
 Flags: W
-HStem: -9.99805 152.462<306.174 503.494> 286 18.5957<536.019 687.827> 286 138<406 536.019 687.827 764> 586.659 152.462<314.065 534.547> 791.008 121<262 576>
-VStem: 35 171.849<245.278 476.942> 262 314<791.008 912.008> 547.481 154.001<185.349 285.806>
+HStem: -9.99805 152.462<305.442 496.04> 286 18.5957<527.019 687.827> 286 138<406 527.019 687.827 764> 586.659 152.462<314.065 534.547> 791.008 121<262 576>
+VStem: 35 171.849<245.278 476.942> 262 314<791.008 912.008> 538.481 163.001<184.322 285.806>
 LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 262 181 2
 Refer: 13 71 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E21
@@ -10870,7 +10818,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 226 -48 2
 Refer: 7 76 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1E37
@@ -10884,7 +10832,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 161 -48 2
 Refer: 35 108 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1E3A
@@ -11061,15 +11009,14 @@ EndChar
 
 StartChar: uni1E54
 Encoding: 7764 7764 584
-Width: 665
+Width: 655
 Flags: W
-HStem: 0 21G<55 224> 224 142.352<164 424.464> 584.649 146.358<224 424.777> 767 225.008
-VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 294 240 465.929 169.849<403.752 546.496>
+HStem: 0 21G<55 224> 234 142.352<164 421.243> 584.649 146.358<224 415.672> 767 225.008
+VStem: 55 169<0 234 376.352 584.649> 164 60<234 376.352> 294 240 455.929 169.849<410.105 550.173>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 294 251 2
 Refer: 15 80 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E55
@@ -11086,15 +11033,14 @@ EndChar
 
 StartChar: uni1E56
 Encoding: 7766 7766 586
-Width: 665
+Width: 655
 Flags: W
-HStem: 0 21G<55 224> 224 142.352<164 424.464> 584.649 146.358<224 424.777> 773.543 166.449<279.906 397.32>
-VStem: 55 169<0 224 366.352 584.649> 164 60<224 366.352> 256 165.227<797.626 915.909> 465.929 169.849<403.752 546.496>
+HStem: 0 21G<55 224> 234 142.352<164 421.243> 584.649 146.358<224 415.672> 773.543 166.449<279.906 397.32>
+VStem: 55 169<0 234 376.352 584.649> 164 60<234 376.352> 256 165.227<797.626 915.909> 455.929 169.849<410.105 550.173>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 256 201 2
 Refer: 15 80 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E57
@@ -11113,13 +11059,12 @@ StartChar: uni1E58
 Encoding: 7768 7768 588
 Width: 660
 Flags: W
-HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454> 773.543 166.449<265.906 383.32>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 242 165.227<797.626 915.909> 440.929 169.849<427.752 550.878>
+HStem: 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454> 773.543 166.449<265.906 383.32>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 242 165.227<797.626 915.909> 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 242 201 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E59
@@ -11138,14 +11083,13 @@ StartChar: uni1E5A
 Encoding: 7770 7770 590
 Width: 660
 Flags: W
-HStem: -214.445 166.449<283.906 401.32> 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 260 165.227<-190.362 -72.0793> 440.929 169.849<427.752 550.878>
+HStem: -214.445 166.449<283.906 401.32> 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 260 165.227<-190.362 -72.0793> 435.929 174.849<427.752 550.878>
 AnchorPoint: "Anchor-0" 325 731 basechar 0
 LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 260 -47.9883 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: uni1E5B
@@ -11158,20 +11102,19 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 90 -47.9883 2
 Refer: 42 114 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1E5E
 Encoding: 7774 7774 592
 Width: 660
 Flags: W
-HStem: -168.98 121<186 500> 0 21G<55 224 471.545 650> 256 140.352<164 397.379> 584.649 146.358<224 403.454>
-VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 186 314<-168.98 -47.9803> 440.929 169.849<427.752 550.878>
+HStem: -168.98 121<186 500> 0 21G<55 224 471.545 650> 256 140.352<164 397.229> 584.649 146.358<224 403.454>
+VStem: 55 169<0 256 396.352 584.649> 164 60<256 396.352> 186 314<-168.98 -47.9803> 435.929 174.849<427.752 550.878>
 LayerCount: 2
 Fore
 Refer: 257 817 N 1 0 0 1 186 -47.9883 2
 Refer: 16 82 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1E5F
@@ -11220,7 +11163,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 210 -47.9883 2
 Refer: 22 83 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1E63
@@ -11233,7 +11176,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 153 -47.9883 2
 Refer: 48 115 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1E6A
@@ -11544,20 +11487,19 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 280 -48 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1EA1
 Encoding: 7841 7841 624
 Width: 566
-HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
-VStem: 30 154.849<116.168 196.864> 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
+VStem: 30 159.849<116.168 196.864> 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 AnchorPoint: "Anchor-0" 274 501.011 basechar 0
 LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 202 -48 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 1048581
 EndChar
 
 StartChar: uni1EB8
@@ -11571,7 +11513,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 224 -48 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1EB9
@@ -11585,7 +11527,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 220 -48 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1EBC
@@ -11624,7 +11566,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 136 -48 2
 Refer: 0 73 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1ECB
@@ -11649,7 +11591,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 316 -48 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1ECD
@@ -11662,7 +11604,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 212 -48 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EE4
@@ -11675,7 +11617,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 276 -47.9883 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EE5
@@ -11688,7 +11630,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 230 -47.9883 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1EF4
@@ -11753,13 +11695,12 @@ EndChar
 StartChar: uni1EA3
 Encoding: 7843 7843 640
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 542.011 114.049<217.933 324.083> 718.24 94.7637<188.783 321.704>
-VStem: 30 154.849<116.168 196.864> 216.182 109.956<542.011 592.664> 324.854 120.774<659.727 712.453> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 542.011 114.049<217.933 324.083> 718.24 94.7637<188.783 321.704>
+VStem: 30 159.849<116.168 196.864> 216.182 109.956<542.011 592.664> 324.854 120.774<659.727 712.453> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 171 74.011 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EBA
@@ -12163,13 +12104,12 @@ EndChar
 StartChar: uni1EAD
 Encoding: 7853 7853 674
 Width: 566
-HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008
-VStem: 30 154.849<116.168 196.864> 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008
+VStem: 30 159.849<116.168 196.864> 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 91 21.011 2
 Refer: 624 7841 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EB6
@@ -12187,13 +12127,12 @@ EndChar
 StartChar: uni1EB7
 Encoding: 7863 7863 676
 Width: 566
-HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72>
-VStem: 30 154.849<116.168 196.864> 117 312.82 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -214.457 166.449<225.906 343.32> -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72>
+VStem: 30 159.849<116.168 196.864> 117 312.82 202 165.227<-190.374 -72.091> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 117 -26.989 2
 Refer: 624 7841 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EC6
@@ -12303,7 +12242,7 @@ SplineSet
  477.204101562 731.0078125 610.77734375 666.611451897 610.77734375 494.561523438 c 0
  610.77734375 310.447579655 483.943812572 256 334 256 c 2
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: a.ss02
@@ -12334,7 +12273,7 @@ SplineSet
  192.919921875 177.346966901 224.678293672 126.463867188 298.959960938 126.463867188 c 0
  364.835558052 126.463867188 393 167.025611795 393 205.561523438 c 1xac
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: e.ss03
@@ -12367,7 +12306,7 @@ SplineSet
  486.827148438 17.595703125 427.295941065 -9.998046875 323.888671875 -9.998046875 c 0
  124.309918668 -9.998046875 35 94.0826581131 35 253.561523438 c 0
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: y.ss04
@@ -12392,7 +12331,7 @@ SplineSet
  76 -111 154.149468481 -43.6439678382 188.114257812 37.4951171875 c 2
  190 42 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 684 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 683 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
@@ -12426,7 +12365,7 @@ SplineSet
  386.349609375 510.93359375 460.848632812 434.49609375 460.848632812 317.374023438 c 1
  393 295.374023438 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: u.ss05
@@ -12458,7 +12397,7 @@ SplineSet
  381.77734375 501.010742188 l 1
  540.77734375 501.010742188 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: Eng.ss06
@@ -12489,7 +12428,7 @@ SplineSet
  224 0 l 1
  55 0 l 1x5c
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni1EA4
@@ -12507,13 +12446,12 @@ EndChar
 StartChar: uni1EA5
 Encoding: 7845 7845 690
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 788.002 225.008
-VStem: 30 154.849<116.168 196.864> 227 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 788.002 225.008
+VStem: 30 159.849<116.168 196.864> 227 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 227 272.002 2
 Refer: 287 226 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EA6
@@ -12531,13 +12469,12 @@ EndChar
 StartChar: uni1EA7
 Encoding: 7847 7847 692
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 788.002 225.008
-VStem: 30 154.849<116.168 196.864> 79 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 788.002 225.008
+VStem: 30 159.849<116.168 196.864> 79 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 79 272.002 2
 Refer: 287 226 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EA8
@@ -12555,13 +12492,12 @@ EndChar
 StartChar: uni1EA9
 Encoding: 7849 7849 694
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 793.002 114.049<215.933 322.083> 969.231 94.7637<186.783 319.704>
-VStem: 30 154.849<116.168 196.864> 214.182 109.956<793.002 843.655> 322.854 120.774<910.718 963.444> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 793.002 114.049<215.933 322.083> 969.231 94.7637<186.783 319.704>
+VStem: 30 159.849<116.168 196.864> 214.182 109.956<793.002 843.655> 322.854 120.774<910.718 963.444> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 169 325.002 2
 Refer: 287 226 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EAA
@@ -12578,13 +12514,12 @@ EndChar
 StartChar: uni1EAB
 Encoding: 7851 7851 696
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 804.939 112.938<284.553 403.732> 847.508 112.068<151.134 272.934>
-VStem: 30 154.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 537.011 215.008 804.939 112.938<284.553 403.732> 847.508 112.068<151.134 272.934>
+VStem: 30 159.849<116.168 196.864> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 98 232.002 2
 Refer: 287 226 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EAE
@@ -12602,13 +12537,12 @@ EndChar
 StartChar: uni1EAF
 Encoding: 7855 7855 698
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.947 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 724 225.008
-VStem: 30 154.849<116.168 196.864> 117 312.82 228 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 724 225.008
+VStem: 30 159.849<116.168 196.864> 117 312.82 228 240 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 228 208 2
 Refer: 315 259 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EB0
@@ -12626,13 +12560,12 @@ EndChar
 StartChar: uni1EB1
 Encoding: 7857 7857 700
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.947 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 724 225.008
-VStem: 30 154.849<116.168 196.864> 80 240 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 724 225.008
+VStem: 30 159.849<116.168 196.864> 80 240 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 80 208 2
 Refer: 315 259 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EB2
@@ -12650,13 +12583,12 @@ EndChar
 StartChar: uni1EB3
 Encoding: 7859 7859 702
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.947 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 729 114.049<216.933 323.083> 905.229 94.7637<187.783 320.704>
-VStem: 30 154.849<116.168 196.864> 117 312.82 215.182 109.956<729 779.653> 323.854 120.774<846.716 899.442> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 729 114.049<216.933 323.083> 905.229 94.7637<187.783 320.704>
+VStem: 30 159.849<116.168 196.864> 117 312.82 215.182 109.956<729 779.653> 323.854 120.774<846.716 899.442> 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 170 261 2
 Refer: 315 259 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EB4
@@ -12674,13 +12606,12 @@ EndChar
 StartChar: uni1EB5
 Encoding: 7861 7861 704
 Width: 566
-HStem: -9.99805 116.462<193.023 301.389> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.947 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 740.937 112.938<285.553 404.732> 783.506 112.068<152.134 273.934>
-VStem: 30 154.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
+HStem: -9.99805 116.462<145.707 301.522> -9.99805 123.998<414.292 548.059> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982> 545.948 112.938<209.602 337.218> 688.011 20G<164.1 186.943 359.877 382.72> 740.937 112.938<285.553 404.732> 783.506 112.068<152.134 273.934>
+VStem: 30 159.849<116.168 196.864> 117 312.82 327.929 15.8486<214.284 309.934> 327.929 49.8486<53.4076 150.562> 327.929 159<123.252 214.284 289.011 356.236>
 LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 99 168 2
 Refer: 315 259 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni1EBE
@@ -12958,7 +12889,7 @@ SplineSet
  726.482421875 105.644928054 621.373065999 -9.998046875 399.888671875 -9.998046875 c 0
  167.47265625 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 25 -80 "'kern' Horizontal Kerning in Latin lookup 0-1"
 Substitution2: "'ss12' Style Set 12 lookup 13-1" G.ss08.ss12
 EndChar
@@ -13035,7 +12966,7 @@ SplineSet
  254 671.010742188 l 1
  254 0 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: uni2052
@@ -13112,7 +13043,7 @@ SplineSet
  747.827148438 236.595703125 709.168268548 -9.998046875 405.888671875 -9.998046875 c 0
  169.974938555 -9.998046875 36 136.337376545 36 360.561523438 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: G.ss12
@@ -13145,7 +13076,7 @@ SplineSet
  701.482421875 93.0859042083 604.418945312 -9.998046875 399.888671875 -9.998046875 c 0
  167.47265625 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "'ss08' Style Set 8 lookup 9-1" G.ss08.ss12
 EndChar
 
@@ -13176,33 +13107,32 @@ SplineSet
  562.35546875 485.138671875 531.99604148 586.659179688 409.888671875 586.659179688 c 0
  267.657937554 586.659179688 206.848632812 497.743164062 206.848632812 364.561523438 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: c.ss12
 Encoding: 65553 -1 734
 Width: 576
 Flags: W
-HStem: -9.99805 133.462<235.586 365.243> 381.284 129.649<231.105 364.869>
-VStem: 35 157.849<167.968 340.487>
+HStem: -9.99805 133.462<234.458 363.798> 381.284 129.649<232.15 365.056>
+VStem: 35 157.849<163.643 340.487>
 AnchorPoint: "Anchor-2" 297 0 basechar 0
 AnchorPoint: "Anchor-0" 291 501.011 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 35 253.561523438 m 0
- 35 409.296356709 123.444972422 510.93359375 289.888671875 510.93359375 c 0
- 513.837408253 510.93359375 543.681640625 329.704101562 543.681640625 329.704101562 c 5
+ 35 409.296356709 127.608906665 510.93359375 301.888671875 510.93359375 c 0
+ 515.248522163 510.93359375 543.681640625 329.704101562 543.681640625 329.704101562 c 1
  399.35546875 289.951171875 l 1
  399.35546875 289.951171875 393.887037573 381.284179688 300 381.284179688 c 0
  224.939840887 381.284179688 192.848632812 330.150863421 192.848632812 253.561523438 c 0
- 192.848632812 175.54800635 226.10447538 123.463867188 303.888671875 123.463867188 c 0
- 389.382036425 123.463867188 407.018554688 205.595703125 407.018554688 205.595703125 c 1
- 544.827148438 161.595703125 l 5
+ 192.848632812 175.54800635 224.307510456 123.463867188 297.888671875 123.463867188 c 0
+ 390.382036425 123.463867188 401.018554688 205.595703125 401.018554688 205.595703125 c 1
+ 544.827148438 161.595703125 l 1
  544.827148438 161.595703125 517.596510597 -9.998046875 296.888671875 -9.998046875 c 0
  126.093637825 -9.998046875 35 94.0826581131 35 253.561523438 c 0
 EndSplineSet
-Validated: 1572865
 EndChar
 
 StartChar: angleleft
@@ -13488,628 +13418,620 @@ StartChar: onequarter
 Encoding: 188 188 746
 Width: 959
 Flags: W
-HStem: 0 21G<181 322.175 757.25 873> 107.5 96<662.5 942.25> 711.008 20G<613.825 755> 718 20G<102.75 244.5>
-VStem: 124.75 119.75<251 617.5> 757.25 115.75<0 324>
+HStem: 0 21G<181 322.175 757 873.25> 107.75 96.25<665.5 941> 711.008 20G<613.825 755>
+VStem: 122.5 120<251 624.75> 757 116.25<0 324.75>
 LayerCount: 2
 Fore
 Refer: 757 -1 N 1 0 0 1 520 0 2
 Refer: 764 -1 S 1 0 0 1 0 0 2
 Refer: 138 8260 N 1 0 0 1 291 0 2
-Validated: 5
 EndChar
 
 StartChar: threequarters
 Encoding: 190 190 747
 Width: 1019
 Flags: W
-HStem: 0 21G<241 382.175 817.25 933> 107.5 96<722.5 1002.25> 243 104.25<66.2737 233.673> 452.75 92.5<112.5 228.219> 636.75 107.25<63.5008 226.472> 711.008 20G<673.825 815>
-VStem: 234.25 124<554.806 627.034> 247.5 122<362.649 438.777> 817.25 115.75<0 324>
+HStem: 0 21G<241 382.175 817 933.25> 107.75 96.25<725.5 1001> 243 103.5<65.3229 238.526> 450.75 96.5<109.5 231.908> 637.5 106.5<66.5322 232.442> 711.008 20G<673.825 815>
+VStem: 238.75 125.25<557.051 627.626> 250 124.75<359.488 437.244> 817 116.25<0 324.75>
 LayerCount: 2
 Fore
 Refer: 766 -1 S 1 0 0 1 0 0 2
 Refer: 757 -1 N 1 0 0 1 580 0 2
 Refer: 138 8260 N 1 0 0 1 351 0 2
-Validated: 5
 EndChar
 
 StartChar: onehalf
 Encoding: 189 189 748
 Width: 989
 Flags: W
-HStem: 0 21G<181 322.175> 0 103<739 973.5> 387 106<684.157 838.942> 711.008 20G<613.825 755> 718 20G<102.75 244.5>
-VStem: 124.75 119.75<251 617.5> 850.75 117.75<289.643 373.764>
+HStem: 0 21G<181 322.175> 0 103.25<746 971.5> 386.75 106.25<684.427 834.076> 711.008 20G<613.825 755>
+VStem: 122.5 120<251 624.75> 846 120.5<289.524 373.883>
 LayerCount: 2
 Fore
 Refer: 755 -1 S 1 0 0 1 584 0 2
 Refer: 764 -1 N 1 0 0 1 0 0 2
 Refer: 138 8260 N 1 0 0 1 291 0 2
-Validated: 1
 EndChar
 
 StartChar: oneeighth
 Encoding: 8539 8539 749
 Width: 990
 Flags: W
-HStem: -8 96.25<698.918 838.63> 0 21G<164 305.175> 208.25 91.5<728.5 813.25> 239 41.75<654.25 887.25> 395.75 97.25<710.839 828.923> 711.008 20G<596.825 738> 718 20G<105.75 247.5>
-VStem: 127.75 119.75<251 617.5> 566.5 114.75<105.546 190.028> 590.75 110.5<311.549 384.669> 838.5 110.5<311.186 384.669> 855.5 114.75<105.546 191.76>
+HStem: -8 96<700.013 836.987> 0 21G<164 305.175> 209 90.5<728.25 811> 239 41.75<653.75 885.25> 397.25 95.75<714.048 826.958> 711.008 20G<596.825 738>
+VStem: 125.5 120<251 624.75> 568.25 116<105.6 191.957> 592.25 111<310.862 385.519> 836.75 111<311.222 385.162> 852.75 116<105.6 191.957>
 LayerCount: 2
 Fore
 Refer: 761 -1 N 1 0 0 1 547 0 2
 Refer: 764 -1 N 1 0 0 1 3 0 2
 Refer: 138 8260 N 1 0 0 1 274 0 2
-Validated: 5
 EndChar
 
 StartChar: threeeighths
 Encoding: 8540 8540 750
 Width: 1060
 Flags: W
-HStem: -8 96.25<768.918 908.63> 0 21G<234 375.175> 208.25 91.5<798.5 883.25> 239 41.75<724.25 957.25> 243 104.25<66.2737 233.673> 395.75 97.25<780.839 898.923> 452.75 92.5<112.5 228.219> 636.75 107.25<63.5008 226.472> 711.008 20G<666.825 808>
-VStem: 234.25 124<554.806 627.034> 247.5 122<362.649 438.777> 636.5 114.75<105.546 190.028> 660.75 110.5<311.549 384.669> 908.5 110.5<311.186 384.669> 925.5 114.75<105.546 191.76>
+HStem: -8 96<770.013 906.987> 0 21G<234 375.175> 209 90.5<798.25 881> 239 41.75<723.75 955.25> 243 103.5<65.3229 238.526> 397.25 95.75<784.048 896.958> 450.75 96.5<109.5 231.908> 637.5 106.5<66.5322 232.442> 711.008 20G<666.825 808>
+VStem: 238.75 125.25<557.051 627.626> 250 124.75<359.488 437.244> 638.25 116<105.6 191.957> 662.25 111<310.862 385.519> 906.75 111<311.222 385.162> 922.75 116<105.6 191.957>
 LayerCount: 2
 Fore
 Refer: 761 -1 N 1 0 0 1 617 0 2
 Refer: 766 -1 N 1 0 0 1 0 0 2
 Refer: 138 8260 N 1 0 0 1 344 0 2
-Validated: 5
 EndChar
 
 StartChar: fiveeighths
 Encoding: 8541 8541 751
 Width: 1060
 Flags: W
-HStem: -8 96.25<768.918 908.63> 0 21G<234 375.175> 208.25 91.5<798.5 883.25> 239 41.75<724.25 957.25> 244 104.75<57.4039 236.628> 395.75 97.25<780.839 898.923> 480.75 91.25<140.469 236.824> 637.5 100.5<146 343.25> 711.008 20G<666.825 808>
-VStem: 252.5 117.5<365.824 465.079> 636.5 114.75<105.546 190.028> 660.75 110.5<311.549 384.669> 908.5 110.5<311.186 384.669> 925.5 114.75<105.546 191.76>
+HStem: -8 96<770.013 906.987> 0 21G<234 375.175> 209 90.5<798.25 881> 239 41.75<723.75 955.25> 243.25 106.75<62.0698 240.033> 397.25 95.75<784.048 896.958> 479.75 92<146.516 241.976> 636.25 101.75<152.5 344.75> 711.008 20G<666.825 808>
+VStem: 255.75 119<368.139 465.172> 638.25 116<105.6 191.957> 662.25 111<310.862 385.519> 906.75 111<311.222 385.162> 922.75 116<105.6 191.957>
 LayerCount: 2
 Fore
 Refer: 761 -1 N 1 0 0 1 617 0 2
 Refer: 768 -1 N 1 0 0 1 0 0 2
 Refer: 138 8260 N 1 0 0 1 344 0 2
-Validated: 5
 EndChar
 
 StartChar: seveneighths
 Encoding: 8542 8542 752
 Width: 990
 Flags: W
-HStem: -8 96.25<698.918 838.63> 0 21G<164 305.175> 208.25 91.5<728.5 813.25> 239 41.75<654.25 887.25> 395.75 97.25<710.839 828.923> 635 103<23.75 240.75> 711.008 20G<596.825 738>
-VStem: 102.75 119.5<251 387.819> 566.5 114.75<105.546 190.028> 590.75 110.5<311.549 384.669> 838.5 110.5<311.186 384.669> 855.5 114.75<105.546 191.76>
+HStem: -8 96<700.013 836.987> 0 21G<164 305.175> 209 90.5<728.25 811> 239 41.75<653.75 885.25> 397.25 95.75<714.048 826.958> 634.5 103.5<25.25 238.75> 711.008 20G<596.825 738>
+VStem: 105.5 120<251 387.309> 568.25 116<105.6 191.957> 592.25 111<310.862 385.519> 836.75 111<311.222 385.162> 852.75 116<105.6 191.957>
 LayerCount: 2
 Fore
 Refer: 770 -1 N 1 0 0 1 0 0 2
 Refer: 761 -1 S 1 0 0 1 547 0 2
 Refer: 138 8260 S 1 0 0 1 274 0 2
-Validated: 5
 EndChar
 
 StartChar: zero.dnom
 Encoding: 65555 -1 753
-Width: 456
+Width: 455
 Flags: W
-HStem: -8.25 108<173.237 282.719> 385.25 107.75<173.237 282.719>
-VStem: 19.5 115.75<142.545 344.301> 320.5 115.75<142.545 344.301>
+HStem: -8 108<174.05 281.906> 385 108<174.05 281.906>
+VStem: 21.25 116<138.828 345.5> 318.5 116<138.828 345.5>
 LayerCount: 2
 Fore
 SplineSet
-135.25 241.75 m 0
- 135.25 155.75 163.5 99.75 228 99.75 c 0
- 292.5 99.75 320.5 155.75 320.5 241.75 c 0
- 320.5 327.75 292.5 385.25 228 385.25 c 0
- 163.5 385.25 135.25 327.75 135.25 241.75 c 0
-19.5 241.75 m 0
- 19.5 394 91.75 493 228 493 c 0
- 364.25 493 436.25 394 436.25 241.75 c 0
- 436.25 89.5 364.25 -8.25 228 -8.25 c 0
- 91.75 -8.25 19.5 89.5 19.5 241.75 c 0
+137.25 242 m 0
+ 137.25 156.25 164.75 100 228 100 c 0
+ 291.25 100 318.5 156.25 318.5 242 c 0
+ 318.5 327.75 291.25 385 228 385 c 0
+ 164.75 385 137.25 327.75 137.25 242 c 0
+21.25 242 m 0
+ 21.25 394 93 493 228 493 c 0
+ 363 493 434.5 394 434.5 242 c 0
+ 434.5 90 363 -8 228 -8 c 0
+ 93 -8 21.25 90 21.25 242 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: one.dnom
 Encoding: 65556 -1 754
-Width: 277
+Width: 276
 Flags: W
-HStem: 0 21G<124.75 244.5>
-VStem: 124.75 119.75<0 366.5>
+HStem: 0 21G<122.5 242.5>
+VStem: 122.5 120<0 368.25>
 LayerCount: 2
 Fore
 SplineSet
-244.5 487 m 1
- 244.5 0 l 1
- 124.75 0 l 1
- 124.75 366.5 l 1
- 37 320 l 1
- 3.75 407 l 1
- 135.75 487 l 1
- 244.5 487 l 1
+242.5 488.75 m 1
+ 242.5 0 l 1
+ 122.5 0 l 1
+ 122.5 368.25 l 1
+ 37 321.75 l 1
+ 3.5 410 l 1
+ 135.25 488.75 l 1
+ 242.5 488.75 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two.dnom
 Encoding: 65557 -1 755
-Width: 405
+Width: 404
 Flags: W
-HStem: 0 103<155 389.5> 387 106<100.157 254.942>
-VStem: 266.75 117.75<289.643 373.764>
+HStem: 0 103.25<162 387.5> 386.75 106.25<100.427 250.076>
+VStem: 262 120.5<289.524 373.883>
 LayerCount: 2
 Fore
 SplineSet
-266.75 331.5 m 0
- 266.75 367.25 246.5 387 189 387 c 0
- 122 387 74.5 351 74.5 351 c 1
+262 331.5 m 0
+ 262 366 242.5 386.75 186.25 386.75 c 0
+ 121.75 386.75 75.75 350.75 75.75 350.75 c 1
  40.5 451 l 1
- 40.5 451 101 493 191 493 c 0
- 311 493 384.5 442 384.5 341 c 0
- 384.5 247.25 340.5 209 233 158.5 c 0
- 153 122 155.75 108.25 155 103 c 5
- 389.5 103 l 1
- 389.5 0 l 1
- 30.25 0 l 1
- 30.25 36 l 2
- 30.25 143.25 95.75 203.25 210 265.75 c 0
- 258 291 266.75 311 266.75 331.5 c 0
+ 40.5 451 101.25 493 191 493 c 0
+ 310 493 382.5 442 382.5 341 c 0
+ 382.5 248.5 333.75 208.5 234.5 160.75 c 0
+ 163.75 126.5 162.5 104.25 162 103.25 c 1
+ 387.5 103.25 l 1
+ 387.5 0 l 1
+ 32 0 l 1
+ 32 36 l 2
+ 32 143.25 95.25 203.5 207.25 265.75 c 0
+ 248.75 288 262 309.25 262 331.5 c 0
 EndSplineSet
-Validated: 524289
 EndChar
 
 StartChar: three.dnom
 Encoding: 65558 -1 756
-Width: 389
+Width: 393
 Flags: W
-HStem: -8 104.25<64.391 233.838> 201.75 92.5<111.25 227.653> 385.75 107.25<63.5008 226.472>
-VStem: 234.25 124<303.806 376.034> 247.5 122<111.224 187.372>
+HStem: -8 103.5<64.8931 236.127> 199.75 96.5<108.75 228.977> 386.5 106.5<65.9694 227.762>
+VStem: 235.75 125.25<306.051 376.935> 247 124.75<108.488 186.601>
 LayerCount: 2
 Fore
 SplineSet
-157.25 294.25 m 2xe8
- 214.75 294.25 234.25 310 234.25 340.25 c 0
- 234.25 365.5 218.5 385.75 163.75 385.75 c 0
- 95.25 385.75 53 358.75 53 358.75 c 1
- 23.75 458.5 l 1
- 23.75 458.5 77.25 493 169 493 c 0
- 286 493 358.25 445 358.25 355 c 0xf0
- 358.25 274 286.5 250 286.5 250 c 1
- 286.5 250 369.5 227 369.5 136 c 0
- 369.5 33 289 -8 168 -8 c 0
- 67.75 -8 8.25 26.25 8.25 26.25 c 1
- 42.75 130 l 1
- 42.75 130 89.75 96.25 161 96.25 c 0
- 221.75 96.25 247.5 115.75 247.5 150.25 c 0
- 247.5 185.25 217 201.75 158.5 201.75 c 2
- 110 201.75 l 1
- 111.25 294.25 l 1
- 157.25 294.25 l 2xe8
+161 296.25 m 2xe8
+ 217.25 296.25 235.75 311.75 235.75 342 c 0
+ 235.75 367.5 220.25 386.5 168.5 386.5 c 0
+ 98 386.5 54.5 358.75 54.5 358.75 c 1
+ 24.75 457.5 l 1
+ 24.75 457.5 79.25 493 174.75 493 c 0
+ 290.25 493 361 445 361 355 c 0xf0
+ 361 274 288.5 250 288.5 250 c 1
+ 288.5 250 371.75 226.75 371.75 136 c 0
+ 371.75 33 292.75 -8 173.5 -8 c 0
+ 71.25 -8 10 26 10 26 c 1
+ 43 129 l 1
+ 43 129 90.75 95.5 165.5 95.5 c 0
+ 222.25 95.5 247 114.25 247 148.5 c 0
+ 247 182.5 217.25 199.75 161 199.75 c 2
+ 108 199.75 l 1
+ 108.75 296.25 l 1
+ 161 296.25 l 2xe8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: four.dnom
 Encoding: 65559 -1 757
 Width: 439
 Flags: W
-HStem: 0 21G<237.25 353> 107.5 96<142.5 422.25>
-VStem: 237.25 115.75<0 324>
+HStem: 0 21G<237 353.25> 107.75 96.25<145.5 421>
+VStem: 237 116.25<0 324.75>
 LayerCount: 2
 Fore
 SplineSet
-353 487 m 1
- 353 0 l 1
- 237.25 0 l 1
- 237.25 324 l 1
- 142.5 203.5 l 1
- 422.25 203.5 l 1
- 422.25 107.5 l 1
- 36.75 107.5 l 1
- 16.25 188.75 l 1
- 238 487 l 1
- 353 487 l 1
+353.25 488 m 1
+ 353.25 0 l 1
+ 237 0 l 1
+ 237 324.75 l 1
+ 145.5 204 l 1
+ 421 204 l 1
+ 421 107.75 l 1
+ 39 107.75 l 1
+ 17.75 189.25 l 1
+ 238 488 l 1
+ 353.25 488 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: five.dnom
 Encoding: 65560 -1 758
-Width: 390
+Width: 395
 Flags: W
-HStem: -7 104.75<57.4039 236.628> 229.75 91.25<140.469 236.824> 386.5 100.5<146 343.25>
-VStem: 252.5 117.5<114.824 214.079>
+HStem: -7.25 105.5<62.0698 239.214> 229.25 91.75<145.988 241.548> 386 101<152.5 344>
+VStem: 255 119<115.226 214.659>
 LayerCount: 2
 Fore
 SplineSet
-175.25 -7 m 0
- 70 -7 6.5 27 6.5 27 c 1
- 36.5 129.25 l 1
- 36.5 129.25 91.75 97.75 164.25 97.75 c 0
- 228 97.75 252.5 122.5 252.5 162.75 c 0
- 252.5 204 229.75 229.75 181.75 229.75 c 0
- 130.75 229.75 113.5 201.75 113.5 201.75 c 1
- 29.5 221.75 l 1
- 48.25 487 l 1
- 343.25 487 l 1
- 343.25 386.5 l 1
- 146 386.5 l 1
- 139.25 298 l 1
- 139.25 298 159 321 222.25 321 c 0
- 317.75 321 370 263 370 167.5 c 0
- 370 59.25 304 -7 175.25 -7 c 0
+178 -7.25 m 0
+ 71.75 -7.25 8.25 28.5 8.25 28.5 c 1
+ 39 131 l 1
+ 39 131 95 98.25 168 98.25 c 0
+ 231.5 98.25 255 123.5 255 164.5 c 0
+ 255 204.75 232.25 229.25 185.25 229.25 c 0
+ 135.75 229.25 118.75 198 118.75 198 c 1
+ 33.25 218 l 1
+ 57 487 l 1
+ 344 487 l 1
+ 344 386 l 1
+ 152.5 386 l 1
+ 144.25 298 l 1
+ 144.25 298 164.25 321 228.25 321 c 0
+ 323 321 374 263.25 374 167.5 c 0
+ 374 59.25 308.25 -7.25 178 -7.25 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: six.dnom
 Encoding: 65561 -1 759
-Width: 427
+Width: 426
 Flags: W
-HStem: -8 98<160.631 278.137> 225 88<160.536 278.795> 391.75 101.25<173.833 337.427>
-VStem: 19.5 125.75<105.961 302.19> 295.5 111.75<107.035 208.304>
+HStem: -8 98.25<160.948 276.501> 224.75 90<160.993 276.773> 391.25 101.75<174.35 338.48>
+VStem: 21.25 124.5<105.56 302.19> 292.25 113.25<107.149 208.457>
 LayerCount: 2
 Fore
 SplineSet
-145.25 158 m 0
- 145.25 118.75 167.25 90 219.75 90 c 0
- 273.5 90 295.5 118.75 295.5 158 c 0
- 295.5 197.25 273.5 225 219.75 225 c 0
- 167.25 225 145.25 197.25 145.25 158 c 0
-132.25 281.75 m 1
- 132.25 281.75 157.75 313 241.25 313 c 0
- 343 313 407.25 250.5 407.25 159 c 0
- 407.25 52 336 -8 221 -8 c 0
- 95 -8 19.5 65 19.5 243 c 0
- 19.5 404 100.25 493 244.5 493 c 0
- 344.75 493 395.5 452 395.5 452 c 1
- 354 359.75 l 1
- 354 359.75 316.25 391.75 249.25 391.75 c 0
- 174.5 391.75 136 353.25 132.25 281.75 c 1
+145.75 158 m 0
+ 145.75 119 167.25 90.25 218.5 90.25 c 0
+ 270.75 90.25 292.25 119 292.25 158 c 0
+ 292.25 197 270.75 224.75 218.5 224.75 c 0
+ 167.25 224.75 145.75 197 145.75 158 c 0
+133 280 m 1
+ 133 280 159.25 314.75 240.25 314.75 c 0
+ 341.5 314.75 405.5 251.5 405.5 159 c 0
+ 405.5 52 335.25 -8 221 -8 c 0
+ 96 -8 21.25 65 21.25 243 c 0
+ 21.25 404 101.5 493 244.75 493 c 0
+ 343.5 493 393.5 452 393.5 452 c 1
+ 354.5 359.25 l 1
+ 354.5 359.25 316.5 391.25 248.25 391.25 c 0
+ 174.75 391.25 137 352.25 133 280 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven.dnom
 Encoding: 65562 -1 760
 Width: 402
 Flags: W
-HStem: 0 21G<102.75 223.25> 384 103<23.75 240.75>
-VStem: 102.75 119.5<0 136.336>
+HStem: 0 21G<105.5 226.481> 383.5 103.5<25.25 238.75>
+VStem: 105.5 120<0 136.309>
 LayerCount: 2
 Fore
 SplineSet
-222.25 0 m 1
- 102.75 0 l 1
- 109.5 211.75 240.75 384 240.75 384 c 1
- 23.75 384 l 1
- 23.75 487 l 1
- 379.25 487 l 1
- 379.25 417 l 1
- 379.25 417 224.25 237 222.25 0 c 1
+225.5 0 m 5
+ 105.5 0 l 5
+ 112.101376147 211.25 238.75 383.5 238.75 383.5 c 1
+ 25.25 383.5 l 1
+ 25.25 487 l 1
+ 377.75 487 l 1
+ 377.75 416.75 l 1
+ 377.75 416.75 227.461352657 237 225.5 0 c 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight.dnom
 Encoding: 65563 -1 761
 Width: 443
 Flags: W
-HStem: -8 96.25<151.918 291.63> 208.25 91.5<181.5 266.25> 239 41.75<107.25 340.25> 395.75 97.25<163.839 281.923>
-VStem: 19.5 114.75<105.546 190.028> 43.75 110.5<311.549 384.669> 291.5 110.5<311.186 384.669> 308.5 114.75<105.546 191.76>
+HStem: -8 96<153.013 289.987> 209 90.5<181.25 264> 239 41.75<106.75 338.25> 397.25 95.75<167.048 279.958>
+VStem: 21.25 116<105.6 191.957> 45.25 111<310.862 385.519> 289.75 111<311.222 385.162> 305.75 116<105.6 191.957>
 LayerCount: 2
 Fore
 SplineSet
-222.25 299.75 m 0xd6
- 266.25 299.75 291.5 318.25 291.5 347.75 c 0
- 291.5 378.25 267.25 395.75 222.25 395.75 c 0
- 180.5 395.75 154.25 378.25 154.25 347.75 c 0
- 154.25 318.25 181.5 299.75 222.25 299.75 c 0xd6
-222.25 493 m 0
- 335.25 493 402 443 402 362 c 0
- 402 282 340.25 239 222.25 239 c 0xb6
- 107.25 239 43.75 282 43.75 362 c 0
- 43.75 443 111.25 493 222.25 493 c 0
-222 88.25 m 0
- 277.75 88.25 308.5 109.75 308.5 149.25 c 0
- 308.5 186 277.75 208.25 222 208.25 c 0
- 166.25 208.25 134.25 186 134.25 149.25 c 0xd9
- 134.25 109.75 166.25 88.25 222 88.25 c 0
-222 280.75 m 0xb9
- 352.25 280.75 423.25 229 423.25 138 c 0
- 423.25 49 344 -8 222 -8 c 0
- 100 -8 19.5 49 19.5 138 c 0
- 19.5 229 91.75 280.75 222 280.75 c 0xb9
+221.5 299.5 m 0xd6
+ 264 299.5 289.75 318.75 289.75 348.25 c 0
+ 289.75 378.5 264.75 397.25 221.5 397.25 c 0
+ 180.25 397.25 156.25 378.5 156.25 348.25 c 0
+ 156.25 318.75 181.25 299.5 221.5 299.5 c 0xd6
+221.5 493 m 0
+ 333.25 493 400.75 443 400.75 362 c 0
+ 400.75 282 338.25 239 221.5 239 c 0xb6
+ 106.75 239 45.25 282 45.25 362 c 0
+ 45.25 443 111.75 493 221.5 493 c 0
+221.5 88 m 0
+ 275 88 305.75 110.25 305.75 149.5 c 0
+ 305.75 185.75 275 209 221.5 209 c 0
+ 168 209 137.25 185.75 137.25 149.5 c 0xd9
+ 137.25 110.25 168 88 221.5 88 c 0
+221.5 280.75 m 0xb9
+ 350.5 280.75 421.75 229.25 421.75 138 c 0
+ 421.75 49 343.25 -8 221.5 -8 c 0
+ 99.75 -8 21.25 49 21.25 138 c 0
+ 21.25 229.25 92.5 280.75 221.5 280.75 c 0xb9
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: nine.dnom
 Encoding: 65564 -1 762
-Width: 427
+Width: 426
 Flags: W
-HStem: -8 101.25<84.0991 246.76> 169.5 88<149.256 268.244> 392.5 100.5<149.91 267.494>
-VStem: 19.5 114<273.994 375.376> 284 123.5<185.631 375.262>
+HStem: -8 100.75<83.5643 247.158> 167.5 90.25<151.244 266.057> 392.25 100.75<150.87 266.057>
+VStem: 21.25 114<273.536 375.029> 281 123.75<182.81 375.652>
 LayerCount: 2
 Fore
 SplineSet
-284 325.5 m 0
- 284 364.75 262 392.5 209.5 392.5 c 0
- 155.75 392.5 133.5 364.75 133.5 325.5 c 0
- 133.5 286.25 155.75 257.5 209.5 257.5 c 0
- 262 257.5 284 286.25 284 325.5 c 0
-287.25 204.5 m 1
- 287.25 204.5 261.75 169.5 185.75 169.5 c 0
- 84 169.5 19.5 234.5 19.5 327.25 c 0
- 19.5 434.25 91 493 206 493 c 0
- 332 493 407.5 420 407.5 242 c 0
- 407.5 81 326.75 -8 182.5 -8 c 0
- 82.25 -8 32.75 33.25 32.75 33.25 c 1
- 65.25 126.5 l 1
- 65.25 126.5 104.25 93.25 177.75 93.25 c 0
- 247.5 93.25 283.5 133 287.25 204.5 c 1
+281 325.5 m 0
+ 281 364.5 260.25 392.25 209 392.25 c 0
+ 157.5 392.25 135.25 364.5 135.25 325.5 c 0
+ 135.25 286.5 157.5 257.75 209 257.75 c 0
+ 260.25 257.75 281 286.5 281 325.5 c 0
+286.75 204.75 m 1
+ 286.75 204.75 261.5 167.5 183 167.5 c 0
+ 84 167.5 21.25 232.75 21.25 326.75 c 0
+ 21.25 433.75 91.75 493 206 493 c 0
+ 331 493 404.75 420 404.75 242 c 0
+ 404.75 81 326.25 -8 184 -8 c 0
+ 84.75 -8 34 32 34 32 c 1
+ 64.5 125.5 l 1
+ 64.5 125.5 105.25 92.75 178.75 92.75 c 0
+ 248.25 92.75 282.75 132.5 286.75 204.75 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: zero.numr
 Encoding: 65565 -1 763
 Width: 456
 Flags: W
-HStem: 243 107.75<173.237 282.719> 636.25 107.75<173.237 282.719>
-VStem: 19.5 115.75<391.581 593.214> 320.5 115.75<391.581 596.102>
+HStem: 243 108<173.956 282.044> 636 108<173.956 282.044>
+VStem: 21.25 116<390.5 597.172> 318.75 116<390.5 597.172>
 LayerCount: 2
 Fore
 SplineSet
-135.25 494 m 0
- 135.25 408 163.5 350.75 228 350.75 c 0
- 292.5 350.75 320.5 408 320.5 494 c 0
- 320.5 580 292.5 636.25 228 636.25 c 0
- 163.5 636.25 135.25 580 135.25 494 c 0
-19.5 494 m 0
- 19.5 646 91.75 744 228 744 c 0
- 364.25 744 436.25 646 436.25 494 c 0
- 436.25 342 364.25 243 228 243 c 0
- 91.75 243 19.5 342 19.5 494 c 0
+137.25 494 m 0
+ 137.25 408.25 164.5 351 228 351 c 0
+ 291.5 351 318.75 408.25 318.75 494 c 0
+ 318.75 579.75 291.5 636 228 636 c 0
+ 164.5 636 137.25 579.75 137.25 494 c 0
+21.25 494 m 0
+ 21.25 646 92.75 744 228 744 c 0
+ 363.25 744 434.75 646 434.75 494 c 0
+ 434.75 342 363.25 243 228 243 c 0
+ 92.75 243 21.25 342 21.25 494 c 0
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" zero.dnom
+Substitution2: "Single Substitution lookup 6 subtable" zero.dnom
 EndChar
 
 StartChar: one.numr
 Encoding: 65566 -1 764
-Width: 277
+Width: 276
 Flags: W
-HStem: 718 20G<102.75 244.5>
-VStem: 124.75 119.75<251 617.5>
+VStem: 122.5 120<251 624.75>
 LayerCount: 2
 Fore
 SplineSet
-244.5 738 m 1
- 244.5 251 l 1
- 124.75 251 l 1
- 124.75 617.5 l 1
- 37 571 l 1
- 3.75 658 l 1
- 135.75 738 l 1
- 244.5 738 l 1
+242.5 743.25 m 1
+ 242.5 251 l 1
+ 122.5 251 l 1
+ 122.5 624.75 l 1
+ 37 577.25 l 1
+ 3.5 667 l 1
+ 135.25 743.25 l 1
+ 242.5 743.25 l 1
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" one.dnom
+Substitution2: "Single Substitution lookup 6 subtable" one.dnom
 EndChar
 
 StartChar: two.numr
 Encoding: 65567 -1 765
-Width: 405
+Width: 404
 Flags: W
-HStem: 251 103<155 389.5> 638 106<100.157 254.942>
-VStem: 266.75 117.75<540.643 624.764>
+HStem: 251 104.5<162 387.5> 637.75 106.25<100.501 250.076>
+VStem: 262 120.5<539.158 625.092>
 LayerCount: 2
 Fore
 SplineSet
-266.75 582.5 m 0
- 266.75 618.25 246.5 638 189 638 c 0
- 122 638 74.5 602 74.5 602 c 1
- 40.5 701 l 1
- 40.5 701 101 744 191 744 c 0
- 311 744 384.5 693 384.5 592 c 0
- 384.5 498.25 340.5 460 233 409.5 c 0
- 154.25 373 155.75 359.25 155 354 c 5
- 389.5 354 l 1
- 389.5 251 l 1
- 30.25 251 l 1
- 30.25 287 l 2
- 30.25 394.25 95.75 454.25 210 516.75 c 0
- 258 542 266.75 562 266.75 582.5 c 0
+262 582.5 m 0
+ 262 617 242.5 637.75 186.25 637.75 c 0
+ 121.75 637.75 76 602 76 602 c 1
+ 40.5 702 l 1
+ 40.5 702 101.25 744 191 744 c 0
+ 310 744 382.5 693.25 382.5 592.5 c 0
+ 382.5 500.25 333.75 460.75 234.5 413 c 0
+ 163 378.75 162.5 356.5 162 355.5 c 1
+ 387.5 355.5 l 1
+ 387.5 251 l 1
+ 32 251 l 1
+ 32 287 l 2
+ 32 394.25 95.25 454.5 207.25 516.75 c 0
+ 248.75 539 262 560.25 262 582.5 c 0
 EndSplineSet
-Validated: 524289
+Substitution2: "Single Substitution lookup 5 subtable" two.dnom
+Substitution2: "Single Substitution lookup 6 subtable" two.dnom
 EndChar
 
 StartChar: three.numr
 Encoding: 65568 -1 766
-Width: 389
+Width: 396
 Flags: W
-HStem: 243 104.25<66.2737 233.673> 452.75 92.5<112.5 228.219> 636.75 107.25<63.5008 226.472>
-VStem: 234.25 124<554.806 627.034> 247.5 122<362.649 438.777>
+HStem: 243 103.5<65.3229 238.526> 450.75 96.5<109.5 231.908> 637.5 106.5<66.5322 232.442>
+VStem: 238.75 125.25<557.051 627.626> 250 124.75<359.488 437.244>
 LayerCount: 2
 Fore
 SplineSet
-158.5 545.25 m 2xe8
- 216 545.25 234.25 561 234.25 591.25 c 0
- 234.25 616.5 218.5 636.75 163.75 636.75 c 0
- 95.25 636.75 53 609.5 53 609.5 c 1
- 23.75 709.25 l 1
- 23.75 709.25 77.25 744 169 744 c 0
- 286 744 358.25 696 358.25 606 c 0xf0
- 358.25 525 286.5 501 286.5 501 c 1
- 286.5 501 369.5 478 369.5 387 c 0
- 369.5 284 289 243 168 243 c 0
- 67.75 243 8.25 277 8.25 277 c 1
- 44 381 l 1
- 44 381 89.75 347.25 161 347.25 c 0
- 220.5 347.25 247.5 366.75 247.5 401.25 c 0
- 247.5 436.25 218.25 452.75 159.75 452.75 c 2
- 112.5 452.75 l 1
- 112.5 545.25 l 1
- 158.5 545.25 l 2xe8
+162.5 547.25 m 2xe8
+ 220.25 547.25 238.75 562.75 238.75 593 c 0
+ 238.75 618.5 222.5 637.5 170 637.5 c 0
+ 98 637.5 55.25 609.75 55.25 609.75 c 1
+ 24.75 708.5 l 1
+ 24.75 708.5 80 744 176.25 744 c 0
+ 292.5 744 364 696 364 606 c 0xf0
+ 364 525 291.5 501 291.5 501 c 1
+ 291.5 501 374.75 478 374.75 387 c 0
+ 374.75 284 295 243 175 243 c 0
+ 72 243 10 277.75 10 277.75 c 1
+ 43 380.25 l 1
+ 43 380.25 91.25 346.5 167.5 346.5 c 0
+ 225 346.5 250 365.25 250 399.5 c 0
+ 250 433.5 220.25 450.75 163.25 450.75 c 2
+ 109.25 450.75 l 1
+ 109.5 547.25 l 1
+ 162.5 547.25 l 2xe8
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" three.dnom
+Substitution2: "Single Substitution lookup 6 subtable" three.dnom
 EndChar
 
 StartChar: four.numr
 Encoding: 65569 -1 767
 Width: 439
 Flags: W
-HStem: 358.5 96<142.5 422.25> 718 20G<223.13 353>
-VStem: 237.25 115.75<251 576.25>
+HStem: 359.75 96.5<144.75 421>
+VStem: 237 116.25<251 579>
 LayerCount: 2
 Fore
 SplineSet
-353 738 m 1
- 353 251 l 1
- 237.25 251 l 1
- 237.25 576.25 l 1
- 142.5 454.5 l 1
- 422.25 454.5 l 1
- 422.25 358.5 l 1
- 36.75 358.5 l 1
- 16.25 439.75 l 1
- 238 738 l 1
- 353 738 l 1
+353.25 741.75 m 1
+ 353.25 251 l 1
+ 237 251 l 1
+ 237 579 l 1
+ 144.75 456.25 l 1
+ 421 456.25 l 1
+ 421 359.75 l 1
+ 39 359.75 l 1
+ 17.75 441.5 l 1
+ 238 741.75 l 1
+ 353.25 741.75 l 1
 EndSplineSet
-Validated: 5
+Substitution2: "Single Substitution lookup 5 subtable" four.dnom
+Substitution2: "Single Substitution lookup 6 subtable" four.dnom
 EndChar
 
 StartChar: five.numr
 Encoding: 65570 -1 768
-Width: 390
+Width: 396
 Flags: W
-HStem: 244 104.75<57.4039 236.628> 480.75 91.25<140.469 236.824> 637.5 100.5<146 343.25>
-VStem: 252.5 117.5<365.824 465.079>
+HStem: 243.25 106.75<62.0698 240.033> 479.75 92<146.516 241.976> 636.25 101.75<152.5 344.75>
+VStem: 255.75 119<368.139 465.172>
 LayerCount: 2
 Fore
 SplineSet
-175.25 244 m 0
- 70 244 6.5 278 6.5 278 c 1
- 36.5 380.25 l 1
- 36.5 380.25 91.75 348.75 164.25 348.75 c 0
- 228 348.75 252.5 373.5 252.5 413.75 c 0
- 252.5 455 229.75 480.75 181.75 480.75 c 0
- 130.75 480.75 113.5 451.5 113.5 451.5 c 1
- 29.5 471.5 l 1
- 48.25 738 l 1
- 343.25 738 l 1
- 343.25 637.5 l 1
- 146 637.5 l 1
- 139.25 549 l 1
- 139.25 549 159 572 222.25 572 c 0
- 317.75 572 370 514 370 418.5 c 0
- 370 310.25 304 244 175.25 244 c 0
+178 243.25 m 0
+ 71.75 243.25 8.25 279.75 8.25 279.75 c 1
+ 39 382.25 l 1
+ 39 382.25 95 350 168 350 c 0
+ 231.5 350 255.75 374.5 255.75 415.5 c 0
+ 255.75 455.75 233.25 479.75 186.25 479.75 c 0
+ 136 479.75 118.75 448.25 118.75 448.25 c 1
+ 33.25 468 l 1
+ 57 738 l 1
+ 344.75 738 l 1
+ 344.75 636.25 l 1
+ 152.5 636.25 l 1
+ 144.25 548 l 1
+ 144.25 548 164.25 571.75 228.25 571.75 c 0
+ 323 571.75 374.75 514 374.75 417.5 c 0
+ 374.75 309.25 308.25 243.25 178 243.25 c 0
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" five.dnom
+Substitution2: "Single Substitution lookup 6 subtable" five.dnom
 EndChar
 
 StartChar: six.numr
 Encoding: 65571 -1 769
-Width: 427
+Width: 426
 Flags: W
-HStem: 243 98<160.631 278.137> 476 88<160.536 278.795> 642.75 101.25<173.833 337.427>
-VStem: 19.5 125.75<356.746 553.19> 295.5 111.75<357.82 459.089>
+HStem: 243 98.25<160.948 276.501> 475.75 90<160.84 276.773> 642.25 101.75<174.35 338.48>
+VStem: 21.25 124.5<356.357 553.19> 292.25 113.25<357.934 459.242>
 LayerCount: 2
 Fore
 SplineSet
-145.25 408 m 0
- 145.25 368.75 167.25 341 219.75 341 c 0
- 273.5 341 295.5 368.75 295.5 408 c 0
- 295.5 447.25 273.5 476 219.75 476 c 0
- 167.25 476 145.25 447.25 145.25 408 c 0
-132.25 532.75 m 1
- 132.25 532.75 157.75 564 241.25 564 c 0
- 343 564 407.25 501.5 407.25 410 c 0
- 407.25 303 336 243 221 243 c 0
- 95 243 19.5 316 19.5 494 c 0
- 19.5 655 100.25 744 244.5 744 c 0
- 344.75 744 395.5 704 395.5 704 c 1
- 354 610.75 l 1
- 354 610.75 316.25 642.75 249.25 642.75 c 0
- 174.5 642.75 136 604.25 132.25 532.75 c 1
+145.75 408 m 0
+ 145.75 369 167.25 341.25 218.5 341.25 c 0
+ 270.75 341.25 292.25 369 292.25 408 c 0
+ 292.25 447 270.75 475.75 218.5 475.75 c 0
+ 167.25 475.75 145.75 447 145.75 408 c 0
+133 531 m 1
+ 133 531 158.5 565.75 240.25 565.75 c 0
+ 341.5 565.75 405.5 502.5 405.5 410 c 0
+ 405.5 303 335.25 243 221 243 c 0
+ 96 243 21.25 316 21.25 494 c 0
+ 21.25 655 101.5 744 244.75 744 c 0
+ 343.5 744 393.5 703 393.5 703 c 1
+ 354.5 610.25 l 1
+ 354.5 610.25 316.5 642.25 248.25 642.25 c 0
+ 174.75 642.25 137 603.25 133 531 c 1
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" six.dnom
+Substitution2: "Single Substitution lookup 6 subtable" six.dnom
 EndChar
 
 StartChar: seven.numr
 Encoding: 65572 -1 770
 Width: 402
 Flags: W
-HStem: 635 103<23.75 240.75>
-VStem: 102.75 119.5<251 387.819>
+HStem: 634.5 103.5<25.25 238.75>
+VStem: 105.5 120<251 387.309>
 LayerCount: 2
 Fore
 SplineSet
-222.25 251 m 1
- 102.75 251 l 1
- 109.5 462.75 240.75 635 240.75 635 c 1
- 23.75 635 l 1
- 23.75 738 l 1
- 379.25 738 l 1
- 379.25 668 l 1
- 379.25 668 224.25 489.25 222.25 251 c 1
+225.5 251 m 5
+ 105.5 251 l 5
+ 112.101376147 462.25 238.75 634.5 238.75 634.5 c 1
+ 25.25 634.5 l 1
+ 25.25 738 l 1
+ 377.75 738 l 1
+ 377.75 667.75 l 1
+ 377.75 667.75 227.461352657 488 225.5 251 c 5
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" seven.dnom
+Substitution2: "Single Substitution lookup 6 subtable" seven.dnom
 EndChar
 
 StartChar: eight.numr
 Encoding: 65573 -1 771
-Width: 435
+Width: 442
 Flags: W
-HStem: 243 96.25<149.959 286.089> 459.25 91.5<180.25 260> 490 41.75<106 334> 646.75 97.25<162.234 275.882>
-VStem: 19.5 114.75<356.056 443.242> 43.75 110.5<562.186 636.013> 284 110.5<561.835 636.013> 301 114.75<356.056 443.242>
+HStem: 243 96<153.274 289.455> 460 90.5<182 264> 490 41.75<107.5 338.25> 648.25 95.75<167.141 279.659>
+VStem: 21.25 116<356.6 442.957> 45.25 111<562.222 636.519> 289 111<562.222 636.162> 305 116<356.103 443.449>
 LayerCount: 2
 Fore
 SplineSet
-218.5 550.75 m 0xd6
- 260 550.75 284 569.25 284 598.75 c 0
- 284 629.25 261 646.75 218.5 646.75 c 0
- 178 646.75 154.25 629.25 154.25 598.75 c 0
- 154.25 569.25 180.25 550.75 218.5 550.75 c 0xd6
-218.5 744 m 0
- 329 744 394.5 694 394.5 613 c 0
- 394.5 533 334 490 218.5 490 c 0xb6
- 106 490 43.75 533 43.75 613 c 0
- 43.75 694 110 744 218.5 744 c 0
-218.25 339.25 m 0
- 272.75 339.25 301 360.75 301 400.25 c 0
- 301 437 272.75 459.25 218.25 459.25 c 0
- 163.75 459.25 134.25 437 134.25 400.25 c 0xd9
- 134.25 360.75 163.75 339.25 218.25 339.25 c 0
-218.25 531.75 m 0xb9
- 346 531.75 415.75 480 415.75 389 c 0
- 415.75 300 339 243 218.25 243 c 0
- 97.5 243 19.5 300 19.5 389 c 0
- 19.5 480 90.5 531.75 218.25 531.75 c 0xb9
+221.5 550.5 m 0xd6
+ 264 550.5 289 569.75 289 599.25 c 0
+ 289 629.5 264.75 648.25 221.5 648.25 c 0
+ 181 648.25 156.25 629.5 156.25 599.25 c 0
+ 156.25 569.75 182 550.5 221.5 550.5 c 0xd6
+221.5 744 m 0
+ 333.25 744 400 694 400 613 c 0
+ 400 533 338.25 490 221.5 490 c 0xb6
+ 107.5 490 45.25 533 45.25 613 c 0
+ 45.25 694 111.75 744 221.5 744 c 0
+221.5 339 m 0
+ 274.25 339 305 361.25 305 400.5 c 0
+ 305 436.75 274.25 460 221.5 460 c 0
+ 168.75 460 137.25 436.75 137.25 400.5 c 0xd9
+ 137.25 361.25 168.75 339 221.5 339 c 0
+221.5 531.75 m 0xb9
+ 350.5 531.75 421 480.25 421 389 c 0
+ 421 300 342.5 243 221.5 243 c 0
+ 100.5 243 21.25 300 21.25 389 c 0
+ 21.25 480.25 92.5 531.75 221.5 531.75 c 0xb9
 EndSplineSet
-Validated: 5
+Substitution2: "Single Substitution lookup 5 subtable" eight.dnom
+Substitution2: "Single Substitution lookup 6 subtable" eight.dnom
 EndChar
 
 StartChar: nine.numr
 Encoding: 65574 -1 772
-Width: 427
+Width: 426
 Flags: W
-HStem: 243 101.25<81.8053 247.722> 420.5 88<149.256 268.92> 643.5 100.5<149.91 267.494>
-VStem: 19.5 114<524.779 626.161> 284 123.5<436.631 626.047>
+HStem: 243 100.75<84.0267 247.326> 418.5 90.25<151.113 266.458> 643.25 100.75<150.739 266.292>
+VStem: 21.25 114<524.321 625.814> 281.75 123.75<436.631 626.448>
 LayerCount: 2
 Fore
 SplineSet
-284 575.5 m 0
- 284 614.75 262 643.5 209.5 643.5 c 0
- 155.75 643.5 133.5 614.75 133.5 575.5 c 0
- 133.5 536.25 155.75 508.5 209.5 508.5 c 0
- 262 508.5 284 536.25 284 575.5 c 0
-287.25 454.25 m 1
- 287.25 454.25 261.75 420.5 185.75 420.5 c 0
- 84 420.5 19.5 485.5 19.5 578.25 c 0
- 19.5 685.25 91 744 206 744 c 0
- 332 744 407.5 671 407.5 493 c 0
- 407.5 332 326.75 243 182.5 243 c 0
- 82.25 243 31.5 284 31.5 284 c 1
- 65.25 376.25 l 1
- 65.25 376.25 104.25 344.25 177.75 344.25 c 0
- 247.5 344.25 283.5 382.75 287.25 454.25 c 1
+281.75 575.5 m 0
+ 281.75 614.5 260.25 643.25 209 643.25 c 0
+ 156.75 643.25 135.25 614.5 135.25 575.5 c 0
+ 135.25 536.5 156.75 508.75 209 508.75 c 0
+ 260.25 508.75 281.75 536.5 281.75 575.5 c 0
+287.5 455.75 m 1
+ 287.5 455.75 261.5 418.5 183 418.5 c 0
+ 84 418.5 21.25 483.75 21.25 577.75 c 0
+ 21.25 684.75 91.75 744 206 744 c 0
+ 331 744 405.5 671 405.5 493 c 0
+ 405.5 332 326.25 243 184 243 c 0
+ 84 243 34 283.75 34 283.75 c 1
+ 64.5 377.5 l 1
+ 64.5 377.5 104.5 343.75 178.75 343.75 c 0
+ 248.25 343.75 283.5 383.5 287.5 455.75 c 1
 EndSplineSet
-Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" nine.dnom
+Substitution2: "Single Substitution lookup 6 subtable" nine.dnom
 EndChar
 
 StartChar: infinity
@@ -14202,12 +14124,11 @@ StartChar: three.tf
 Encoding: 65578 -1 777
 Width: 650
 Flags: W
-HStem: -9.99805 144.938<166.261 381.46> 307 131.481<208.958 377.711> 589.599 149.394<168.682 374.045>
-VStem: 399.803 174.086<461.159 564.334> 416.646 173.084<168.882 275.829>
+HStem: -9.99805 142.938<165.201 386.46> 305 135.481<203.958 382.711> 591.599 147.394<167.041 379.046>
+VStem: 404.804 174.086<464.152 565.334> 421.646 173.084<164.639 272.519>
 LayerCount: 2
 Fore
-Refer: 59 51 N 1 0 0 1 44.8188 0 2
-Validated: 1
+Refer: 59 51 N 1 0 0 1 39.8193 0 2
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" three.tosf
 EndChar
 
@@ -14367,31 +14288,30 @@ StartChar: three.osf
 Encoding: 65588 -1 787
 Width: 549
 Flags: W
-HStem: -189.998 144.938<115.804 313.504> 113 131.481<164.139 306.197> 381.599 149.394<119.169 305.71>
-VStem: 324.984 174.086<263.112 361.685> 341.827 173.084<-16.5412 85.6499>
+HStem: -189.998 142.938<115.804 313.504> 111 135.481<164.139 306.197> 383.599 147.394<119.169 305.71>
+VStem: 324.984 174.086<265.976 362.685> 341.827 173.084<-17.5412 82.4713>
 LayerCount: 2
 Fore
 SplineSet
-218.138671875 244.481445312 m 2xe8
- 298.720667708 244.481445313 324.984375 267.754741195 324.984375 314.05859375 c 0
- 324.984375 352.452328934 300.902424493 381.598632812 222.63671875 381.598632812 c 0
- 133.874814753 381.598632812 79.8466796875 338.754882812 79.8466796875 338.754882812 c 1
+218.138671875 246.481445312 m 2xe8
+ 298.720667708 246.481445313 324.984375 269.754741195 324.984375 316.05859375 c 0
+ 324.984375 354.452328934 300.902424493 383.598632812 222.63671875 383.598632812 c 0
+ 133.874814753 383.598632812 79.8466796875 340.754882812 79.8466796875 340.754882812 c 1
  37.630859375 478.796875 l 1
  37.630859375 478.796875 112.397943578 530.9921875 242 530.9921875 c 0
  401.159478056 530.9921875 499.0703125 459.857421875 499.0703125 324.868164062 c 0xf0
  499.0703125 214.766333422 389.163085938 181.697265625 389.163085938 181.697265625 c 1
  389.163085938 181.697265625 514.911132812 149.856978754 514.911132812 25.6708984375 c 0
- 514.911132812 -128.318359375 405.013909841 -189.998046875 240 -189.998046875 c 4
+ 514.911132812 -128.318359375 405.013909841 -189.998046875 240 -189.998046875 c 0
  99.2047116239 -189.998046875 15.451171875 -139.090820312 15.451171875 -139.090820312 c 1
- 62.7744140625 6.2626953125 l 1
- 62.7744140625 6.2626953125 123.207073469 -45.060546875 218 -45.060546875 c 0
- 303.658657185 -45.060546875 341.827148438 -16.854155917 341.827148438 34 c 0
- 341.827148438 86.9594601133 299.296612756 112.514988018 218.138671875 112.737304688 c 2
- 164 113 l 1
- 164.138671875 244.481445312 l 1
- 218.138671875 244.481445312 l 2xe8
+ 62.7744140625 4.2626953125 l 5
+ 62.7744140625 4.2626953125 123.207073469 -47.060546875 218 -47.060546875 c 4
+ 303.658657185 -47.060546875 341.827148438 -18.854155917 341.827148438 32 c 4
+ 341.827148438 84.959460113 299.296612756 110.514988018 218.138671875 110.737304688 c 6
+ 164 111 l 5
+ 164.138671875 246.481445312 l 1
+ 218.138671875 246.481445312 l 2xe8
 EndSplineSet
-Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tosf
 EndChar
 
@@ -14424,8 +14344,8 @@ StartChar: five.osf
 Encoding: 65590 -1 789
 Width: 567
 Flags: W
-HStem: -189.994 148.893<118.754 335.877> 145.938 130.435<213.944 341.681> 367.844 153.167<211.805 494.672>
-VStem: 369.845 162.982<-9.75125 117.809>
+HStem: -189.994 148.893<118.754 335.877> 151.938 130.435<222.389 339.251> 367.844 153.167<211.805 494.672>
+VStem: 369.845 162.982<-8.68714 121.761>
 LayerCount: 2
 Fore
 SplineSet
@@ -14433,20 +14353,19 @@ SplineSet
  105.545471394 -189.994140625 15.451171875 -139.086914062 15.451171875 -139.086914062 c 1
  57.7744140625 6.2666015625 l 1
  57.7744140625 6.2666015625 140.144645675 -41.1015625 246 -41.1015625 c 0
- 335.463247462 -41.1015625 369.844726562 -5.32886966963 369.844726562 52.5791015625 c 0
- 369.844726562 111.051320094 338.080350852 145.938476562 274 145.938476562 c 0
- 200.362844152 145.938476562 175 102.002929688 175 102.002929688 c 1
+ 335.463247462 -41.1015625 369.844726562 -4.56515405791 369.844726562 54.5791015625 c 4
+ 369.844726562 115.556573307 338.080350852 151.938476562 274 151.938476562 c 0
+ 200.362844152 151.938476562 175 102.002929688 175 102.002929688 c 1
  51.947265625 131.731445312 l 1
  84 521.010742188 l 1
- 494.671875 521.010742188 l 5
- 494.671875 367.84375 l 5
+ 494.671875 521.010742188 l 1
+ 494.671875 367.84375 l 1
  211.8046875 367.84375 l 1
  200.470703125 244.325195312 l 1
- 200.470703125 244.325195312 227.562080857 276.373046875 314.815429688 276.373046875 c 0
- 455.786722895 276.373046875 532.827148438 194.334600827 532.827148438 57.5 c 0
- 532.827148438 -95.9000744895 439.926376134 -189.994140625 257 -189.994140625 c 0
+ 200.470703125 244.325195312 229.931353017 282.373046875 324.815429688 282.373046875 c 0
+ 459.320497408 282.373046875 532.827148438 198.835312592 532.827148438 59.5 c 4
+ 532.827148438 -95.1397003982 439.926376134 -189.994140625 257 -189.994140625 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tosf
 EndChar
 
@@ -14505,21 +14424,21 @@ StartChar: eight.osf
 Encoding: 65593 -1 792
 Width: 617
 Flags: W
-HStem: -9.99805 134.764<234.884 382.116> 326.397 128.664<263.184 366.901> 369.573 58.2568<155.194 475.06> 624.998 135.887<257.121 375.467>
-VStem: 35 166.768<158.665 291.227> 70.2598 161.688<479.709 600.182> 400.052 161.688<480.399 599.48> 415.232 166.768<158.665 291.227>
+HStem: -9.99805 134.764<234.884 382.116> 326.397 128.664<258.184 361.901> 369.573 58.2568<150.194 470.06> 624.998 135.887<252.121 370.467>
+VStem: 35 166.768<158.665 291.227> 65.2598 161.688<479.709 600.182> 395.052 161.688<480.399 599.48> 415.232 166.768<158.665 291.227>
 LayerCount: 2
 Fore
 SplineSet
-313.5 455.061523438 m 4xd6
- 366.901424971 455.061523438 400.051757812 487.443650992 400.051757812 538.869140625 c 0
- 400.051757812 593.022313082 368.199006354 624.998046875 313.5 624.998046875 c 4
- 261.961110323 624.998046875 231.948242188 593.022313082 231.948242188 538.869140625 c 0
- 231.948242188 487.443650992 263.183532975 455.061523438 313.5 455.061523438 c 4xd6
-313.5 760.884765625 m 4
- 468.227676339 760.884765625 561.740234375 684.444920804 561.740234375 558.655273438 c 0
- 561.740234375 435.822169263 475.059951021 369.573242188 313.5 369.573242188 c 4xb6
- 155.193966766 369.573242188 70.259765625 435.822169263 70.259765625 558.655273438 c 0
- 70.259765625 684.444920804 161.888550849 760.884765625 313.5 760.884765625 c 4
+308.5 455.061523438 m 4xd6
+ 361.901367188 455.061523438 395.051757812 487.443359375 395.051757812 538.869140625 c 4
+ 395.051757812 593.022460938 363.19921875 624.998046875 308.5 624.998046875 c 4
+ 256.9609375 624.998046875 226.948242188 593.022460938 226.948242188 538.869140625 c 4
+ 226.948242188 487.443359375 258.18359375 455.061523438 308.5 455.061523438 c 4xd6
+308.5 760.884765625 m 4
+ 463.227539062 760.884765625 556.740234375 684.4453125 556.740234375 558.655273438 c 4
+ 556.740234375 435.822265625 470.059570312 369.573242188 308.5 369.573242188 c 4xb6
+ 150.194335938 369.573242188 65.259765625 435.822265625 65.259765625 558.655273438 c 4
+ 65.259765625 684.4453125 156.888671875 760.884765625 308.5 760.884765625 c 4
 308.5 124.765625 m 0
  377.467235107 124.765625 415.232421875 161.194356962 415.232421875 227.020507812 c 0
  415.232421875 287.798169848 377.482039178 326.397460938 308.5 326.397460938 c 0
@@ -14531,7 +14450,6 @@ SplineSet
  142.592161215 -9.998046875 35 78.1448113519 35 213.381835938 c 0
  35 351.488603645 132.068730369 427.830078125 308.5 427.830078125 c 0xb9
 EndSplineSet
-Validated: 5
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tosf
 EndChar
 
@@ -14618,12 +14536,11 @@ StartChar: three.tosf
 Encoding: 65598 -1 797
 Width: 600
 Flags: W
-HStem: -189.998 144.938<150.623 348.322> 113 131.481<198.958 341.016> 381.599 149.394<153.988 340.529>
-VStem: 359.803 174.086<263.112 361.685> 376.646 173.084<-16.5412 85.6499>
+HStem: -189.998 142.938<150.623 348.322> 111 135.481<198.957 341.015> 383.599 147.394<153.988 340.529>
+VStem: 359.803 174.086<265.976 362.685> 376.646 173.084<-17.5412 82.4713>
 LayerCount: 2
 Fore
 Refer: 787 -1 N 1 0 0 1 34.8188 0 2
-Validated: 1
 EndChar
 
 StartChar: four.tosf
@@ -14642,12 +14559,11 @@ StartChar: five.tosf
 Encoding: 65600 -1 799
 Width: 600
 Flags: W
-HStem: -189.994 148.893<144.615 361.738> 145.938 130.435<239.805 367.542> 367.844 153.167<237.666 520.533>
-VStem: 395.706 162.982<-9.75125 117.809>
+HStem: -189.994 148.893<144.615 361.738> 151.938 130.435<248.25 365.111> 367.844 153.167<237.665 520.533>
+VStem: 395.706 162.982<-8.68714 121.761>
 LayerCount: 2
 Fore
 Refer: 789 -1 N 1 0 0 1 25.8608 0 2
-Validated: 1
 EndChar
 
 StartChar: six.tosf
@@ -14678,12 +14594,11 @@ StartChar: eight.tosf
 Encoding: 65603 -1 802
 Width: 600
 Flags: W
-HStem: -9.99805 134.764<226.384 373.616> 326.397 128.664<254.684 358.401> 369.573 58.2568<146.694 466.56> 624.998 135.887<248.621 366.967>
-VStem: 26.5 166.768<158.665 291.227> 61.7598 161.688<479.709 600.182> 391.552 161.688<480.399 599.48> 406.732 166.768<158.665 291.227>
+HStem: -9.99805 134.764<226.384 373.616> 326.397 128.664<249.684 353.401> 369.573 58.2568<141.694 461.56> 624.998 135.887<243.621 361.967>
+VStem: 26.5 166.768<158.665 291.227> 56.7598 161.688<479.709 600.182> 386.552 161.688<480.399 599.48> 406.732 166.768<158.665 291.227>
 LayerCount: 2
 Fore
 Refer: 792 -1 N 1 0 0 1 -8.5 0 2
-Validated: 5
 EndChar
 
 StartChar: nine.tosf
@@ -14702,45 +14617,45 @@ StartChar: g.ss14
 Encoding: 65605 -1 804
 Width: 571
 Flags: W
-HStem: -210 121.413<167.456 360.378> -14 112.519<237.183 360.244> 130.002 122.462<216.831 322.363> 388.284 122.649<203.934 301.784> 468 119.649<396.523 547.248>
-VStem: 10 149<-124.943 -6.96276> 34 152.849<270.222 373.613> 52 126<69.1401 146.738> 340.929 152.849<270.766 370.752> 366.674 155.169<-78.0242 -22.0036>
+HStem: -210 116.413<166.068 360.378> -19 117.519<237.183 360.247> 130.002 116.462<205.642 321.175> 386.284 124.649<205.654 320.644> 468 119.649<409.139 546.958>
+VStem: 10 146<-80.3325 -6.21243> 34 155.849<263.283 370.578> 52 116<67.8852 151.057> 337.929 155.849<263.283 370.578> 366.674 155.169<-82.6734 -27.8784>
 AnchorPoint: "Anchor-0" 263 501.011 basechar 0
 AnchorPoint: "Anchor-2" 268.153 -191.557 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 122 202 m 1xe140
- 215 159 l 1
- 215 159 178 159 178 131 c 0xe140
- 178 110 206.038085938 101.338867188 299.190429688 98.5185546875 c 0
- 478.516601562 93.0888671875 521.842773438 27.501953125 521.842773438 -46.166015625 c 0
+ 195 159 l 1
+ 195 159 168 159 168 131 c 0xe140
+ 168 110 198.35164205 101.338867188 299.190429688 98.5185546875 c 0
+ 478.528654594 93.5027284428 521.842773438 27.501953125 521.842773438 -46.166015625 c 0
  521.842773438 -147.134765625 433.813476562 -210 269 -210 c 0
  110.48046875 -210 10 -173 10 -75 c 0
  10 33 140 66 140 66 c 1
- 231 31 l 1
- 231 31 159 13.0654296875 159 -40 c 0xe440
- 159 -77.4580078125 187.7890625 -88.5869140625 270.146484375 -88.5869140625 c 0
- 341.301757812 -88.5869140625 366.673828125 -73.9560546875 366.673828125 -49 c 0
- 366.673828125 -31.125 355.420898438 -15.8203125 295 -14 c 0
- 103.924804688 -8.2431640625 52 41.2802734375 52 97 c 0
+ 231 26 l 1
+ 231 26 156 8.0654296875 156 -45 c 0xe440
+ 156 -82.4580078125 185.566119804 -93.5869140625 270.146484375 -93.5869140625 c 0
+ 341.301757812 -93.5869140625 366.673828125 -78.9560546875 366.673828125 -54 c 0
+ 366.673828125 -36.125 355.418372076 -20.9023199849 295 -19 c 0
+ 103.924804688 -12.9838471284 52 38.7703758446 52 97 c 0
  52 169.130859375 122 202 122 202 c 1xe140
-34 323.561523438 m 0xf280
- 34 436.939453125 120.607421875 510.93359375 262.888671875 510.93359375 c 0
- 406.413085938 510.93359375 493.77734375 436.939453125 493.77734375 323.561523438 c 0
- 493.77734375 206.439453125 406.413085938 130.001953125 262.888671875 130.001953125 c 0
- 120.607421875 130.001953125 34 206.439453125 34 323.561523438 c 0xf280
-186.848632812 323.561523438 m 0
- 186.848632812 280.927734375 209.622070312 252.463867188 262.888671875 252.463867188 c 0
- 317.556640625 252.463867188 340.928710938 280.927734375 340.928710938 323.561523438 c 0
- 340.928710938 362.373046875 317.58984375 388.284179688 263 388.284179688 c 0
- 209.655273438 388.284179688 186.848632812 362.373046875 186.848632812 323.561523438 c 0
-477 587.649414062 m 0xe8
- 526.290039062 587.649414062 561 571.649414062 561 571.649414062 c 1
+34 319.561523438 m 0xf280
+ 34 435.359833697 120.607421875 510.93359375 262.888671875 510.93359375 c 0
+ 406.413085938 510.93359375 493.77734375 435.359833697 493.77734375 319.561523438 c 0
+ 493.77734375 204.859836062 406.413085938 130.001953125 262.888671875 130.001953125 c 0
+ 120.607421875 130.001953125 34 204.859836062 34 319.561523438 c 0xf280
+189.848632812 316.561523438 m 0
+ 189.848632812 274.527385493 211.723592177 246.463867188 262.888671875 246.463867188 c 0
+ 315.455105205 246.463867188 337.928710938 274.527385493 337.928710938 316.561523438 c 4
+ 337.928710938 358.371341883 315.488313655 386.284179688 263 386.284179688 c 0
+ 211.756800773 386.284179688 189.848632812 358.371341883 189.848632812 316.561523438 c 0
+480 587.649414062 m 0xe8
+ 527.529680524 587.649414062 561 571.649414062 561 571.649414062 c 1
  545 456.649414062 l 1
- 545 456.649414062 520.067382812 468 482 468 c 0
- 422.932617188 468 403.244140625 445.864257812 388 410.715820312 c 1
- 302 460 l 1
- 320.764648438 548.34375 389.921875 587.649414062 477 587.649414062 c 0xe8
+ 545 456.649414062 521.254650297 468 485 468 c 0
+ 436.615016207 468 420.487221576 445.864257812 408 410.715820312 c 1
+ 322 460 l 1
+ 338.941796875 548.34375 401.380892857 587.649414062 480 587.649414062 c 0xe8
 EndSplineSet
 Kerns2: 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 33 100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
@@ -14749,34 +14664,33 @@ StartChar: a.ss15
 Encoding: 65606 -1 805
 Width: 541
 Flags: W
-HStem: -9.99805 116.462<193.023 301.389> -1.42109e-14 21G<327.929 486.929> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
-VStem: 30 154.849<116.168 196.864> 327.929 159<150.562 214.284 289.011 356.236> 327.929 49.8486<53.4076 150.562> 327.929 15.8486<214.284 309.934>
+HStem: -9.99805 116.462<145.707 301.522> -1.42109e-14 21G<327.929 486.929> 214.284 95.6494<203.588 343.777> 382.011 129<139.718 303.982>
+VStem: 30 159.849<116.168 196.864> 327.929 159<150.562 214.284 289.011 356.236> 327.929 49.8486<53.4076 150.562> 327.929 15.8486<214.284 309.934>
 AnchorPoint: "Anchor-3" 428 0 basechar 0
 AnchorPoint: "Anchor-2" 284 0 basechar 0
 AnchorPoint: "Anchor-0" 274 501.011 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-327.928710938 177.561523438 m 1xb9
+327.928710938 177.561523438 m 1xbc
  377.77734375 150.561523438 l 1xba
  377.77734375 53.4075553226 319.880527421 -9.998046875 197.888671875 -9.998046875 c 0
  93.5258452633 -9.998046875 30 50 30 141 c 0
  30 286.71747631 160.824693226 309.798279039 343.928710938 309.93359375 c 1
- 343.77734375 214.284179688 l 1
- 222.93827097 214.20023574 184.848632812 204.1737758 184.848632812 158.561523438 c 0
- 184.848632812 127.320980654 203.42926183 106.463867188 246.888671875 106.463867188 c 0
- 295.657692992 106.463867188 327.928710938 135 327.928710938 177.561523438 c 1xb9
-327.928710938 289.010742188 m 2x79
+ 343.77734375 214.284179688 l 1xb9
+ 226.739946327 214.20023574 189.848632812 204.1737758 189.848632812 158.561523438 c 4
+ 189.848632812 127.320980654 208.42926183 106.463867188 251.888671875 106.463867188 c 4
+ 297.64874694 106.463867188 327.928710938 135 327.928710938 177.561523438 c 1xbc
+327.928710938 289.010742188 m 2x7c
  327.928710938 353.998274294 300.405247044 382.010742188 234.928710938 382.010742188 c 0
- 163.76899414 382.010742188 112.928710938 346.010742188 112.928710938 346.010742188 c 5
- 69.9287109375 467.010742188 l 5
+ 163.76899414 382.010742188 112.928710938 346.010742188 112.928710938 346.010742188 c 1
+ 69.9287109375 467.010742188 l 1
  69.9287109375 467.010742188 148.021769831 511.010742188 260.928710938 511.010742188 c 0
  420.687524785 511.010742188 486.928710938 427.01055301 486.928710938 300.010742188 c 2
- 486.928710938 0 l 1
- 327.928710938 -1.42108547152e-14 l 1x7c
- 327.928710938 289.010742188 l 2x79
+ 486.928710938 0 l 1x7c
+ 327.928710938 -1.42108547152e-14 l 1x79
+ 327.928710938 289.010742188 l 2x7c
 EndSplineSet
-Validated: 5
 EndChar
 EndChars
 EndSplineFont
