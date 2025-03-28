@@ -3,7 +3,7 @@ FontName: ZameroSans-Regular
 FullName: Zamero Sans Regular
 FamilyName: Zamero Sans
 Weight: Regular
-Copyright: Copyright (c) 2024, Zamero Type Foundry
+Copyright: Copyright (c) 2024-2025, Zamero Type Foundry
 UComments: "2024-1-17: Created with FontForge (http://fontforge.org)+AAoACgAK-Instead of Charlie and the Alphabet and Charlie and the Numbers, how about Charlie and the Fonts? :)"
 Version: 001.100
 ItalicAngle: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1743185272
+ModificationTime: 1743186839
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -42,6 +42,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'ZAM '
+Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "'ss15' Style Set 15 lookup 20" { "'ss15' Style Set 15 lookup 20-1" ("ss15") } ['ss15' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss14' Style Set 14 lookup 19" { "'ss14' Style Set 14 lookup 19-1" ("ss14") } ['ss14' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 18" { "'onum' Oldstyle Figures lookup 18-1" ("osf") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -63,10 +65,27 @@ Lookup: 1 0 0 "'ss04' Style Set 4 lookup 5" { "'ss04' Style Set 4 lookup 5-1" ("
 Lookup: 1 0 0 "'ss05' Style Set 5 lookup 6" { "'ss05' Style Set 5 lookup 6-1" ("ss05") } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 0" { "'sinf' Scientific Inferiors lookup 0 subtable"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'sups' Superscript lookup 0" { "'sups' Superscript lookup 0 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions in Latin lookup 25" { "'frac' Diagonal Fractions in Latin lookup 25 subtable"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions in Latin lookup 26" { "'frac' Diagonal Fractions in Latin lookup 26 subtable"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'frac' Diagonal Fractions in Latin lookup 27" { "'frac' Diagonal Fractions in Latin lookup 27 contextual 0"  "'frac' Diagonal Fractions in Latin lookup 27 contextual 1"  } ['frac' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "ZameroSans-Bold-'kern' Horizontal Kerning in Latin lookup 0" { "ZameroSans-Bold-'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 27 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
+  BCoverage: 99 zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 27 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
+  BCoverage: 8 fraction
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "Marco Mahone" "Marco Mahone" "Zamero Sans is a new version of my previous font Mahone Sans. It was based off of, and I'm not kidding, the letters and numbers in Charlie and the Alphabet and Charlie and the Numbers. I turned those characters into a basic sans-serif font, changed a few of them to fit in better, and the rest is history." "https://github.com/Bronnel721" "https://github.com/Bronnel721" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 Compacted: 1
@@ -1090,31 +1109,31 @@ StartChar: k
 Encoding: 107 107 34
 Width: 555
 Flags: W
-HStem: 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63>
-VStem: 66.62 109.01<0 242.62 269.38 751.002>
+HStem: 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63>
+VStem: 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38>
 AnchorPoint: "Anchor-0" 134 749.002 basechar 0
 AnchorPoint: "Anchor-2" 275 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-165.530273438 269.379882812 m 1
- 165.530273438 242.620117188 l 1
- 80.6201171875 242.620117188 l 1
- 80.6201171875 269.379882812 l 1
- 165.530273438 269.379882812 l 1
-366.745117188 0 m 1
- 165.530273438 242.620117188 l 1
- 165.530273438 269.379882812 l 1
- 362.530273438 501.010742188 l 1
- 495 501.010742188 l 1
- 275 263.650390625 l 5
- 505 0 l 1
- 366.745117188 0 l 1
-66.62 0 m 1
+214.530273438 299.379882812 m 1xf4
+ 214.530273438 212.620117188 l 1
+ 80.6201171875 212.620117188 l 1
+ 80.6201171875 299.379882812 l 1
+ 214.530273438 299.379882812 l 1xf4
+376.745117188 0 m 1
+ 175.530273438 242.620117188 l 1
+ 175.530273438 269.379882812 l 1
+ 372.530273438 501.010742188 l 1
+ 505 501.010742188 l 1
+ 285 263.650390625 l 1
+ 515 0 l 1
+ 376.745117188 0 l 1
+66.62 0 m 1xf8
  66.62 751.001953125 l 1
  175.63 751.001953125 l 1
  175.63 0 l 1
- 66.62 0 l 1
+ 66.62 0 l 1xf8
 EndSplineSet
 Kerns2: 29 -34 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -34 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
@@ -1806,6 +1825,7 @@ SplineSet
  49.35 202.547351145 144.801707623 287.200967054 314.821289062 372.206953125 c 0
  393.57326012 411.103354054 444.53078125 453.940267011 444.53078125 517.485 c 0
 EndSplineSet
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" two.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" two.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" two.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" two.numr
@@ -1843,6 +1863,7 @@ SplineSet
  164.138671875 420.431445312 l 1
  265.138671875 420.431445312 l 2xe8
 EndSplineSet
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" three.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" three.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" three.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" three.numr
@@ -1915,6 +1936,7 @@ SplineSet
  637.42734375 137.916992188 535.231351993 -9.998046875 341.888671875 -9.998046875 c 0
  148.545991757 -9.998046875 46.35 137.916992188 46.35 364.561523438 c 0
 EndSplineSet
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" zero.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" zero.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" zero.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" zero.numr
@@ -1942,6 +1964,7 @@ SplineSet
  246.1 731 l 1
  347.3 731 l 1
 EndSplineSet
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" one.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" one.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" one.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" one.numr
@@ -1973,6 +1996,7 @@ SplineSet
  512.87 731 l 1
 EndSplineSet
 Kerns2: 64 -76 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" four.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" four.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" four.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" four.numr
@@ -2031,6 +2055,7 @@ SplineSet
  548.477148438 87.3850084819 452.3234113 -9.998046875 267 -9.998046875 c 4
 EndSplineSet
 Kerns2: 58 -34 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" five.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" five.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" five.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" five.numr
@@ -2084,6 +2109,7 @@ SplineSet
  229.169540321 637.69953125 160.191330411 557.586597729 153.853710938 397.597070312 c 1
 EndSplineSet
 Kerns2: 72 -25 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" six.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" six.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" six.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" six.numr
@@ -2132,6 +2158,7 @@ SplineSet
  554 633.64 307.166797794 362.271344 303.6 0 c 1
 EndSplineSet
 Kerns2: 63 -43 "'kern' Horizontal Kerning in Latin lookup 0-1" 72 -17 "'kern' Horizontal Kerning in Latin lookup 0-1" 68 -43 "'kern' Horizontal Kerning in Latin lookup 0-1" 71 -43 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" seven.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" seven.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" seven.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" seven.numr
@@ -2172,6 +2199,7 @@ SplineSet
  46.35 335.238163383 144.714163151 406.480078125 323.5 406.480078125 c 0xb9
 EndSplineSet
 Kerns2: 70 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" eight.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" eight.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" eight.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" eight.numr
@@ -2206,6 +2234,7 @@ SplineSet
  100.545898438 140.15546875 162.781188274 91.294609375 277.19671875 91.294609375 c 0
  410.995498742 91.294609375 479.97370865 171.407786453 486.311328125 331.397070312 c 1
 EndSplineSet
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 26 subtable" nine.numr
 Substitution2: "'onum' Oldstyle Figures lookup 18-1" nine.osf
 Substitution2: "'tnum' Tabular Numbers lookup 17-1" nine.tf
 Substitution2: "'numr' Numerators lookup 0 subtable" nine.numr
@@ -2411,6 +2440,7 @@ SplineSet
  29.455 -171.469726562 l 1
 EndSplineSet
 Kerns2: 81 -119 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'frac' Diagonal Fractions in Latin lookup 25 subtable" fraction
 EndChar
 
 StartChar: bar
@@ -8311,8 +8341,8 @@ StartChar: uni0137
 Encoding: 311 311 393
 Width: 555
 Flags: W
-HStem: -270.55 222.999 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63>
-VStem: 66.62 109.01<0 242.62 269.38 751.002> 215.641 137.127<-169.847 -67.7008>
+HStem: -270.55 222.999 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63>
+VStem: 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38> 215.641 137.127<-169.847 -67.7008>
 LayerCount: 2
 Fore
 Refer: 254 806 N 1 0 0 1 195.641 -48 2
@@ -8967,8 +8997,8 @@ StartChar: uni01E9
 Encoding: 489 489 442
 Width: 555
 Flags: W
-HStem: 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63> 796.352 213.658
-VStem: -20.2182 317.3 66.62 109.01<0 242.62 269.38 751.002>
+HStem: 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63> 796.352 213.658
+VStem: -20.2182 317.3 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38>
 LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 -41.5682 269.002 2
@@ -10539,8 +10569,8 @@ StartChar: uni1E31
 Encoding: 7729 7729 563
 Width: 555
 Flags: W
-HStem: 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63> 805.002 205.008
-VStem: 66.62 109.01<0 242.62 269.38 751.002> 102.452 214.6
+HStem: 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63> 805.002 205.008
+VStem: 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38> 102.452 214.6
 LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 89.7518 269.002 2
@@ -10563,8 +10593,8 @@ StartChar: uni1E33
 Encoding: 7731 7731 565
 Width: 555
 Flags: W
-HStem: -189.057 138.349<226.217 330.291> 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63>
-VStem: 66.62 109.01<0 242.62 269.38 751.002> 209.691 137.127<-172.384 -67.3814>
+HStem: -189.057 138.349<226.217 330.291> 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63>
+VStem: 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38> 209.691 137.127<-172.384 -67.3814>
 LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 195.641 -48 2
@@ -10587,8 +10617,8 @@ StartChar: uni1E35
 Encoding: 7733 7733 567
 Width: 555
 Flags: W
-HStem: -144.672 92.63<134.471 425.771> 0 21G<66.62 175.63 350.158 505> 242.62 26.7598<80.6201 165.53> 481.011 20G<345.52 495> 731.002 20G<66.62 175.63>
-VStem: 66.62 109.01<0 242.62 269.38 751.002> 134.471 291.3<-144.672 -52.0422>
+HStem: -144.672 92.63<134.471 425.771> 0 21G<66.62 175.63 360.158 515> 212.62 86.7598<80.6201 214.53> 481.011 20G<355.52 505> 731.002 20G<66.62 175.63>
+VStem: 66.62 109.01<0 212.62 299.38 751.002> 80.6201 95.0099<212.62 242.62 269.38 299.38> 134.471 291.3<-144.672 -52.0422>
 LayerCount: 2
 Fore
 Refer: 257 817 N 1 0 0 1 123.121 -48 2
@@ -13538,6 +13568,8 @@ SplineSet
  427.4375 342 358.5625 243 228 243 c 0
  97.4375 243 28.5625 342 28.5625 494 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" zero.dnom
+Substitution2: "Single Substitution lookup 6 subtable" zero.dnom
 EndChar
 
 StartChar: one.numr
@@ -13558,6 +13590,8 @@ SplineSet
  156.8125 739.3125 l 1
  234.625 739.3125 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" one.dnom
+Substitution2: "Single Substitution lookup 6 subtable" one.dnom
 EndChar
 
 StartChar: two.numr
@@ -13584,6 +13618,8 @@ SplineSet
  32.75 388.0625 96.5625 445.125 209.3125 503.4375 c 0
  258.6875 528.5 287.5 555.5625 287.5 592.625 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" two.dnom
+Substitution2: "Single Substitution lookup 6 subtable" two.dnom
 EndChar
 
 StartChar: three.numr
@@ -13614,6 +13650,8 @@ SplineSet
  109.875 535.0625 l 1
  174.875 535.0625 l 2xe8
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" three.dnom
+Substitution2: "Single Substitution lookup 6 subtable" three.dnom
 EndChar
 
 StartChar: four.numr
@@ -13637,6 +13675,8 @@ SplineSet
  260.5 738.9375 l 1
  344.0625 738.9375 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" four.dnom
+Substitution2: "Single Substitution lookup 6 subtable" four.dnom
 EndChar
 
 StartChar: five.numr
@@ -13665,6 +13705,8 @@ SplineSet
  326.75 571.1875 384.6875 513.25 384.6875 415.625 c 0
  384.6875 309.0625 316.3125 243.8125 185.5 243.8125 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" five.dnom
+Substitution2: "Single Substitution lookup 6 subtable" five.dnom
 EndChar
 
 StartChar: six.numr
@@ -13692,6 +13734,8 @@ SplineSet
  358.625 634.8125 317.625 666.8125 243.5625 666.8125 c 0
  158.4375 666.8125 114.5 616.5625 110.5 519 c 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" six.dnom
+Substitution2: "Single Substitution lookup 6 subtable" six.dnom
 EndChar
 
 StartChar: seven.numr
@@ -13712,6 +13756,8 @@ SplineSet
  371.1875 671.6875 l 1
  371.1875 671.6875 209.125 491 207.125 251 c 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" seven.dnom
+Substitution2: "Single Substitution lookup 6 subtable" seven.dnom
 EndChar
 
 StartChar: eight.numr
@@ -13744,6 +13790,8 @@ SplineSet
  103.875 243 28.5625 300 28.5625 388.25 c 0
  28.5625 475.5625 96.625 524.4375 221.125 524.4375 c 0xb9
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" eight.dnom
+Substitution2: "Single Substitution lookup 6 subtable" eight.dnom
 EndChar
 
 StartChar: nine.numr
@@ -13771,6 +13819,8 @@ SplineSet
  66.375 352.375 107.875 319.9375 183.4375 319.9375 c 0
  267.5625 319.9375 310.875 369.625 314.875 467.1875 c 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" nine.dnom
+Substitution2: "Single Substitution lookup 6 subtable" nine.dnom
 EndChar
 
 StartChar: infinity
