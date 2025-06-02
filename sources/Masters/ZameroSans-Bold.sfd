@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1748875815
+ModificationTime: 1748875972
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -122,7 +122,7 @@ Grid
   Named: "Cap Height"
 EndSplineSet
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1-1" "Anchor-2" "'mark' Mark Positioning lookup 1-1" "Anchor-0" "'mark' Mark Positioning lookup 1-1"
-BeginChars: 812 812
+BeginChars: 813 813
 
 StartChar: I
 Encoding: 41 73 0
@@ -2843,6 +2843,7 @@ SplineSet
  804.250976562 -68.2255859375 691.55017112 -145.7265625 474.713867188 -145.7265625 c 0
 EndSplineSet
 Validated: 5
+Substitution2: "'case' Case-Sensitive Forms lookup 27-1" at.case
 EndChar
 
 StartChar: numbersign
@@ -14822,6 +14823,17 @@ VStem: 30.241 164.774<164.578 272.067> 238.997 198.227<576.12 703.651> 255.111 1
 LayerCount: 2
 Fore
 Refer: 133 8253 S -1 0 0 -1 573.111 729.008 2
+EndChar
+
+StartChar: at.case
+Encoding: 812 -1 812
+Width: 930
+Flags: W
+HStem: -65.727 95.7578<350.56 654.061> 142.97 111.754<401.231 513.625 681.558 766.29> 466.303 109.773<414.021 527.42> 686.738 100.988<354.683 611.238>
+VStem: 35 109.175<223.254 474.617> 238.842 138.517<276.719 426.2> 547.354 65.6514<217.917 347.77> 790.417 104.87<280.312 521.401>
+LayerCount: 2
+Fore
+Refer: 91 64 S 1 0 0 1 0 80 2
 EndChar
 EndChars
 EndSplineFont
