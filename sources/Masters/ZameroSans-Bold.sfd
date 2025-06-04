@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1748974566
+ModificationTime: 1749000825
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -42,6 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'ZAM '
+Lookup: 4 0 0 "'ordn' Ordinals lookup 18" { "'ordn' Ordinals lookup 18-1"  } ['ordn' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "Ligature Substitution lookup 81" { "Ligature Substitution lookup 81 subtable"  } []
 Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 27" { "'case' Case-Sensitive Forms lookup 27-1" ("case") } ['case' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
@@ -107,7 +108,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 594 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -135,7 +136,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 262144 131072 87381 525348 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1-1" "Anchor-2" "'mark' Mark Positioning lookup 1-1" "Anchor-0" "'mark' Mark Positioning lookup 1-1"
-BeginChars: 823 823
+BeginChars: 895 895
 
 StartChar: I
 Encoding: 41 73 0
@@ -167,6 +168,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 20 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" I.sups
 EndChar
 
 StartChar: O
@@ -205,7 +207,9 @@ SplineSet
  762.77734375 137.916992188 621.088867188 -9.998046875 398.888671875 -9.998046875 c 0
  176.688476562 -9.998046875 35 137.916992188 35 364.561523438 c 0
 EndSplineSet
+Validated: 524289
 Kerns2: 61 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 4 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 20 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 0 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" O.sups
 EndChar
 
 StartChar: H
@@ -236,6 +240,7 @@ SplineSet
  55 0 l 1xf0
 EndSplineSet
 Validated: 1048581
+Substitution2: "'sups' Superscript lookup 0 subtable" H.sups
 EndChar
 
 StartChar: space
@@ -269,6 +274,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" V.sups
 EndChar
 
 StartChar: D
@@ -297,6 +303,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" D.sups
 EndChar
 
 StartChar: U
@@ -324,6 +331,7 @@ SplineSet
  660.77734375 106.324679341 584.088867188 -9.998046875 357.888671875 -9.998046875 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" U.sups
 EndChar
 
 StartChar: L
@@ -347,6 +355,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 29 -5 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -140 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" L.sups
 EndChar
 
 StartChar: F
@@ -375,6 +384,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 50 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" F.sups
 EndChar
 
 StartChar: C
@@ -402,6 +412,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 25 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" C.sups
 EndChar
 
 StartChar: E
@@ -433,6 +444,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 18 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" E.sups
 EndChar
 
 StartChar: N
@@ -459,6 +471,7 @@ SplineSet
  55 0 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" N.sups
 EndChar
 
 StartChar: M
@@ -488,6 +501,7 @@ SplineSet
  55 0 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" M.sups
 EndChar
 
 StartChar: G
@@ -522,6 +536,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 61 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 0 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" G.sups
 EndChar
 
 StartChar: A
@@ -551,6 +566,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 53 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 0 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 4 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 23 -64 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -170 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" A.sups
 EndChar
 
 StartChar: P
@@ -580,6 +596,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 30 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" P.sups
 EndChar
 
 StartChar: R
@@ -635,6 +652,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 61 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" R.sups
 EndChar
 
 StartChar: T
@@ -661,6 +679,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 57 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 231 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 20 -21 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" T.sups
 EndChar
 
 StartChar: Q
@@ -690,6 +709,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 25 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" Q.sups
 EndChar
 
 StartChar: B
@@ -724,6 +744,7 @@ SplineSet
  226 139.459960938 l 5
 EndSplineSet
 Validated: 1048581
+Substitution2: "'sups' Superscript lookup 0 subtable" B.sups
 EndChar
 
 StartChar: J
@@ -750,6 +771,7 @@ SplineSet
  27 165 64.096017264 139 123 139 c 0
 EndSplineSet
 Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" J.sups
 EndChar
 
 StartChar: K
@@ -784,6 +806,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" K.sups
 EndChar
 
 StartChar: S
@@ -815,6 +838,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 22 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" S.sups
 EndChar
 
 StartChar: W
@@ -844,6 +868,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 231 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 30 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 31 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -35 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -35 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -45 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -65 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" W.sups
 EndChar
 
 StartChar: X
@@ -876,6 +901,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 18 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -60 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" X.sups
 EndChar
 
 StartChar: Y
@@ -905,6 +931,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 61 -150 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 13 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 1 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 14 -165 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" Y.sups
 EndChar
 
 StartChar: Z
@@ -930,6 +957,7 @@ SplineSet
  564 0 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" Z.sups
 EndChar
 
 StartChar: ampersand
@@ -985,7 +1013,7 @@ SplineSet
  78.9979531888 567.55078125 42.88671875 603.509048899 42.88671875 658.775390625 c 0xf0
 EndSplineSet
 Refer: 231 305 N 1 0 0 1 0 0 2
-Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" i.sups
 EndChar
 
 StartChar: o
@@ -1011,7 +1039,9 @@ SplineSet
  559.77734375 92.5015190323 460.68503405 -9.998046875 297.89 -9.998046875 c 0
  134.473346722 -9.998046875 35 91.2913268534 35 249.56 c 0
 EndSplineSet
+Validated: 524289
 Kerns2: 73 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 55 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" o.sups
 EndChar
 
 StartChar: n
@@ -1042,6 +1072,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 76 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 215 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 214 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 75 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" n.sups
 EndChar
 
 StartChar: m
@@ -1082,6 +1113,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 76 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 215 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 75 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 214 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" m.sups
 EndChar
 
 StartChar: p
@@ -1114,6 +1146,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" p.sups
 EndChar
 
 StartChar: j
@@ -1133,7 +1166,7 @@ SplineSet
  78.9979531888 567.55078125 42.88671875 603.509048899 42.88671875 658.775390625 c 0xf0
 EndSplineSet
 Refer: 232 567 N 1 0 0 1 0 0 2
-Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" j.sups
 EndChar
 
 StartChar: k
@@ -1168,6 +1201,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" k.sups
 EndChar
 
 StartChar: l
@@ -1193,6 +1227,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 215 -85 "'kern' Horizontal Kerning in Latin lookup 0-1" 214 -85 "'kern' Horizontal Kerning in Latin lookup 0-1" 75 -95 "'kern' Horizontal Kerning in Latin lookup 0-1" 28 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 50 -15 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -60 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" l.sups
 EndChar
 
 StartChar: h
@@ -1223,6 +1258,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 215 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 214 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 76 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 75 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" h.sups
 EndChar
 
 StartChar: q
@@ -1255,6 +1291,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" q.sups
 EndChar
 
 StartChar: g
@@ -1291,6 +1328,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 33 50 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" g.sups
 EndChar
 
 StartChar: f
@@ -1321,6 +1359,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 61 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 296 100 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 66 10 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 35 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 34 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 36 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 45 20 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" f.sups
 EndChar
 
 StartChar: c
@@ -1347,6 +1386,7 @@ SplineSet
  128.52847191 -9.998046875 35 94.0826581131 35 253.561523438 c 0
 EndSplineSet
 Validated: 1048577
+Substitution2: "'sups' Superscript lookup 0 subtable" c.sups
 EndChar
 
 StartChar: t
@@ -1382,6 +1422,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" t.sups
 EndChar
 
 StartChar: r
@@ -1410,6 +1451,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 179 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 61 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" r.sups
 EndChar
 
 StartChar: e
@@ -1460,6 +1502,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 73 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" e.sups
 EndChar
 
 StartChar: d
@@ -1492,6 +1535,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" d.sups
 EndChar
 
 StartChar: b
@@ -1524,6 +1568,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -50 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" b.sups
 EndChar
 
 StartChar: a
@@ -1588,6 +1633,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 37 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 40 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 44 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 38 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 54 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -130 "'kern' Horizontal Kerning in Latin lookup 0-1" 39 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -120 "'kern' Horizontal Kerning in Latin lookup 0-1" 49 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 53 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" a.sups
 EndChar
 
 StartChar: plus
@@ -1643,6 +1689,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 73 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" s.sups
 EndChar
 
 StartChar: y
@@ -1667,6 +1714,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" y.sups
 EndChar
 
 StartChar: u
@@ -1715,6 +1763,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Kerns2: 73 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 25 -110 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" u.sups
 EndChar
 
 StartChar: backslash
@@ -1786,6 +1835,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -10 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" v.sups
 EndChar
 
 StartChar: w
@@ -1815,6 +1865,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 61 -50 "'kern' Horizontal Kerning in Latin lookup 0-1" 73 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 48 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0-1" 17 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" w.sups
 EndChar
 
 StartChar: x
@@ -1847,6 +1898,7 @@ SplineSet
 EndSplineSet
 Validated: 1048581
 Kerns2: 73 -10 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 43 -30 "'kern' Horizontal Kerning in Latin lookup 0-1" 29 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" x.sups
 EndChar
 
 StartChar: z
@@ -1873,6 +1925,7 @@ SplineSet
 EndSplineSet
 Validated: 1048577
 Kerns2: 73 -30 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Substitution2: "'sups' Superscript lookup 0 subtable" z.sups
 EndChar
 
 StartChar: period
@@ -3063,6 +3116,7 @@ SplineSet
  466.388671875 234.900541242 386.593012526 153.723632812 255.5 153.723632812 c 0
  125.65014918 153.723632812 46.611328125 234.900541242 46.611328125 359.283203125 c 0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: brokenbar
@@ -3346,6 +3400,7 @@ SplineSet
  381.77734375 501.010742188 l 1
  540.77734375 501.010742188 l 1
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: acute
@@ -3504,6 +3559,7 @@ SplineSet
  215.5 -101.469726562 l 1
  112.5 -61.4697265625 l 1
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: Delta
@@ -3641,64 +3697,29 @@ SplineSet
  435.888671875 608.9921875 l 5
  435.888671875 -189.994140625 l 1xb0
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ordfeminine
 Encoding: 104 170 122
-Width: 402
+Width: 376
 Flags: W
 HStem: 369.992 94<293.5 390.826> 369.992 87<101.544 216.643> 528.992 63<143.339 243> 643.992 95<78.0263 218.719>
 VStem: 20 116<460.422 520.522> 231 119<488.135 488.992 579.992 630.539> 231 26<415.992 484.992> 231 12<528.992 591.992>
 LayerCount: 2
 Fore
-SplineSet
-231 499.9921875 m 1x79
- 231 473.9921875 209 456.9921875 177 456.9921875 c 0
- 148 456.9921875 136 468.9921875 136 487.9921875 c 0
- 136 521.537642045 162 528.9921875 243 528.9921875 c 1
- 243 591.9921875 l 1x79
- 113 591.9921875 20 576.263373941 20 475.9921875 c 0
- 20 411.9921875 66 369.9921875 140 369.9921875 c 0
- 219.5234375 369.9921875 257 415.9921875 257 484.9921875 c 1x7a
- 231 499.9921875 l 1x79
-231 579.9921875 m 2xbc
- 231 459.9921875 l 2xba
- 231 398.9921875 262 369.9921875 325 369.9921875 c 0
- 373 369.9921875 396 386.9921875 396 386.9921875 c 1
- 390 467.9921875 l 1
- 390 467.9921875 384.105263158 463.9921875 374 463.9921875 c 4
- 356.857142857 463.9921875 350 470.51392663 350 488.9921875 c 2
- 350 595.9921875 l 2
- 350 682.197861259 301.825 738.9921875 186 738.9921875 c 0
- 103 738.9921875 46 705.9921875 46 705.9921875 c 1
- 74 619.9921875 l 1
- 74 619.9921875 111.655172414 643.9921875 165 643.9921875 c 0
- 210.774193548 643.9921875 231 624.379284274 231 579.9921875 c 2xbc
-EndSplineSet
-Validated: 5
+Refer: 849 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ordmasculine
 Encoding: 120 186 123
-Width: 424
+Width: 396
 Flags: W
 HStem: 367.992 100<159.62 264.756> 638.992 100<159.62 264.549>
 VStem: 23 116<490.164 618.575> 285 116<487.262 618.575>
 LayerCount: 2
 Fore
-SplineSet
-139 554.9921875 m 0
- 139 505.086782094 160.9 467.9921875 212 467.9921875 c 0
- 264.142857143 467.9921875 285 505.086782094 285 554.9921875 c 0
- 285 601.682328345 263.1 638.9921875 212 638.9921875 c 0
- 160.9 638.9921875 139 601.682328345 139 554.9921875 c 0
-23 555.9921875 m 0
- 23 667.025895365 95.1451612903 738.9921875 212 738.9921875 c 0
- 329.870967742 738.9921875 401 667.025895365 401 555.9921875 c 0
- 401 441.959400615 329.870967742 367.9921875 212 367.9921875 c 0
- 95.1451612903 367.9921875 23 441.959400615 23 555.9921875 c 0
-EndSplineSet
-Validated: 1
+Refer: 863 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arrowleft
@@ -5203,6 +5224,7 @@ SplineSet
  195.848632812 178.9453125 231.313643049 130.463867188 302.888671875 130.463867188 c 0
  372.138193623 130.463867188 399.928710938 190.3125 399.928710938 251.561523438 c 0xf0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: Thorn
@@ -5291,6 +5313,7 @@ SplineSet
  214 0 l 1
  55 0 l 1xf0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: Eng
@@ -5512,6 +5535,7 @@ SplineSet
  -38 -52.0107421875 -10.9132080078 -68.0107421875 27 -68.0107421875 c 4
  77.691796875 -68.0107421875 99 -43.0107421875 99 14.9892578125 c 6
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: uni01B7
@@ -5600,6 +5624,7 @@ SplineSet
  112.5 -71.4697265625 l 1
 EndSplineSet
 Refer: 1 79 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: oslash
@@ -5628,6 +5653,7 @@ SplineSet
  78 -64.4697265625 l 1
 EndSplineSet
 Refer: 29 111 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: IJ
@@ -5645,13 +5671,12 @@ EndChar
 StartChar: ij
 Encoding: 241 307 196
 Width: 538
-HStem: -200 132<195.378 306.566> 0 21G<55 214> 481.011 20G<324 483> 481.011 20G<55 214> 567.551 182.449<70.9543 198.045 339.954 467.045>
+HStem: -200 132<195.378 306.566> 0 21G<55 214> 481.011 20G<55 214 324 483> 567.551 182.449<70.9543 198.045 339.954 467.045>
 VStem: 42.8867 183.227<597.09 720.46> 55 159<0 501.011> 311.887 183.227<597.09 720.46> 324 159<-51.8272 501.011>
 LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 269 0 2
 Refer: 28 105 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ring
@@ -6316,6 +6341,7 @@ SplineSet
  583.16015625 790.55078125 553.080078125 825.799804688 553.080078125 825.799804688 c 1xf0
 EndSplineSet
 Refer: 1 79 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: ohorn
@@ -6339,6 +6365,7 @@ SplineSet
  409.16015625 580.55078125 379.080078125 615.799804688 379.080078125 615.799804688 c 1xe8
 EndSplineSet
 Refer: 29 111 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: Uhorn
@@ -6985,6 +7012,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 154 251 2
 Refer: 14 65 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Agrave.sups
 EndChar
 
 StartChar: Aacute
@@ -6997,6 +7025,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 307 251 2
 Refer: 14 65 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Aacute.sups
 EndChar
 
 StartChar: Acircumflex
@@ -7073,6 +7102,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 108 251 2
 Refer: 10 69 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Egrave.sups
 EndChar
 
 StartChar: Eacute
@@ -7086,6 +7116,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 261 251 2
 Refer: 10 69 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Eacute.sups
 EndChar
 
 StartChar: Ecircumflex
@@ -7126,6 +7157,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 22 251 2
 Refer: 0 73 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Igrave.sups
 EndChar
 
 StartChar: Iacute
@@ -7139,6 +7171,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 175 251 2
 Refer: 0 73 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" Iacute.sups
 EndChar
 
 StartChar: Icircumflex
@@ -7190,6 +7223,8 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 201 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" Ograve.sups
 EndChar
 
 StartChar: Oacute
@@ -7201,6 +7236,8 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 354 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" Oacute.sups
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" Oacute.loclPLK
 EndChar
 
@@ -7214,6 +7251,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 220 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: Otilde
@@ -7226,6 +7264,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 210 202 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: Odieresis
@@ -7238,6 +7277,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 203 191 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: Ugrave
@@ -7250,6 +7290,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 164 251 2
 Refer: 6 85 N 1 0 0 1 0 0 3
 Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" Ugrave.sups
 EndChar
 
 StartChar: Uacute
@@ -7262,6 +7303,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 317 251 2
 Refer: 6 85 N 1 0 0 1 0 0 3
 Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" Uacute.sups
 EndChar
 
 StartChar: Ucircumflex
@@ -7311,6 +7353,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 76 21.011 2
 Refer: 46 97 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" agrave.sups
 EndChar
 
 StartChar: aacute
@@ -7323,6 +7366,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 229 21.011 2
 Refer: 46 97 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" aacute.sups
 EndChar
 
 StartChar: acircumflex
@@ -7401,6 +7445,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 88 21.011 2
 Refer: 43 101 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" egrave.sups
 EndChar
 
 StartChar: eacute
@@ -7414,6 +7459,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 241 21.011 2
 Refer: 43 101 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" eacute.sups
 EndChar
 
 StartChar: ecircumflex
@@ -7452,7 +7498,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 -64 21.011 2
 Refer: 231 305 N 1 0 0 1 0 0 3
-Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" igrave.sups
 EndChar
 
 StartChar: iacute
@@ -7464,7 +7510,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 89 21.011 2
 Refer: 231 305 N 1 0 0 1 0 0 3
-Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" iacute.sups
 EndChar
 
 StartChar: icircumflex
@@ -7514,6 +7560,8 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 100 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" ograve.sups
 EndChar
 
 StartChar: oacute
@@ -7526,6 +7574,8 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 253 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'sups' Superscript lookup 0 subtable" oacute.sups
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" oacute.loclPLK
 EndChar
 
@@ -7540,6 +7590,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 119 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: otilde
@@ -7553,6 +7604,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 109 -27.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: odieresis
@@ -7566,6 +7618,7 @@ LayerCount: 2
 Fore
 Refer: 247 776 N 1 0 0 1 102 -38.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: ugrave
@@ -7578,6 +7631,7 @@ Fore
 Refer: 240 768 N 1 0 0 1 104 21.011 2
 Refer: 50 117 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" ugrave.sups
 EndChar
 
 StartChar: uacute
@@ -7590,6 +7644,7 @@ Fore
 Refer: 241 769 N 1 0 0 1 257 21.011 2
 Refer: 50 117 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'sups' Superscript lookup 0 subtable" uacute.sups
 EndChar
 
 StartChar: ucircumflex
@@ -7946,6 +8001,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 253 181 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: omacron
@@ -7959,6 +8015,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 152 -48.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: Obreve
@@ -7970,6 +8027,7 @@ LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 222 203 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: obreve
@@ -7982,6 +8040,7 @@ LayerCount: 2
 Fore
 Refer: 245 774 N 1 0 0 1 121 -26.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ohungarumlaut
@@ -7993,6 +8052,7 @@ LayerCount: 2
 Fore
 Refer: 249 779 N 1 0 0 1 254 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
@@ -8005,6 +8065,7 @@ LayerCount: 2
 Fore
 Refer: 249 779 N 1 0 0 1 153 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Utilde
@@ -9081,7 +9142,6 @@ LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 -8 -19 2
 Refer: 28 105 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Uogonek
@@ -9270,6 +9330,7 @@ LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 220 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni01D2
@@ -9282,6 +9343,7 @@ LayerCount: 2
 Fore
 Refer: 250 780 N 1 0 0 1 119 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni01D3
@@ -9370,6 +9432,7 @@ LayerCount: 2
 Fore
 Refer: 256 808 S 1 0 0 1 333 1 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048581
 EndChar
 
 StartChar: uni01EB
@@ -9383,6 +9446,7 @@ LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 223 9 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048581
 EndChar
 
 StartChar: uni01F4
@@ -9543,7 +9607,6 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 568 0 2
 Refer: 7 76 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni01C9
@@ -9555,7 +9618,6 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 381 0 2
 Refer: 35 108 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni01CA
@@ -9579,7 +9641,6 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 719 0 2
 Refer: 11 78 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni01CC
@@ -9591,7 +9652,6 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 595 0 2
 Refer: 30 110 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uni01F1
@@ -9787,6 +9847,7 @@ LayerCount: 2
 Fore
 Refer: 251 783 N 1 0 0 1 144 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni020D
@@ -9799,6 +9860,7 @@ LayerCount: 2
 Fore
 Refer: 251 783 N 1 0 0 1 43 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni020E
@@ -9810,6 +9872,7 @@ LayerCount: 2
 Fore
 Refer: 252 785 N 1 0 0 1 222 203 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni020F
@@ -9822,6 +9885,7 @@ LayerCount: 2
 Fore
 Refer: 252 785 N 1 0 0 1 121 -26.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0210
@@ -10102,6 +10166,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 354 251 2
 Refer: 193 216 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: oslashacute
@@ -10114,6 +10179,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 252 21.011 2
 Refer: 194 248 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Aringacute
@@ -10149,6 +10215,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 253 181 2
 Refer: 443 490 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni01ED
@@ -10161,6 +10228,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 148 -48.989 2
 Refer: 444 491 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni022E
@@ -10173,6 +10241,7 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 316 201 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: uni022F
@@ -10186,6 +10255,7 @@ LayerCount: 2
 Fore
 Refer: 246 775 N 1 0 0 1 215 -28.989 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: uni0232
@@ -10365,6 +10435,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 252 380 2
 Refer: 279 214 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni022B
@@ -10377,6 +10448,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 144 150 2
 Refer: 305 246 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0230
@@ -10388,6 +10460,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 252 380 2
 Refer: 508 558 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0231
@@ -10400,6 +10473,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 148 150 2
 Refer: 509 559 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni022C
@@ -10411,6 +10485,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 262 379 2
 Refer: 278 213 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni022D
@@ -10423,6 +10498,7 @@ LayerCount: 2
 Fore
 Refer: 244 772 N 1 0 0 1 154 148 2
 Refer: 304 245 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: guilsinglleft
@@ -10609,6 +10685,7 @@ SplineSet
  527 461.010742188 l 1
  527 176 l 2
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: radical
@@ -10630,6 +10707,7 @@ SplineSet
  270.455078125 543.497070312 l 1
  393.001953125 206.951171875 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: uni1E02
@@ -11784,7 +11862,6 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 55 -48 2
 Refer: 28 105 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1ECC
@@ -11797,6 +11874,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 316 -48 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: uni1ECD
@@ -11810,6 +11888,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 216 -48 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1048577
 EndChar
 
 StartChar: uni1EE4
@@ -11969,6 +12048,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 288 304 2
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ECF
@@ -11981,6 +12061,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 187 74.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EE6
@@ -12064,6 +12145,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 314 251 2
 Refer: 225 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDB
@@ -12076,6 +12158,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 179 21.011 2
 Refer: 226 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDC
@@ -12087,6 +12170,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 206 251 2
 Refer: 225 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDD
@@ -12099,6 +12183,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 101 21.011 2
 Refer: 226 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDE
@@ -12110,6 +12195,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 256 304 2
 Refer: 225 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDF
@@ -12122,6 +12208,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 N 1 0 0 1 121 74.011 2
 Refer: 226 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE0
@@ -12133,6 +12220,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 185 211 2
 Refer: 225 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE1
@@ -12145,6 +12233,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 S 1 0 0 1 20 -18.989 2
 Refer: 226 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE2
@@ -12156,6 +12245,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 316 -48 2
 Refer: 225 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE3
@@ -12168,6 +12258,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 212 -48 2
 Refer: 226 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE8
@@ -12373,6 +12464,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 216 251 2
 Refer: 630 7884 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED9
@@ -12385,6 +12477,7 @@ LayerCount: 2
 Fore
 Refer: 242 770 N 1 0 0 1 111 21.011 2
 Refer: 631 7885 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: .notdef
@@ -12718,6 +12811,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 532 381 2
 Refer: 277 212 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED1
@@ -12730,6 +12824,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 431 151 2
 Refer: 303 244 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED2
@@ -12741,6 +12836,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 S 1 0 0 1 429 381 2
 Refer: 277 212 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED3
@@ -12753,6 +12849,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 S 1 0 0 1 328 151 2
 Refer: 303 244 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED4
@@ -12764,6 +12861,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 S 1 0 0 1 486 434 2
 Refer: 277 212 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED5
@@ -12776,6 +12874,7 @@ LayerCount: 2
 Fore
 Refer: 234 777 S 1 0 0 1 385 204 2
 Refer: 303 244 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED6
@@ -12787,6 +12886,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 208 452 2
 Refer: 277 212 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED7
@@ -12799,6 +12899,7 @@ LayerCount: 2
 Fore
 Refer: 243 771 N 1 0 0 1 98 223.002 2
 Refer: 303 244 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni2052
@@ -12913,6 +13014,7 @@ SplineSet
  238.143554688 0.0078125 l 1
  1 365.05859375 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: uni2625
@@ -13774,6 +13876,7 @@ SplineSet
  635.3828125 407.85546875 602.3671875 436.60546875 563.9765625 436.60546875 c 0
  505.714962407 436.60546875 480.675485606 391.127550031 458.329101562 353.084960938 c 0
 EndSplineSet
+Validated: 524293
 EndChar
 
 StartChar: zero.tf
@@ -14938,6 +15041,7 @@ SplineSet
  454 777 l 5
 EndSplineSet
 Refer: 1 79 N 1 0 0 1 0 0 3
+Validated: 524289
 EndChar
 
 StartChar: oacute.loclPLK
@@ -14956,6 +15060,7 @@ SplineSet
  373 547.010742188 l 5
 EndSplineSet
 Refer: 29 111 N 1 0 0 1 0 0 3
+Validated: 524289
 EndChar
 
 StartChar: Sacute.loclPLK
@@ -15030,6 +15135,1698 @@ SplineSet
 EndSplineSet
 Refer: 56 122 N 1 0 0 1 0 0 3
 Validated: 524289
+EndChar
+
+StartChar: A.sups
+Encoding: 823 -1 823
+Width: 479
+HStem: 455 92<108 371>
+AnchorPoint: "Anchor-3" 401 350 basechar 0
+AnchorPoint: "Anchor-2" 242 350 basechar 0
+AnchorPoint: "Anchor-0" 235 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+371 455 m 1
+ 108 455 l 1
+ 108 547 l 1
+ 371 547 l 1
+ 371 455 l 1
+296 837 m 1
+ 476 350 l 1
+ 356 350 l 1
+ 237 707 l 1
+ 124 350 l 1
+ 3 350 l 1
+ 177 837 l 1
+ 296 837 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" A
+EndChar
+
+StartChar: B.sups
+Encoding: 824 -1 824
+Width: 438
+HStem: 350 93<151 288.207> 551 89<110 273.296> 745 92<151 270.789>
+VStem: 110 41<551 640> 282 117<649.79 733.507> 299 120<455.54 540.539>
+AnchorPoint: "Anchor-2" 232 350 basechar 0
+AnchorPoint: "Anchor-0" 216 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+332 602 m 1xf8
+ 332 602 419 584 419 487 c 0xf4
+ 419 386 335 350 241 350 c 2
+ 37 350 l 1
+ 37 837 l 1
+ 230 837 l 2
+ 319 837 399 803 399 707 c 0
+ 399 622 332 602 332 602 c 1xf8
+151 443 m 5
+ 222 443 l 6
+ 266 443 299 454 299 499 c 4xf4
+ 299 542 267 551 223 551 c 6
+ 110 551 l 5
+ 110 640 l 5
+ 208 640 l 6
+ 250 640 282 649 282 692 c 4xf8
+ 282 735 250 745 207 745 c 6
+ 151 745 l 5
+ 151 443 l 5
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" B
+EndChar
+
+StartChar: C.sups
+Encoding: 825 -1 825
+Width: 438
+HStem: 342 104<198.377 385.72> 739 104<198.377 371.45>
+VStem: 24 119<503.239 682.169>
+AnchorPoint: "Anchor-0" 267 838 basechar 0
+AnchorPoint: "Anchor-2" 267 349 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+24 590 m 0
+ 24 743 112 843 267 843 c 0
+ 376 843 420 804 420 804 c 1
+ 392 703 l 1
+ 392 703 356 739 281 739 c 4
+ 184 739 143 679 143 590 c 0
+ 143 504 184 446 281 446 c 4
+ 362 446 404 478 404 478 c 1
+ 422 373 l 1
+ 422 373 375 342 267 342 c 0
+ 112 342 24 440 24 590 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" C
+EndChar
+
+StartChar: D.sups
+Encoding: 826 -1 826
+Width: 484
+HStem: 350 100<150 286.852> 737 100<150 288.345>
+VStem: 37 113<450 737> 345 117<504.915 681.772>
+AnchorPoint: "Anchor-2" 238 350 basechar 0
+AnchorPoint: "Anchor-0" 234 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 837 l 1
+ 206 837 l 2
+ 348 837 462 771 462 593 c 0
+ 462 415 350 350 213 350 c 2
+ 37 350 l 1
+150 737 m 1
+ 150 450 l 1
+ 201 450 l 2
+ 283 450 345 483 345 594 c 4
+ 345 704 283 737 201 737 c 2
+ 150 737 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" D
+EndChar
+
+StartChar: E.sups
+Encoding: 827 -1 827
+Width: 379
+HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360>
+VStem: 94 57<543 642>
+AnchorPoint: "Anchor-3" 314 350 basechar 0
+AnchorPoint: "Anchor-2" 204 350 basechar 0
+AnchorPoint: "Anchor-0" 204 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+320 543 m 5
+ 94 543 l 1
+ 94 642 l 1
+ 320 642 l 5
+ 320 543 l 5
+151 740 m 1
+ 151 447 l 1
+ 360 447 l 5
+ 360 350 l 5
+ 37 350 l 1
+ 37 837 l 1
+ 360 837 l 5
+ 360 740 l 5
+ 151 740 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" E
+EndChar
+
+StartChar: F.sups
+Encoding: 828 -1 828
+Width: 375
+HStem: 533 98<94 320> 740 97<151 356>
+VStem: 37 114<350 533 631 740> 94 57<533 631>
+AnchorPoint: "Anchor-2" 198 350 basechar 0
+AnchorPoint: "Anchor-0" 204 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+320 533 m 5xd0
+ 94 533 l 5
+ 94 631 l 5
+ 320 631 l 5
+ 320 533 l 5xd0
+151 740 m 5xe0
+ 151 350 l 5
+ 37 350 l 5
+ 37 837 l 5
+ 356 837 l 5
+ 356 740 l 5
+ 151 740 l 5xe0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" F
+EndChar
+
+StartChar: G.sups
+Encoding: 829 -1 829
+Width: 516
+HStem: 342 104<191.739 336.927> 541 93<260 348 451 499> 541 11<348 451> 739 104<197.104 383.025>
+VStem: 23 119<498.267 683.27> 355 109<464.252 546.352>
+AnchorPoint: "Anchor-2" 267 349 basechar 0
+AnchorPoint: "Anchor-0" 272 838 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+499 541 m 1xdc
+ 260 541 l 1
+ 260 634 l 1
+ 499 634 l 1
+ 499 541 l 1xdc
+23 592 m 0
+ 23 744 118 843 273 843 c 0
+ 387 843 434 804 434 804 c 1
+ 406 704 l 1
+ 406 704 363 739 277 739 c 0
+ 183 739 142 680 142 592 c 0
+ 142 504 176 446 269 446 c 0
+ 331 446 355 472 355 511 c 0
+ 355 540 348 552 348 552 c 1
+ 451 552 l 1xbc
+ 451 552 464 531 464 488 c 0
+ 464 407 401 342 267 342 c 0
+ 112 342 23 440 23 592 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" G
+EndChar
+
+StartChar: H.sups
+Encoding: 830 -1 830
+Width: 492
+HStem: 539 98<93 390>
+VStem: 37 115<350 539 637 837> 93 59<539 637> 341 115<350 539 637 837> 341 49<539 637>
+AnchorPoint: "Anchor-2" 244 350 basechar 0
+AnchorPoint: "Anchor-0" 244 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+390 539 m 1xa8
+ 93 539 l 1
+ 93 637 l 1
+ 390 637 l 1
+ 390 539 l 1xa8
+341 350 m 1x90
+ 341 837 l 1
+ 456 837 l 1
+ 456 350 l 1
+ 341 350 l 1x90
+37 350 m 1xc0
+ 37 837 l 1
+ 152 837 l 5
+ 152 350 l 5
+ 37 350 l 1xc0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" H
+EndChar
+
+StartChar: I.sups
+Encoding: 831 -1 831
+Width: 295
+HStem: 350 95<20 92 202 275> 370 75<92 202> 742 95<20 92 202 275> 742 75<92 202>
+VStem: 20 255<350 445 742 837> 92 110<370 817>
+AnchorPoint: "Anchor-3" 156 350 basechar 0
+AnchorPoint: "Anchor-2" 148 350 basechar 0
+AnchorPoint: "Anchor-0" 146 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+275 350 m 1x88
+ 20 350 l 1
+ 20 445 l 1
+ 275 445 l 1
+ 275 350 l 1x88
+275 742 m 1x28
+ 20 742 l 1
+ 20 837 l 1
+ 275 837 l 1
+ 275 742 l 1x28
+92 370 m 1x54
+ 92 817 l 1
+ 202 817 l 1
+ 202 370 l 1
+ 92 370 l 1x54
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" I
+EndChar
+
+StartChar: J.sups
+Encoding: 832 -1 832
+Width: 288
+HStem: 343 99<15.8763 128.26> 741 96<42 138>
+VStem: 138 114<451.217 741>
+AnchorPoint: "Anchor-2" 117 350 basechar 0
+AnchorPoint: "Anchor-0" 146 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+82 442 m 0
+ 121 442 138 461 138 506 c 2
+ 138 741 l 1
+ 42 741 l 1
+ 42 837 l 1
+ 252 837 l 1
+ 252 487 l 2
+ 252 397 211 343 114 343 c 0
+ 43 343 7 364 7 364 c 1
+ 18 459 l 1
+ 18 459 43 442 82 442 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" J
+EndChar
+
+StartChar: K.sups
+Encoding: 833 -1 833
+Width: 445
+HStem: 567 48<105 220>
+VStem: 37 113<350 567 615 837> 105 115<567 615> 145 5<570 613>
+AnchorPoint: "Anchor-2" 224 350 basechar 0
+AnchorPoint: "Anchor-0" 220 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+105 615 m 1xa0
+ 220 615 l 1
+ 220 567 l 1
+ 105 567 l 1
+ 105 615 l 1xa0
+302 350 m 5
+ 145 570 l 1
+ 145 613 l 1x90
+ 300 837 l 5
+ 435 837 l 1
+ 254 598 l 1
+ 442 350 l 1
+ 302 350 l 5
+37 350 m 1xc0
+ 37 837 l 1
+ 150 837 l 1
+ 150 350 l 1
+ 37 350 l 1xc0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" K
+EndChar
+
+StartChar: L.sups
+Encoding: 834 -1 834
+Width: 370
+HStem: 350 99<151 355>
+VStem: 37 114<449 837>
+AnchorPoint: "Anchor-2" 205 350 basechar 0
+AnchorPoint: "Anchor-0" 93 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+151 449 m 1
+ 355 449 l 1
+ 355 350 l 1
+ 37 350 l 1
+ 37 837 l 1
+ 151 837 l 1
+ 151 449 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" L
+EndChar
+
+StartChar: M.sups
+Encoding: 835 -1 835
+Width: 560
+VStem: 37 113<350 632> 411 113<350 632>
+AnchorPoint: "Anchor-2" 278 350 basechar 0
+AnchorPoint: "Anchor-0" 278 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 837 l 1
+ 152 837 l 1
+ 280 583 l 1
+ 408 837 l 1
+ 524 837 l 1
+ 524 350 l 1
+ 411 350 l 1
+ 411 632 l 1
+ 308 443 l 1
+ 251 443 l 1
+ 150 632 l 1
+ 150 350 l 1
+ 37 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" M
+EndChar
+
+StartChar: N.sups
+Encoding: 836 -1 836
+Width: 499
+VStem: 37 108<350 663> 355 108<532 837>
+AnchorPoint: "Anchor-2" 253 350 basechar 0
+AnchorPoint: "Anchor-0" 252 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 837 l 1
+ 149 837 l 1
+ 355 532 l 5
+ 355 837 l 1
+ 463 837 l 1
+ 463 350 l 1
+ 350 350 l 1
+ 145 663 l 1
+ 145 350 l 1
+ 37 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" N
+EndChar
+
+StartChar: O.sups
+Encoding: 837 -1 837
+Width: 531
+HStem: 342 105<193.081 338.733> 738 105<193.081 338.733>
+VStem: 23 115<504.35 679.884> 393 115<504.35 679.884>
+AnchorPoint: "Anchor-3" 314 362 basechar 0
+AnchorPoint: "Anchor-2" 265 349 basechar 0
+AnchorPoint: "Anchor-0" 266 838 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+138 592 m 0
+ 138 505 183 447 266 447 c 0
+ 349 447 393 505 393 592 c 0
+ 393 679 349 738 266 738 c 0
+ 183 738 138 679 138 592 c 0
+23 592 m 0
+ 23 744 118 843 266 843 c 0
+ 414 843 508 744 508 592 c 0
+ 508 440 414 342 266 342 c 0
+ 118 342 23 440 23 592 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" O
+EndChar
+
+StartChar: P.sups
+Encoding: 838 -1 838
+Width: 430
+HStem: 502 95<110 271.838> 739 98<151 274.006>
+VStem: 37 114<350 502 597 739> 110 41<502 597> 292 119<616.895 720.316>
+AnchorPoint: "Anchor-2" 228 350 basechar 0
+AnchorPoint: "Anchor-0" 218 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+110 502 m 1xd8
+ 110 597 l 1xd8
+ 199 597 l 2
+ 252 597 292 613 292 669 c 0
+ 292 723 252 739 199 739 c 2
+ 151 739 l 1
+ 151 350 l 1
+ 37 350 l 1
+ 37 837 l 1xe8
+ 219 837 l 2
+ 320 837 411 791 411 669 c 0
+ 411 547 321 502 222 502 c 2
+ 110 502 l 1xd8
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" P
+EndChar
+
+StartChar: Q.sups
+Encoding: 839 -1 839
+Width: 571
+HStem: 342 108<191.055 445.252 452 546.961> 738 105<191.665 340.148>
+VStem: 23 115<505.745 683.299> 393 115<502.316 683.183>
+AnchorPoint: "Anchor-2" 345 349 basechar 0
+AnchorPoint: "Anchor-0" 269 838 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+23 592 m 0
+ 23 744 115 843 266 843 c 0
+ 417 843 508 744 508 609 c 0
+ 508 489 452 448 452 448 c 1
+ 494 449 547 458 547 458 c 1
+ 555 362 l 1
+ 555 362 485 342 305 342 c 0
+ 110 342 23 440 23 592 c 0
+138 594 m 0
+ 138 508 179 450 266 450 c 0
+ 353 450 393 508 393 594 c 4
+ 393 680 353 738 266 738 c 0
+ 179 738 138 680 138 594 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" Q
+EndChar
+
+StartChar: R.sups
+Encoding: 840 -1 840
+Width: 444
+HStem: 525 92<110 264.158> 743 94<151 278.36>
+VStem: 37 114<350 525 617 743> 110 41<525 617> 294 118<632.404 726.279>
+AnchorPoint: "Anchor-2" 230 350 basechar 0
+AnchorPoint: "Anchor-0" 219 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+110 617 m 1xd8
+ 206 617 l 2
+ 256 617 294 628 294 680 c 0
+ 294 731 256 743 206 743 c 2
+ 151 743 l 1
+ 151 350 l 1
+ 37 350 l 1
+ 37 837 l 1xe8
+ 221 837 l 2
+ 328 837 412 796 412 687 c 0
+ 412 589 334 567 334 567 c 1
+ 334 567 375 556 402 478 c 2
+ 445 350 l 1
+ 324 350 l 1
+ 287 460 l 2
+ 267 518 249 525 177 525 c 2
+ 110 525 l 1
+ 110 617 l 1xd8
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" R
+EndChar
+
+StartChar: S.sups
+Encoding: 841 -1 841
+Width: 403
+HStem: 342 100<86.8483 252.141> 743 100<159.213 316.856>
+VStem: 30 121<662.498 731.781> 263 118<453.747 528.57>
+AnchorPoint: "Anchor-2" 200 349 basechar 0
+AnchorPoint: "Anchor-0" 207 838 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+193 545 m 4
+ 66 572 30 616 30 695 c 4
+ 30 785 98 843 215 843 c 4
+ 314 843 362 808 362 808 c 5
+ 335 711 l 5
+ 335 711 292 743 224 743 c 4
+ 174 743 151 725 151 696 c 4
+ 151 673 165 657 218 646 c 4
+ 347 618 381 568 381 490 c 4
+ 381 399 314 342 194 342 c 4
+ 89 342 22 379 22 379 c 5
+ 53 482 l 5
+ 53 482 111 442 185 442 c 4
+ 238 442 263 461 263 492 c 4
+ 263 518 252 532 193 545 c 4
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" S
+EndChar
+
+StartChar: T.sups
+Encoding: 842 -1 842
+Width: 410
+HStem: 740 97<20 148 262 390> 740 77<148 262>
+VStem: 148 114<350 817>
+AnchorPoint: "Anchor-2" 208 350 basechar 0
+AnchorPoint: "Anchor-0" 207 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+390 740 m 1xa0
+ 20 740 l 1
+ 20 837 l 1
+ 390 837 l 1
+ 390 740 l 1xa0
+148 350 m 1
+ 148 817 l 1
+ 262 817 l 5x60
+ 262 350 l 5
+ 148 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" T
+EndChar
+
+StartChar: U.sups
+Encoding: 843 -1 843
+Width: 480
+HStem: 343 99<175.359 302.843>
+VStem: 37 113<468.534 837> 329 113<471.976 837>
+AnchorPoint: "Anchor-3" 301 362 basechar 0
+AnchorPoint: "Anchor-2" 239 350 basechar 0
+AnchorPoint: "Anchor-0" 242 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+239 343 m 0
+ 88 343 37 420 37 539 c 6
+ 37 837 l 1
+ 150 837 l 1
+ 150 566 l 2
+ 150 492 162 442 239 442 c 0
+ 316 442 329 492 329 566 c 2
+ 329 837 l 1
+ 442 837 l 1
+ 442 539 l 6
+ 442 420 390 343 239 343 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" U
+EndChar
+
+StartChar: V.sups
+Encoding: 844 -1 844
+Width: 465
+AnchorPoint: "Anchor-2" 232 350 basechar 0
+AnchorPoint: "Anchor-0" 235 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+166 350 m 1
+ 3 837 l 1
+ 125 837 l 1
+ 232 486 l 1
+ 340 837 l 1
+ 462 837 l 1
+ 298 350 l 1
+ 166 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" V
+EndChar
+
+StartChar: W.sups
+Encoding: 845 -1 845
+Width: 632
+AnchorPoint: "Anchor-2" 317 350 basechar 0
+AnchorPoint: "Anchor-0" 316 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+116 350 m 1
+ 3 837 l 1
+ 120 837 l 1
+ 188 500 l 1
+ 263 798 l 1
+ 369 798 l 1
+ 443 500 l 1
+ 513 837 l 5
+ 629 837 l 1
+ 513 350 l 1
+ 381 350 l 1
+ 314 620 l 1
+ 249 350 l 1
+ 116 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" W
+EndChar
+
+StartChar: X.sups
+Encoding: 846 -1 846
+Width: 459
+VStem: 200 59<569 616>
+AnchorPoint: "Anchor-2" 235 350 basechar 0
+AnchorPoint: "Anchor-0" 229 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+141 350 m 1
+ 7 350 l 1
+ 157 602 l 1
+ 12 837 l 1
+ 146 837 l 1
+ 259 616 l 1
+ 259 569 l 1
+ 141 350 l 1
+319 350 m 1
+ 200 569 l 1
+ 200 616 l 1
+ 313 837 l 1
+ 447 837 l 1
+ 301 602 l 1
+ 453 350 l 1
+ 319 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" X
+EndChar
+
+StartChar: Y.sups
+Encoding: 847 -1 847
+Width: 459
+HStem: 518 67<184 276>
+VStem: 173 113<350 585>
+AnchorPoint: "Anchor-2" 230 350 basechar 0
+AnchorPoint: "Anchor-0" 231 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+184 518 m 1
+ 13 837 l 1
+ 140 837 l 1
+ 230 642 l 5
+ 320 837 l 1
+ 446 837 l 1
+ 276 518 l 1
+ 184 518 l 1
+173 350 m 1
+ 173 585 l 1
+ 286 585 l 1
+ 286 350 l 1
+ 173 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" Y
+EndChar
+
+StartChar: Z.sups
+Encoding: 848 -1 848
+Width: 396
+HStem: 350 99<170 376> 738 99<27 226>
+AnchorPoint: "Anchor-2" 204 350 basechar 0
+AnchorPoint: "Anchor-0" 196 837 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+376 350 m 1
+ 20 350 l 1
+ 20 414 l 1
+ 226 738 l 5
+ 27 738 l 5
+ 27 837 l 1
+ 369 837 l 1
+ 369 765 l 1
+ 170 449 l 1
+ 376 449 l 1
+ 376 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" Z
+EndChar
+
+StartChar: a.sups
+Encoding: 849 -1 849
+Width: 376
+HStem: 342 78<127.846 208.353 272.375 365.254> 496 59<130.958 229> 607 84<70.7528 207.768>
+VStem: 20 105<423.454 486.443> 218 104<453.025 496 547 598.248> 218 27<384 449> 218 11<496 555>
+AnchorPoint: "Anchor-3" 305 349 basechar 0
+AnchorPoint: "Anchor-2" 189 349 basechar 0
+AnchorPoint: "Anchor-0" 182 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+218 469 m 5xf8
+ 245 449 l 5xf4
+ 245 384 209 342 132 342 c 4
+ 63 342 20 382 20 443 c 4
+ 20 539 107 555 229 555 c 5
+ 229 496 l 5xf2
+ 150 496 125 488 125 454 c 4
+ 125 434 138 420 168 420 c 4
+ 198 420 218 440 218 469 c 5xf8
+218 547 m 6xf8
+ 218 589 200 607 156 607 c 4
+ 106 607 71 581 71 581 c 5
+ 47 661 l 5
+ 47 661 99 691 174 691 c 4
+ 279 691 322 642 322 552 c 6
+ 322 454 l 6xf8
+ 322 433 329 425 345 425 c 4
+ 357 425 364 430 364 430 c 5
+ 370 358 l 5
+ 370 358 349 342 305 342 c 4
+ 247 342 218 370 218 432 c 6xf4
+ 218 547 l 6xf8
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" a
+EndChar
+
+StartChar: b.sups
+Encoding: 850 -1 850
+Width: 410
+HStem: 343 86<158.337 258.137> 607 86<164.006 257.897>
+VStem: 37 106<473 853> 111 32<385 473 554 637> 280 109<450.807 585.062>
+AnchorPoint: "Anchor-2" 197 352 basechar 0
+AnchorPoint: "Anchor-0" 89 852 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1xe8
+ 37 853 l 1
+ 143 853 l 1xe8
+ 143 350 l 1xd8
+ 37 350 l 1xe8
+143 535 m 1
+ 114 554 l 1
+ 114 637 153 693 241 693 c 0
+ 330 693 389 625 389 521 c 4
+ 389 414 328 343 235 343 c 0
+ 162 343 111 385 111 473 c 1xd8
+ 143 488 l 1
+ 143 453 169 429 208 429 c 0
+ 257 429 280 466 280 515 c 4
+ 280 567 259 607 208 607 c 0
+ 156 607 143 570 143 535 c 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" b
+EndChar
+
+StartChar: c.sups
+Encoding: 851 -1 851
+Width: 331
+HStem: 342 92<154.879 294.093> 601 90<153.317 291.704>
+VStem: 23 109<457.326 578.678>
+AnchorPoint: "Anchor-2" 195 349 basechar 0
+AnchorPoint: "Anchor-0" 194 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+23 519 m 0
+ 23 623 84 691 198 691 c 0
+ 275 691 304 666 304 666 c 1
+ 289 578 l 1
+ 289 578 265 601 216 601 c 4
+ 158 601 132 568 132 519 c 4
+ 132 468 158 434 218 434 c 4
+ 266 434 291 453 291 453 c 1
+ 306 364 l 1
+ 306 364 268 342 202 342 c 0
+ 85 342 23 412 23 519 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" c
+EndChar
+
+StartChar: d.sups
+Encoding: 852 -1 852
+Width: 410
+HStem: 343 86<154.904 248.607> 481 20G<271 300> 607 86<154.997 256.141>
+VStem: 25 109<448.614 585.054> 271 106<496 853> 271 29<400 496 564 642>
+AnchorPoint: "Anchor-2" 220 352 basechar 0
+AnchorPoint: "Anchor-0" 325 852 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+377 350 m 1xf8
+ 271 350 l 1xf4
+ 271 853 l 1
+ 377 853 l 1
+ 377 350 l 1xf8
+271 549 m 1xf8
+ 271 577 252 607 206 607 c 4
+ 157 607 134 568 134 516 c 0
+ 134 467 156 429 205 429 c 0
+ 251 429 271 458 271 501 c 1xf8
+ 300 496 l 1xf4
+ 300 400 254 343 182 343 c 0
+ 83 343 25 411 25 516 c 0
+ 25 623 87 693 175 693 c 0
+ 262 693 304 642 304 564 c 1
+ 271 549 l 1xf8
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" d
+EndChar
+
+StartChar: e.sups
+Encoding: 853 -1 853
+Width: 364
+HStem: 342 90<148.277 315.23> 486 65<91 248> 611 80<143.952 233.033>
+VStem: 91 35<486 551>
+AnchorPoint: "Anchor-3" 270 358 basechar 0
+AnchorPoint: "Anchor-2" 199 349 basechar 0
+AnchorPoint: "Anchor-0" 190 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+23 519 m 4
+ 23 623 87 691 190 691 c 4
+ 311 691 348 605 348 531 c 4
+ 348 503 345 486 345 486 c 5
+ 91 486 l 5
+ 91 551 l 5
+ 248 551 l 5
+ 248 551 248 557 246 563 c 4
+ 240 585 229 611 188 611 c 4
+ 146 611 126 577 126 525 c 4
+ 126 464 148 432 220 432 c 4
+ 279 432 312 452 312 452 c 5
+ 326 362 l 5
+ 326 362 285 342 214 342 c 4
+ 83 342 23 412 23 519 c 4
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" e
+EndChar
+
+StartChar: f.sups
+Encoding: 854 -1 854
+Width: 265
+HStem: 599 85<9 255> 772 85<179.183 265.924>
+VStem: 66 106<350 764.028>
+AnchorPoint: "Anchor-2" 118 350 basechar 0
+AnchorPoint: "Anchor-0" 200 851 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+9 684 m 1
+ 255 684 l 1
+ 255 599 l 1
+ 9 599 l 1
+ 9 684 l 1
+172 719 m 2
+ 172 350 l 1
+ 66 350 l 1
+ 66 730 l 2
+ 66 807 105 857 197 857 c 0
+ 241 857 271 845 271 845 c 1
+ 265 764 l 1
+ 265 764 247 772 221 772 c 0
+ 187 772 172 756 172 719 c 2
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" f
+EndChar
+
+StartChar: g.sups
+Encoding: 855 -1 855
+Width: 405
+HStem: 217 83<83.1774 246.033> 357 83<152.929 247.906> 488 20G<266 298> 605 86<152.035 243.571>
+VStem: 25 109<457.854 587.037> 266 106<322.114 387 500 684> 266 32<413 500 545 636>
+AnchorPoint: "Anchor-2" 199 224 basechar 0
+AnchorPoint: "Anchor-0" 210 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+266 387 m 2xfc
+ 266 684 l 1
+ 372 684 l 1
+ 372 382 l 2
+ 372 283 319 217 192 217 c 0
+ 103 217 47 245 47 245 c 5
+ 68 330 l 5
+ 68 330 111 300 180 300 c 0
+ 241 300 266 328 266 387 c 2xfc
+266 508 m 1
+ 298 500 l 1xfa
+ 298 413 260 357 169 357 c 0
+ 84 357 25 422 25 521 c 0
+ 25 624 83 691 168 691 c 0
+ 252 691 295 636 295 545 c 1
+ 266 540 l 1
+ 266 579 245 605 201 605 c 0
+ 156 605 134 571 134 521 c 0
+ 134 472 157 440 204 440 c 0
+ 248 440 266 475 266 508 c 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" g
+EndChar
+
+StartChar: h.sups
+Encoding: 856 -1 856
+Width: 396
+HStem: 605 88<162.345 244.747>
+VStem: 37 106<350 853> 255 106<350 592.954>
+AnchorPoint: "Anchor-2" 199 350 basechar 0
+AnchorPoint: "Anchor-0" 89 853 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 853 l 1
+ 143 853 l 1
+ 143 350 l 1
+ 37 350 l 1
+143 533 m 9
+ 106 541 l 17
+ 121 647 155 693 241 693 c 0
+ 320 693 361 647 361 552 c 2
+ 361 350 l 1
+ 255 350 l 1
+ 255 540 l 2
+ 255 581 238 605 199 605 c 0
+ 159 605 143 576 143 533 c 9
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" h
+EndChar
+
+StartChar: i.sups
+Encoding: 857 -1 857
+Width: 179
+HStem: 728 122<40.9885 139.011>
+VStem: 29 122<739.989 838.011> 37 106<350 684>
+AnchorPoint: "Anchor-3" 87 350 basechar 0
+AnchorPoint: "Anchor-2" 91 350 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1xa0
+ 37 684 l 1
+ 143 684 l 1
+ 143 350 l 1
+ 37 350 l 1xa0
+29 789 m 0xc0
+ 29 826 53 850 90 850 c 0
+ 127 850 151 826 151 789 c 0
+ 151 752 127 728 90 728 c 0
+ 53 728 29 752 29 789 c 0xc0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" i
+EndChar
+
+StartChar: j.sups
+Encoding: 858 -1 858
+Width: 181
+HStem: 217 88<-49.3827 33.1413> 728 122<42.9885 141.011>
+VStem: 31 122<739.989 838.011> 39 106<312.764 684>
+AnchorPoint: "Anchor-2" 13 224 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+39 360 m 2xd0
+ 39 684 l 1
+ 145 684 l 1
+ 145 352 l 2
+ 145 271 106 217 12 217 c 0
+ -29 217 -58 228 -58 228 c 1
+ -48 312 l 1
+ -48 312 -32 305 -10 305 c 0
+ 25 305 39 321 39 360 c 2xd0
+31 789 m 0xe0
+ 31 826 55 850 92 850 c 0
+ 129 850 153 826 153 789 c 4
+ 153 752 129 728 92 728 c 0
+ 55 728 31 752 31 789 c 0xe0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" j
+EndChar
+
+StartChar: k.sups
+Encoding: 859 -1 859
+Width: 375
+HStem: 490 61<80 141>
+VStem: 37 106<350 490 551 851> 80 61<490 551>
+AnchorPoint: "Anchor-2" 183 350 basechar 0
+AnchorPoint: "Anchor-0" 90 849 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+141 551 m 1xa0
+ 141 490 l 1
+ 80 490 l 1
+ 80 551 l 1
+ 141 551 l 1xa0
+243 350 m 1
+ 141 493 l 1
+ 141 548 l 1
+ 241 684 l 1
+ 361 684 l 1
+ 229 525 l 1
+ 372 350 l 1
+ 243 350 l 1
+37 350 m 1xc0
+ 37 851 l 1
+ 143 851 l 1
+ 143 350 l 1
+ 37 350 l 1xc0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" k
+EndChar
+
+StartChar: l.sups
+Encoding: 860 -1 860
+Width: 243
+HStem: 342 94<146.403 221.171>
+VStem: 37 106<440.278 851>
+AnchorPoint: "Anchor-2" 160 349 basechar 0
+AnchorPoint: "Anchor-0" 89 849 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+143 478 m 2
+ 143 449 154 436 180 436 c 0
+ 204 436 220 443 220 443 c 5
+ 228 352 l 1
+ 228 352 200 342 159 342 c 0
+ 72 342 37 387 37 456 c 2
+ 37 851 l 1
+ 143 851 l 1
+ 143 478 l 2
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" l
+EndChar
+
+StartChar: m.sups
+Encoding: 861 -1 861
+Width: 588
+HStem: 603 88<160.875 272 358.719 477>
+VStem: 37 106<350 684> 242 106<350 582> 447 106<350 593.192>
+CounterMasks: 1 70
+AnchorPoint: "Anchor-2" 297 350 basechar 0
+AnchorPoint: "Anchor-0" 303 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+348 532 m 5
+ 298 539 l 5
+ 313 644 349 691 440 691 c 0
+ 514 691 553 648 553 558 c 6
+ 553 350 l 1
+ 447 350 l 1
+ 447 545 l 6
+ 447 582 432 603 398 603 c 4
+ 363 603 348 575 348 532 c 5
+143 532 m 5
+ 106 539 l 5
+ 120 644 153 691 235 691 c 0
+ 309 691 348 648 348 558 c 6
+ 348 350 l 1
+ 242 350 l 1
+ 242 545 l 6
+ 242 582 227 603 193 603 c 4
+ 158 603 143 575 143 532 c 5
+37 350 m 1
+ 37 684 l 1
+ 143 684 l 1
+ 143 350 l 1
+ 37 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" m
+EndChar
+
+StartChar: n.sups
+Encoding: 862 -1 862
+Width: 396
+HStem: 603 88<163.541 244.747>
+VStem: 37 106<350 684> 255 106<350 590.954>
+AnchorPoint: "Anchor-2" 203 350 basechar 0
+AnchorPoint: "Anchor-0" 197 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+143 532 m 5
+ 106 539 l 5
+ 121 644 155 691 241 691 c 4
+ 320 691 361 645 361 550 c 6
+ 361 350 l 5
+ 255 350 l 5
+ 255 538 l 6
+ 255 579 238 603 199 603 c 4
+ 159 603 143 575 143 532 c 5
+37 350 m 1
+ 37 684 l 1
+ 143 684 l 1
+ 143 350 l 1
+ 37 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" n
+EndChar
+
+StartChar: o.sups
+Encoding: 863 -1 863
+Width: 396
+HStem: 342 91<146.781 248.461> 601 90<149.596 248.461>
+VStem: 23 104<454.785 579.804> 269 104<452.269 580.824>
+AnchorPoint: "Anchor-3" 241 368 basechar 0
+AnchorPoint: "Anchor-2" 199 349 basechar 0
+AnchorPoint: "Anchor-0" 199 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+127 517 m 0
+ 127 466 153 433 199 433 c 0
+ 245 433 269 466 269 517 c 4
+ 269 567 245 601 199 601 c 0
+ 153 601 127 566 127 517 c 0
+23 516 m 0
+ 23 621 90 691 199 691 c 0
+ 308 691 373 622 373 516 c 0
+ 373 411 308 342 199 342 c 0
+ 90 342 23 410 23 516 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" o
+EndChar
+
+StartChar: p.sups
+Encoding: 864 -1 864
+Width: 410
+HStem: 342 86<154.17 258.696> 605 86<163.462 257.935>
+VStem: 37 106<222 684> 100 43<386 464> 108 35<539 634> 280 109<449.899 583.095>
+AnchorPoint: "Anchor-2" 91 222 basechar 0
+AnchorPoint: "Anchor-0" 196 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 222 m 1xe4
+ 37 684 l 1
+ 143 684 l 1
+ 143 222 l 1
+ 37 222 l 1xe4
+143 485 m 1
+ 143 454 162 428 208 428 c 0
+ 257 428 280 467 280 518 c 0
+ 280 568 256 605 207 605 c 0
+ 161 605 143 572 143 532 c 1xe4
+ 108 539 l 1xcc
+ 108 634 156 691 240 691 c 0
+ 329 691 389 623 389 519 c 0
+ 389 412 330 342 232 342 c 0
+ 149 342 100 386 100 464 c 1xd4
+ 143 485 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" p
+EndChar
+
+StartChar: q.sups
+Encoding: 865 -1 865
+Width: 410
+HStem: 342 86<155.792 256.007> 605 86<155.024 248.088>
+VStem: 25 109<449.899 585.772> 271 106<222 684> 271 32<393 471 539 634>
+AnchorPoint: "Anchor-2" 327 222 basechar 0
+AnchorPoint: "Anchor-0" 215 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+377 222 m 1xf0
+ 271 222 l 1
+ 271 684 l 1
+ 377 684 l 1
+ 377 222 l 1xf0
+271 486 m 1
+ 303 471 l 1xe8
+ 303 393 258 342 183 342 c 0
+ 85 342 25 412 25 519 c 0
+ 25 623 84 691 173 691 c 0
+ 257 691 300 634 300 539 c 1
+ 271 533 l 1
+ 271 576 251 605 205 605 c 4
+ 156 605 134 568 134 518 c 0
+ 134 467 157 428 206 428 c 0
+ 252 428 271 458 271 486 c 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" q
+EndChar
+
+StartChar: r.sups
+Encoding: 866 -1 866
+Width: 281
+HStem: 603 88<159.058 265.73>
+VStem: 37 106<350 684>
+AnchorPoint: "Anchor-2" 115 350 basechar 0
+AnchorPoint: "Anchor-0" 157 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 684 l 1
+ 143 684 l 1
+ 143 350 l 1
+ 37 350 l 1
+222 691 m 0
+ 267 691 280 671 280 671 c 1
+ 262 587 l 1
+ 262 587 242 603 209 603 c 0
+ 167 603 143 580 143 535 c 5
+ 113 541 l 5
+ 125 644 152 691 222 691 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" r
+EndChar
+
+StartChar: s.sups
+Encoding: 867 -1 867
+Width: 318
+HStem: 342 83<44.8643 186.238> 609 82<134.8 267.418>
+VStem: 28 105<562.263 605.729> 188 107<427.324 471.311>
+AnchorPoint: "Anchor-2" 157 349 basechar 0
+AnchorPoint: "Anchor-0" 174 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+139 479 m 0
+ 52 496 28 532 28 584 c 0
+ 28 651 80 691 173 691 c 0
+ 248 691 284 667 284 667 c 1
+ 264 585 l 1
+ 264 585 229 609 178 609 c 0
+ 147 609 133 599 133 583 c 0
+ 133 571 141 564 168 558 c 0
+ 268 537 295 504 295 448 c 0
+ 295 382 245 342 152 342 c 0
+ 72 342 21 369 21 369 c 1
+ 45 453 l 1
+ 45 453 90 425 145 425 c 0
+ 174 425 188 434 188 451 c 0
+ 188 464 180 471 139 479 c 0
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" s
+EndChar
+
+StartChar: t.sups
+Encoding: 868 -1 868
+Width: 268
+HStem: 343 88<173.374 246.942> 599 85<9 248>
+VStem: 63 106<434.75 781>
+AnchorPoint: "Anchor-2" 139 350 basechar 0
+AnchorPoint: "Anchor-0" 115 790 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+9 684 m 1
+ 248 684 l 1
+ 248 599 l 1
+ 9 599 l 1
+ 9 684 l 1
+169 478 m 6
+ 169 445 181 431 207 431 c 4
+ 230 431 246 438 246 438 c 5
+ 252 354 l 5
+ 252 354 226 343 188 343 c 4
+ 86 343 63 391 63 464 c 6
+ 63 781 l 5
+ 169 801 l 5
+ 169 478 l 6
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" t
+EndChar
+
+StartChar: u.sups
+Encoding: 869 -1 869
+Width: 396
+HStem: 343 88<114.887 235.355>
+VStem: 37 106<442.445 684> 255 106<489 684>
+AnchorPoint: "Anchor-3" 301 352 basechar 0
+AnchorPoint: "Anchor-2" 208 350 basechar 0
+AnchorPoint: "Anchor-0" 201 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+255 496 m 9
+ 291 489 l 17
+ 276 388 242 343 156 343 c 0
+ 77 343 37 389 37 483 c 2
+ 37 684 l 1
+ 143 684 l 1
+ 143 496 l 2
+ 143 455 159 431 198 431 c 0
+ 238 431 255 457 255 496 c 9
+361 684 m 1
+ 361 350 l 1
+ 255 350 l 1
+ 255 684 l 1
+ 361 684 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" u
+EndChar
+
+StartChar: v.sups
+Encoding: 870 -1 870
+Width: 359
+AnchorPoint: "Anchor-2" 177 350 basechar 0
+AnchorPoint: "Anchor-0" 182 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+121 350 m 5
+ 3 684 l 1
+ 114 684 l 1
+ 178 467 l 5
+ 246 684 l 1
+ 356 684 l 1
+ 236 350 l 5
+ 121 350 l 5
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" v
+EndChar
+
+StartChar: w.sups
+Encoding: 871 -1 871
+Width: 489
+AnchorPoint: "Anchor-2" 242 350 basechar 0
+AnchorPoint: "Anchor-0" 245 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+91 350 m 1
+ 3 684 l 1
+ 108 684 l 1
+ 151 481 l 1
+ 197 658 l 1
+ 292 658 l 1
+ 339 481 l 1
+ 382 684 l 1
+ 486 684 l 1
+ 398 350 l 1
+ 292 350 l 1
+ 244 528 l 1
+ 195 350 l 1
+ 91 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" w
+EndChar
+
+StartChar: x.sups
+Encoding: 872 -1 872
+Width: 361
+VStem: 162 37<500 544>
+AnchorPoint: "Anchor-2" 184 350 basechar 0
+AnchorPoint: "Anchor-0" 183 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+125 350 m 1
+ 3 350 l 1
+ 112 526 l 1
+ 11 684 l 1
+ 129 684 l 1
+ 199 544 l 1
+ 199 500 l 1
+ 125 350 l 1
+237 350 m 1
+ 162 500 l 1
+ 162 544 l 1
+ 233 684 l 1
+ 351 684 l 1
+ 250 526 l 1
+ 358 350 l 1
+ 237 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" x
+EndChar
+
+StartChar: y.sups
+Encoding: 873 -1 873
+Width: 359
+AnchorPoint: "Anchor-2" 118 217 basechar 0
+AnchorPoint: "Anchor-0" 185 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+123 371 m 5
+ 3 684 l 1
+ 116 684 l 1
+ 179 485 l 5
+ 244 684 l 1
+ 356 684 l 1
+ 171 217 l 5
+ 55 217 l 5
+ 123 371 l 5
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" y
+EndChar
+
+StartChar: z.sups
+Encoding: 874 -1 874
+Width: 319
+HStem: 350 91<164 299> 593 91<27 155>
+VStem: 20 279<350 414>
+AnchorPoint: "Anchor-2" 164 350 basechar 0
+AnchorPoint: "Anchor-0" 160 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+299 350 m 1
+ 20 350 l 1
+ 20 414 l 1
+ 155 593 l 1
+ 27 593 l 1
+ 27 684 l 1
+ 292 684 l 1
+ 292 620 l 1
+ 164 441 l 1
+ 299 441 l 1
+ 299 350 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" z
+EndChar
+
+StartChar: Agrave.sups
+Encoding: 875 -1 875
+Width: 479
+HStem: 455 92<108 371> 883 215.008
+VStem: 37 250
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 37 357 2
+Refer: 823 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Agrave
+EndChar
+
+StartChar: Aacute.sups
+Encoding: 876 -1 876
+Width: 479
+HStem: 455 92<108 371> 883 215.008
+VStem: 190 250
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 190 357 2
+Refer: 823 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Aacute
+EndChar
+
+StartChar: Egrave.sups
+Encoding: 877 -1 877
+Width: 379
+HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360> 883 215.008
+VStem: 6 250 94 57<543 642>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 6 357 2
+Refer: 827 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Egrave
+EndChar
+
+StartChar: Eacute.sups
+Encoding: 878 -1 878
+Width: 379
+HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360> 883 215.008
+VStem: 94 57<543 642> 159 250
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 159 357 2
+Refer: 827 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Eacute
+EndChar
+
+StartChar: Igrave.sups
+Encoding: 879 -1 879
+Width: 295
+HStem: 350 95<20 92 202 275> 370 75<92 202> 742 75<92 202> 742 95<20 92 202 275> 883 215.008
+VStem: -52 250 20 255<350 445 742 837> 92 110<370 817>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 -52 357 2
+Refer: 831 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Igrave
+EndChar
+
+StartChar: Iacute.sups
+Encoding: 880 -1 880
+Width: 295
+HStem: 350 95<20 92 202 275> 370 75<92 202> 742 75<92 202> 742 95<20 92 202 275> 883 215.008
+VStem: 20 255<350 445 742 837> 92 110<370 817> 101 250
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 101 357 2
+Refer: 831 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Iacute
+EndChar
+
+StartChar: Ograve.sups
+Encoding: 881 -1 881
+Width: 531
+HStem: 342 105<193.081 338.733> 738 105<193.081 338.733> 884 215.008
+VStem: 23 115<504.35 679.884> 68 250 393 115<504.35 679.884>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 68 358 2
+Refer: 837 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Ograve
+EndChar
+
+StartChar: Oacute.sups
+Encoding: 882 -1 882
+Width: 531
+HStem: 342 105<193.081 338.733> 738 105<193.081 338.733> 884 215.008
+VStem: 23 115<504.35 679.884> 221 250 393 115<504.35 679.884>
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 221 358 2
+Refer: 837 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Oacute
+EndChar
+
+StartChar: Ugrave.sups
+Encoding: 883 -1 883
+Width: 480
+HStem: 343 99<175.359 302.843> 883 215.008
+VStem: 37 113<468.534 837> 44 250 329 113<471.976 837>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 44 357 2
+Refer: 843 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Ugrave
+EndChar
+
+StartChar: Uacute.sups
+Encoding: 884 -1 884
+Width: 480
+HStem: 343 99<175.359 302.843> 883 215.008
+VStem: 37 113<468.534 837> 197 250 329 113<471.976 837>
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 197 357 2
+Refer: 843 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" Uacute
+EndChar
+
+StartChar: agrave.sups
+Encoding: 885 -1 885
+Width: 376
+HStem: 342 78<127.846 208.353 272.375 365.254> 496 59<130.958 229> 607 84<70.7528 207.768> 730 215.008
+VStem: -16 250 20 105<423.454 486.443> 218 11<496 555> 218 27<384 449> 218 104<453.025 496 547 598.248>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 -16 204 2
+Refer: 849 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" agrave
+EndChar
+
+StartChar: aacute.sups
+Encoding: 886 -1 886
+Width: 376
+HStem: 342 78<127.846 208.353 272.375 365.254> 496 59<130.958 229> 607 84<70.7528 207.768> 730 215.008
+VStem: 20 105<423.454 486.443> 137 250 218 11<496 555> 218 27<384 449> 218 104<453.025 496 547 598.248>
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 137 204 2
+Refer: 849 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" aacute
+EndChar
+
+StartChar: egrave.sups
+Encoding: 887 -1 887
+Width: 364
+HStem: 342 90<148.277 315.23> 486 65<91 248> 611 80<143.952 233.033> 730 215.008
+VStem: -8 250 91 35<486 551>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 -8 204 2
+Refer: 853 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" egrave
+EndChar
+
+StartChar: eacute.sups
+Encoding: 888 -1 888
+Width: 364
+HStem: 342 90<148.277 315.23> 486 65<91 248> 611 80<143.952 233.033> 730 215.008
+VStem: 91 35<486 551> 145 250
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 145 204 2
+Refer: 853 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" eacute
+EndChar
+
+StartChar: igrave.sups
+Encoding: 889 -1 889
+Width: 178
+VStem: 36 106<350 684>
+LayerCount: 2
+Fore
+SplineSet
+36 350 m 1
+ 36 684 l 1
+ 142 684 l 1
+ 142 350 l 1
+ 36 350 l 1
+57 715 m 5
+ -43 838 l 1
+ 54 858 l 1
+ 124 728 l 5
+ 57 715 l 5
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" igrave
+EndChar
+
+StartChar: iacute.sups
+Encoding: 890 -1 890
+Width: 178
+VStem: 37 106<350 684>
+LayerCount: 2
+Fore
+SplineSet
+37 350 m 1
+ 37 684 l 1
+ 143 684 l 1
+ 143 350 l 1
+ 37 350 l 1
+126 715 m 1
+ 59 728 l 1
+ 129 858 l 5
+ 226 838 l 5
+ 126 715 l 1
+EndSplineSet
+Ligature2: "'ordn' Ordinals lookup 18-1" iacute
+EndChar
+
+StartChar: ograve.sups
+Encoding: 891 -1 891
+Width: 396
+HStem: 342 91<146.781 248.461> 601 90<149.596 248.461> 730 215.008
+VStem: 1 250 23 104<454.785 579.804> 269 104<452.269 580.824>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 1 204 2
+Refer: 863 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" ograve
+EndChar
+
+StartChar: oacute.sups
+Encoding: 892 -1 892
+Width: 396
+HStem: 342 91<146.781 248.461> 601 90<149.596 248.461> 730 215.008
+VStem: 23 104<454.785 579.804> 154 250 269 104<452.269 580.824>
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 154 204 2
+Refer: 863 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" oacute
+EndChar
+
+StartChar: ugrave.sups
+Encoding: 893 -1 893
+Width: 396
+HStem: 343 88<114.887 235.355> 730 215.008
+VStem: 3 250 37 106<442.445 684> 255 106<489 684>
+LayerCount: 2
+Fore
+Refer: 240 768 N 1 0 0 1 3 204 2
+Refer: 869 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" ugrave
+EndChar
+
+StartChar: uacute.sups
+Encoding: 894 -1 894
+Width: 396
+HStem: 343 88<114.887 235.355> 730 215.008
+VStem: 37 106<442.445 684> 156 250 255 106<489 684>
+LayerCount: 2
+Fore
+Refer: 241 769 N 1 0 0 1 156 204 2
+Refer: 869 -1 N 1 0 0 1 0 0 3
+Ligature2: "'ordn' Ordinals lookup 18-1" uacute
 EndChar
 EndChars
 EndSplineFont
