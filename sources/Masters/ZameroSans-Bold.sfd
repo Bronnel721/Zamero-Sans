@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705525712
-ModificationTime: 1749000825
+ModificationTime: 1749002200
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -108,7 +108,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 675 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1013,6 +1013,7 @@ SplineSet
  78.9979531888 567.55078125 42.88671875 603.509048899 42.88671875 658.775390625 c 0xf0
 EndSplineSet
 Refer: 231 305 N 1 0 0 1 0 0 2
+Validated: 1572865
 Substitution2: "'sups' Superscript lookup 0 subtable" i.sups
 EndChar
 
@@ -1166,6 +1167,7 @@ SplineSet
  78.9979531888 567.55078125 42.88671875 603.509048899 42.88671875 658.775390625 c 0xf0
 EndSplineSet
 Refer: 232 567 N 1 0 0 1 0 0 2
+Validated: 1572865
 Substitution2: "'sups' Superscript lookup 0 subtable" j.sups
 EndChar
 
@@ -3709,6 +3711,7 @@ VStem: 20 116<460.422 520.522> 231 119<488.135 488.992 579.992 630.539> 231 26<4
 LayerCount: 2
 Fore
 Refer: 849 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: ordmasculine
@@ -3720,6 +3723,7 @@ VStem: 23 116<490.164 618.575> 285 116<487.262 618.575>
 LayerCount: 2
 Fore
 Refer: 863 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: arrowleft
@@ -5677,6 +5681,7 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 269 0 2
 Refer: 28 105 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ring
@@ -7011,7 +7016,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 154 251 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Agrave.sups
 EndChar
 
@@ -7024,7 +7028,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 307 251 2
 Refer: 14 65 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Aacute.sups
 EndChar
 
@@ -7101,7 +7104,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 108 251 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Egrave.sups
 EndChar
 
@@ -7115,7 +7117,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 261 251 2
 Refer: 10 69 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Eacute.sups
 EndChar
 
@@ -7156,7 +7157,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 22 251 2
 Refer: 0 73 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Igrave.sups
 EndChar
 
@@ -7170,7 +7170,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 175 251 2
 Refer: 0 73 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" Iacute.sups
 EndChar
 
@@ -7223,7 +7222,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 201 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" Ograve.sups
 EndChar
 
@@ -7236,7 +7234,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 354 251 2
 Refer: 1 79 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" Oacute.sups
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" Oacute.loclPLK
 EndChar
@@ -7289,7 +7286,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 164 251 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" Ugrave.sups
 EndChar
 
@@ -7302,7 +7298,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 317 251 2
 Refer: 6 85 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" Uacute.sups
 EndChar
 
@@ -7352,7 +7347,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 76 21.011 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" agrave.sups
 EndChar
 
@@ -7365,7 +7359,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 229 21.011 2
 Refer: 46 97 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" aacute.sups
 EndChar
 
@@ -7444,7 +7437,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 88 21.011 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" egrave.sups
 EndChar
 
@@ -7458,7 +7450,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 241 21.011 2
 Refer: 43 101 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" eacute.sups
 EndChar
 
@@ -7498,6 +7489,7 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 -64 21.011 2
 Refer: 231 305 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" igrave.sups
 EndChar
 
@@ -7510,6 +7502,7 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 89 21.011 2
 Refer: 231 305 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" iacute.sups
 EndChar
 
@@ -7560,7 +7553,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 100 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" ograve.sups
 EndChar
 
@@ -7574,7 +7566,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 253 21.011 2
 Refer: 29 111 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'sups' Superscript lookup 0 subtable" oacute.sups
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" oacute.loclPLK
 EndChar
@@ -7630,7 +7621,6 @@ LayerCount: 2
 Fore
 Refer: 240 768 N 1 0 0 1 104 21.011 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" ugrave.sups
 EndChar
 
@@ -7643,7 +7633,6 @@ LayerCount: 2
 Fore
 Refer: 241 769 N 1 0 0 1 257 21.011 2
 Refer: 50 117 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'sups' Superscript lookup 0 subtable" uacute.sups
 EndChar
 
@@ -9142,6 +9131,7 @@ LayerCount: 2
 Fore
 Refer: 256 808 N 1 0 0 1 -8 -19 2
 Refer: 28 105 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Uogonek
@@ -9607,6 +9597,7 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 568 0 2
 Refer: 7 76 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni01C9
@@ -9618,6 +9609,7 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 381 0 2
 Refer: 35 108 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni01CA
@@ -9641,6 +9633,7 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 719 0 2
 Refer: 11 78 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni01CC
@@ -9652,6 +9645,7 @@ LayerCount: 2
 Fore
 Refer: 33 106 N 1 0 0 1 595 0 2
 Refer: 30 110 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni01F1
@@ -11862,6 +11856,7 @@ LayerCount: 2
 Fore
 Refer: 253 803 N 1 0 0 1 55 -48 2
 Refer: 28 105 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ECC
@@ -15161,6 +15156,7 @@ SplineSet
  177 837 l 1
  296 837 l 1
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" A
 EndChar
 
@@ -15194,6 +15190,7 @@ SplineSet
  151 745 l 5
  151 443 l 5
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" B
 EndChar
 
@@ -15219,6 +15216,7 @@ SplineSet
  422 373 375 342 267 342 c 0
  112 342 24 440 24 590 c 0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" C
 EndChar
 
@@ -15245,6 +15243,7 @@ SplineSet
  345 704 283 737 201 737 c 2
  150 737 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" D
 EndChar
 
@@ -15274,6 +15273,7 @@ SplineSet
  360 740 l 5
  151 740 l 1
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" E
 EndChar
 
@@ -15300,6 +15300,7 @@ SplineSet
  356 740 l 5
  151 740 l 5xe0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" F
 EndChar
 
@@ -15332,6 +15333,7 @@ SplineSet
  464 407 401 342 267 342 c 0
  112 342 23 440 23 592 c 0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" G
 EndChar
 
@@ -15361,6 +15363,7 @@ SplineSet
  152 350 l 5
  37 350 l 1xc0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" H
 EndChar
 
@@ -15391,6 +15394,7 @@ SplineSet
  202 370 l 1
  92 370 l 1x54
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" I
 EndChar
 
@@ -15416,6 +15420,7 @@ SplineSet
  18 459 l 1
  18 459 43 442 82 442 c 0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" J
 EndChar
 
@@ -15448,6 +15453,7 @@ SplineSet
  150 350 l 1
  37 350 l 1xc0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" K
 EndChar
 
@@ -15469,6 +15475,7 @@ SplineSet
  151 837 l 1
  151 449 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" L
 EndChar
 
@@ -15496,6 +15503,7 @@ SplineSet
  150 350 l 1
  37 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" M
 EndChar
 
@@ -15520,6 +15528,7 @@ SplineSet
  145 350 l 1
  37 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" N
 EndChar
 
@@ -15545,6 +15554,7 @@ SplineSet
  508 440 414 342 266 342 c 0
  118 342 23 440 23 592 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'ordn' Ordinals lookup 18-1" O
 EndChar
 
@@ -15572,6 +15582,7 @@ SplineSet
  411 547 321 502 222 502 c 2
  110 502 l 1xd8
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" P
 EndChar
 
@@ -15599,6 +15610,7 @@ SplineSet
  393 680 353 738 266 738 c 0
  179 738 138 680 138 594 c 0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" Q
 EndChar
 
@@ -15631,6 +15643,7 @@ SplineSet
  110 525 l 1
  110 617 l 1xd8
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" R
 EndChar
 
@@ -15660,6 +15673,7 @@ SplineSet
  238 442 263 461 263 492 c 4
  263 518 252 532 193 545 c 4
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" S
 EndChar
 
@@ -15684,6 +15698,7 @@ SplineSet
  262 350 l 5
  148 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" T
 EndChar
 
@@ -15710,6 +15725,7 @@ SplineSet
  442 539 l 6
  442 420 390 343 239 343 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'ordn' Ordinals lookup 18-1" U
 EndChar
 
@@ -15730,6 +15746,7 @@ SplineSet
  298 350 l 1
  166 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" V
 EndChar
 
@@ -15756,6 +15773,7 @@ SplineSet
  249 350 l 1
  116 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" W
 EndChar
 
@@ -15785,6 +15803,7 @@ SplineSet
  453 350 l 1
  319 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" X
 EndChar
 
@@ -15812,6 +15831,7 @@ SplineSet
  286 350 l 1
  173 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" Y
 EndChar
 
@@ -15836,6 +15856,7 @@ SplineSet
  376 449 l 1
  376 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" Z
 EndChar
 
@@ -15873,6 +15894,7 @@ SplineSet
  247 342 218 370 218 432 c 6xf4
  218 547 l 6xf8
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" a
 EndChar
 
@@ -15903,6 +15925,7 @@ SplineSet
  280 567 259 607 208 607 c 0
  156 607 143 570 143 535 c 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" b
 EndChar
 
@@ -15928,6 +15951,7 @@ SplineSet
  306 364 268 342 202 342 c 0
  85 342 23 412 23 519 c 0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" c
 EndChar
 
@@ -15958,6 +15982,7 @@ SplineSet
  262 693 304 642 304 564 c 1
  271 549 l 1xf8
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" d
 EndChar
 
@@ -15988,6 +16013,7 @@ SplineSet
  326 362 285 342 214 342 c 4
  83 342 23 412 23 519 c 4
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" e
 EndChar
 
@@ -16016,6 +16042,7 @@ SplineSet
  265 764 247 772 221 772 c 0
  187 772 172 756 172 719 c 2
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" f
 EndChar
 
@@ -16050,6 +16077,7 @@ SplineSet
  134 472 157 440 204 440 c 0
  248 440 266 475 266 508 c 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" g
 EndChar
 
@@ -16078,6 +16106,7 @@ SplineSet
  255 581 238 605 199 605 c 0
  159 605 143 576 143 533 c 9
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" h
 EndChar
 
@@ -16102,6 +16131,7 @@ SplineSet
  151 752 127 728 90 728 c 0
  53 728 29 752 29 789 c 0xc0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" i
 EndChar
 
@@ -16129,6 +16159,7 @@ SplineSet
  153 752 129 728 92 728 c 0
  55 728 31 752 31 789 c 0xe0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" j
 EndChar
 
@@ -16161,6 +16192,7 @@ SplineSet
  143 350 l 1
  37 350 l 1xc0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" k
 EndChar
 
@@ -16184,6 +16216,7 @@ SplineSet
  143 851 l 1
  143 478 l 2
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" l
 EndChar
 
@@ -16222,6 +16255,7 @@ SplineSet
  143 350 l 1
  37 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" m
 EndChar
 
@@ -16250,6 +16284,7 @@ SplineSet
  143 350 l 1
  37 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" n
 EndChar
 
@@ -16275,6 +16310,7 @@ SplineSet
  373 411 308 342 199 342 c 0
  90 342 23 410 23 516 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'ordn' Ordinals lookup 18-1" o
 EndChar
 
@@ -16305,6 +16341,7 @@ SplineSet
  149 342 100 386 100 464 c 1xd4
  143 485 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" p
 EndChar
 
@@ -16335,6 +16372,7 @@ SplineSet
  134 467 157 428 206 428 c 0
  252 428 271 458 271 486 c 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" q
 EndChar
 
@@ -16361,6 +16399,7 @@ SplineSet
  113 541 l 5
  125 644 152 691 222 691 c 0
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" r
 EndChar
 
@@ -16390,6 +16429,7 @@ SplineSet
  174 425 188 434 188 451 c 0
  188 464 180 471 139 479 c 0
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" s
 EndChar
 
@@ -16418,6 +16458,7 @@ SplineSet
  169 801 l 5
  169 478 l 6
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" t
 EndChar
 
@@ -16447,6 +16488,7 @@ SplineSet
  255 684 l 1
  361 684 l 1
 EndSplineSet
+Validated: 5
 Ligature2: "'ordn' Ordinals lookup 18-1" u
 EndChar
 
@@ -16467,6 +16509,7 @@ SplineSet
  236 350 l 5
  121 350 l 5
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" v
 EndChar
 
@@ -16493,6 +16536,7 @@ SplineSet
  195 350 l 1
  91 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" w
 EndChar
 
@@ -16522,6 +16566,7 @@ SplineSet
  358 350 l 1
  237 350 l 1
 EndSplineSet
+Validated: 1048581
 Ligature2: "'ordn' Ordinals lookup 18-1" x
 EndChar
 
@@ -16543,6 +16588,7 @@ SplineSet
  55 217 l 5
  123 371 l 5
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" y
 EndChar
 
@@ -16568,174 +16614,443 @@ SplineSet
  299 441 l 1
  299 350 l 1
 EndSplineSet
+Validated: 1048577
 Ligature2: "'ordn' Ordinals lookup 18-1" z
 EndChar
 
 StartChar: Agrave.sups
 Encoding: 875 -1 875
 Width: 479
-HStem: 455 92<108 371> 883 215.008
-VStem: 37 250
+HStem: 455 92<108 371>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 37 357 2
-Refer: 823 -1 N 1 0 0 1 0 0 3
+SplineSet
+371 455 m 1
+ 108 455 l 1
+ 108 547 l 1
+ 371 547 l 1
+ 371 455 l 1
+296 837 m 1
+ 476 350 l 1
+ 356 350 l 1
+ 237 707 l 1
+ 124 350 l 1
+ 3 350 l 1
+ 177 837 l 1
+ 296 837 l 1
+203 868 m 5
+ 102 991 l 1
+ 200 1011 l 1
+ 269 881 l 5
+ 203 868 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Agrave
 EndChar
 
 StartChar: Aacute.sups
 Encoding: 876 -1 876
 Width: 479
-HStem: 455 92<108 371> 883 215.008
-VStem: 190 250
+HStem: 455 92<108 371>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 190 357 2
-Refer: 823 -1 N 1 0 0 1 0 0 3
+SplineSet
+371 455 m 1
+ 108 455 l 1
+ 108 547 l 1
+ 371 547 l 1
+ 371 455 l 1
+296 837 m 1
+ 476 350 l 1
+ 355 350 l 1
+ 237 707 l 1
+ 124 350 l 1
+ 3 350 l 1
+ 176 837 l 1
+ 296 837 l 1
+271 868 m 1
+ 204 881 l 1
+ 274 1011 l 5
+ 371 991 l 5
+ 271 868 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Aacute
 EndChar
 
 StartChar: Egrave.sups
 Encoding: 877 -1 877
 Width: 379
-HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360> 883 215.008
-VStem: 6 250 94 57<543 642>
+HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360>
+VStem: 94 57<543 642>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 6 357 2
-Refer: 827 -1 N 1 0 0 1 0 0 3
+SplineSet
+320 543 m 5
+ 94 543 l 1
+ 94 642 l 1
+ 320 642 l 5
+ 320 543 l 5
+151 740 m 1
+ 151 447 l 1
+ 360 447 l 5
+ 360 350 l 5
+ 37 350 l 1
+ 37 837 l 1
+ 360 837 l 5
+ 360 740 l 5
+ 151 740 l 1
+172 868 m 5
+ 72 991 l 1
+ 169 1011 l 1
+ 239 881 l 5
+ 172 868 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Egrave
 EndChar
 
 StartChar: Eacute.sups
 Encoding: 878 -1 878
-Width: 379
-HStem: 350 97<151 360> 543 99<94 320> 740 97<151 360> 883 215.008
-VStem: 94 57<543 642> 159 250
+Width: 380
+HStem: 350 97<151 361> 543 99<94 321> 740 97<151 361>
+VStem: 94 57<543 642>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 159 357 2
-Refer: 827 -1 N 1 0 0 1 0 0 3
+SplineSet
+321 543 m 5
+ 94 543 l 1
+ 94 642 l 1
+ 321 642 l 5
+ 321 543 l 5
+151 740 m 1
+ 151 447 l 1
+ 361 447 l 5
+ 361 350 l 5
+ 37 350 l 1
+ 37 837 l 1
+ 361 837 l 5
+ 361 740 l 5
+ 151 740 l 1
+241 868 m 1
+ 174 881 l 1
+ 244 1011 l 5
+ 342 991 l 5
+ 241 868 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Eacute
 EndChar
 
 StartChar: Igrave.sups
 Encoding: 879 -1 879
 Width: 295
-HStem: 350 95<20 92 202 275> 370 75<92 202> 742 75<92 202> 742 95<20 92 202 275> 883 215.008
-VStem: -52 250 20 255<350 445 742 837> 92 110<370 817>
+HStem: 350 95<20 92 202 275> 370 75<92 202> 742 95<20 92 202 275> 742 75<92 202>
+VStem: 20 255<350 445 742 837> 92 110<370 817>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 -52 357 2
-Refer: 831 -1 N 1 0 0 1 0 0 3
+SplineSet
+275 350 m 1x88
+ 20 350 l 1
+ 20 445 l 1
+ 275 445 l 1
+ 275 350 l 1x88
+275 742 m 1x28
+ 20 742 l 1
+ 20 837 l 1
+ 275 837 l 1
+ 275 742 l 1x28
+92 370 m 1x54
+ 92 817 l 1
+ 202 817 l 1
+ 202 370 l 1
+ 92 370 l 1x54
+114 868 m 5
+ 15 991 l 1
+ 112 1011 l 1
+ 181 882 l 5
+ 114 868 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Igrave
 EndChar
 
 StartChar: Iacute.sups
 Encoding: 880 -1 880
 Width: 295
-HStem: 350 95<20 92 202 275> 370 75<92 202> 742 75<92 202> 742 95<20 92 202 275> 883 215.008
-VStem: 20 255<350 445 742 837> 92 110<370 817> 101 250
+HStem: 350 95<20 92 202 275> 370 75<92 202> 742 95<20 92 202 275> 742 75<92 202>
+VStem: 20 255<350 445 742 837> 92 110<370 817>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 101 357 2
-Refer: 831 -1 N 1 0 0 1 0 0 3
+SplineSet
+275 350 m 1x88
+ 20 350 l 1
+ 20 445 l 1
+ 275 445 l 1
+ 275 350 l 1x88
+275 742 m 1x28
+ 20 742 l 1
+ 20 837 l 1
+ 275 837 l 1
+ 275 742 l 1x28
+92 370 m 1x54
+ 92 817 l 1
+ 202 817 l 1
+ 202 370 l 1
+ 92 370 l 1x54
+183 868 m 1
+ 116 882 l 1
+ 186 1011 l 5
+ 284 991 l 5
+ 183 868 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Iacute
 EndChar
 
 StartChar: Ograve.sups
 Encoding: 881 -1 881
 Width: 531
-HStem: 342 105<193.081 338.733> 738 105<193.081 338.733> 884 215.008
-VStem: 23 115<504.35 679.884> 68 250 393 115<504.35 679.884>
+HStem: 342 105<193.081 338.733> 738 105<193.081 338.733>
+VStem: 23 115<504.35 679.884> 393 115<504.35 679.884>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 68 358 2
-Refer: 837 -1 N 1 0 0 1 0 0 3
+SplineSet
+138 592 m 0
+ 138 505 183 447 266 447 c 0
+ 349 447 393 505 393 592 c 0
+ 393 679 349 738 266 738 c 0
+ 183 738 138 679 138 592 c 0
+23 592 m 0
+ 23 744 118 843 266 843 c 0
+ 414 843 508 744 508 592 c 0
+ 508 440 414 342 266 342 c 0
+ 118 342 23 440 23 592 c 0
+234 868 m 5
+ 134 991 l 1
+ 231 1012 l 1
+ 300 881 l 5
+ 234 868 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Ograve
 EndChar
 
 StartChar: Oacute.sups
 Encoding: 882 -1 882
 Width: 531
-HStem: 342 105<193.081 338.733> 738 105<193.081 338.733> 884 215.008
-VStem: 23 115<504.35 679.884> 221 250 393 115<504.35 679.884>
+HStem: 342 105<193.081 338.733> 738 105<193.081 338.733>
+VStem: 23 115<504.35 679.884> 393 115<504.35 679.884>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 221 358 2
-Refer: 837 -1 N 1 0 0 1 0 0 3
+SplineSet
+138 592 m 0
+ 138 505 183 447 266 447 c 0
+ 349 447 393 505 393 592 c 0
+ 393 679 349 738 266 738 c 0
+ 183 738 138 679 138 592 c 0
+23 592 m 0
+ 23 744 118 843 266 843 c 0
+ 414 843 508 744 508 592 c 0
+ 508 440 414 342 266 342 c 0
+ 118 342 23 440 23 592 c 0
+302 868 m 1
+ 235 881 l 1
+ 305 1012 l 5
+ 403 991 l 5
+ 302 868 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Oacute
 EndChar
 
 StartChar: Ugrave.sups
 Encoding: 883 -1 883
-Width: 480
-HStem: 343 99<175.359 302.843> 883 215.008
-VStem: 37 113<468.534 837> 44 250 329 113<471.976 837>
+Width: 479
+HStem: 343 99<175.359 302.641>
+VStem: 37 113<468.534 837> 328 113<468.534 837>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 44 357 2
-Refer: 843 -1 N 1 0 0 1 0 0 3
+SplineSet
+239 343 m 0
+ 88 343 37 420 37 539 c 6
+ 37 837 l 1
+ 150 837 l 1
+ 150 566 l 2
+ 150 492 162 442 239 442 c 0
+ 316 442 328 492 328 566 c 2
+ 328 837 l 1
+ 441 837 l 1
+ 441 539 l 6
+ 441 420 390 343 239 343 c 0
+210 868 m 5
+ 109 991 l 1
+ 207 1011 l 1
+ 276 881 l 5
+ 210 868 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Ugrave
 EndChar
 
 StartChar: Uacute.sups
 Encoding: 884 -1 884
-Width: 480
-HStem: 343 99<175.359 302.843> 883 215.008
-VStem: 37 113<468.534 837> 197 250 329 113<471.976 837>
+Width: 479
+HStem: 343 99<175.359 302.641>
+VStem: 37 113<468.534 837> 328 113<468.534 837>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 197 357 2
-Refer: 843 -1 N 1 0 0 1 0 0 3
+SplineSet
+239 343 m 0
+ 88 343 37 420 37 539 c 6
+ 37 837 l 1
+ 150 837 l 1
+ 150 566 l 2
+ 150 492 162 442 239 442 c 0
+ 316 442 328 492 328 566 c 2
+ 328 837 l 1
+ 441 837 l 1
+ 441 539 l 6
+ 441 420 390 343 239 343 c 0
+278 868 m 1
+ 212 881 l 1
+ 281 1011 l 5
+ 378 991 l 5
+ 278 868 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" Uacute
 EndChar
 
 StartChar: agrave.sups
 Encoding: 885 -1 885
 Width: 376
-HStem: 342 78<127.846 208.353 272.375 365.254> 496 59<130.958 229> 607 84<70.7528 207.768> 730 215.008
-VStem: -16 250 20 105<423.454 486.443> 218 11<496 555> 218 27<384 449> 218 104<453.025 496 547 598.248>
+HStem: 342 78<127.846 208.353 276 365.254> 496 59<130.958 229> 606 85<71.1039 207.768>
+VStem: 20 105<423.454 486.443> 218 104<453.025 496 547 594.732> 218 27<384 449> 218 11<496 555>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 -16 204 2
-Refer: 849 -1 N 1 0 0 1 0 0 3
+SplineSet
+218 469 m 5xf8
+ 245 449 l 5xf4
+ 245 384 209 342 132 342 c 4
+ 63 342 20 382 20 443 c 4
+ 20 539 107 555 229 555 c 5
+ 229 496 l 5xf2
+ 150 496 125 488 125 454 c 4
+ 125 434 138 420 168 420 c 4
+ 198 420 218 440 218 469 c 5xf8
+218 547 m 6xf8
+ 218 588 200 606 156 606 c 4
+ 106 606 70 580 70 580 c 5
+ 47 660 l 5
+ 47 660 99 691 174 691 c 4
+ 279 691 322 642 322 552 c 6
+ 322 454 l 6xf8
+ 322 433 329 425 345 425 c 4
+ 357 425 364 430 364 430 c 5
+ 370 358 l 5
+ 370 358 349 342 305 342 c 4
+ 247 342 218 371 218 432 c 6xf4
+ 218 547 l 6xf8
+150 715 m 5
+ 51 837 l 1
+ 148 858 l 1
+ 217 728 l 5
+ 150 715 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" agrave
 EndChar
 
 StartChar: aacute.sups
 Encoding: 886 -1 886
 Width: 376
-HStem: 342 78<127.846 208.353 272.375 365.254> 496 59<130.958 229> 607 84<70.7528 207.768> 730 215.008
-VStem: 20 105<423.454 486.443> 137 250 218 11<496 555> 218 27<384 449> 218 104<453.025 496 547 598.248>
+HStem: 342 78<127.846 208.353 276 365.254> 496 59<130.958 229> 606 85<71.1039 207.768>
+VStem: 20 105<423.454 486.443> 218 104<453.025 496 547 594.732> 218 27<384 449> 218 11<496 555>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 137 204 2
-Refer: 849 -1 N 1 0 0 1 0 0 3
+SplineSet
+218 469 m 5xf8
+ 245 449 l 5xf4
+ 245 384 209 342 132 342 c 4
+ 63 342 20 382 20 443 c 4
+ 20 539 107 555 229 555 c 5
+ 229 496 l 5xf2
+ 150 496 125 488 125 454 c 4
+ 125 434 138 420 168 420 c 4
+ 198 420 218 440 218 469 c 5xf8
+218 547 m 6xf8
+ 218 588 200 606 156 606 c 4
+ 106 606 70 580 70 580 c 5
+ 47 660 l 5
+ 47 660 99 691 174 691 c 4
+ 279 691 322 642 322 552 c 6
+ 322 454 l 6xf8
+ 322 433 329 425 345 425 c 4
+ 357 425 364 430 364 430 c 5
+ 370 358 l 5
+ 370 358 349 342 305 342 c 4
+ 247 342 218 371 218 432 c 6xf4
+ 218 547 l 6xf8
+219 715 m 1
+ 152 728 l 1
+ 222 858 l 5
+ 319 837 l 5
+ 219 715 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" aacute
 EndChar
 
 StartChar: egrave.sups
 Encoding: 887 -1 887
 Width: 364
-HStem: 342 90<148.277 315.23> 486 65<91 248> 611 80<143.952 233.033> 730 215.008
-VStem: -8 250 91 35<486 551>
+HStem: 342 90<150.07 315.152> 486 65<90 247> 611 80<143.254 232.533>
+VStem: 90 35<486 551>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 -8 204 2
-Refer: 853 -1 N 1 0 0 1 0 0 3
+SplineSet
+23 519 m 4
+ 23 623 87 691 190 691 c 4
+ 311 691 348 605 348 531 c 4
+ 348 503 345 486 345 486 c 5
+ 90 486 l 5
+ 90 551 l 5
+ 247 551 l 5
+ 247 551 247 557 245 563 c 4
+ 239 585 228 611 187 611 c 4
+ 144 611 125 577 125 525 c 4
+ 125 464 148 432 220 432 c 4
+ 279 432 312 452 312 452 c 5
+ 326 362 l 5
+ 326 362 284 342 213 342 c 4
+ 82 342 23 412 23 519 c 4
+158 714 m 5
+ 58 837 l 1
+ 155 858 l 1
+ 224 727 l 5
+ 158 714 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" egrave
 EndChar
 
 StartChar: eacute.sups
 Encoding: 888 -1 888
 Width: 364
-HStem: 342 90<148.277 315.23> 486 65<91 248> 611 80<143.952 233.033> 730 215.008
-VStem: 91 35<486 551> 145 250
+HStem: 342 90<150.07 315.152> 486 65<90 247> 611 80<143.254 232.533>
+VStem: 90 35<486 551>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 145 204 2
-Refer: 853 -1 N 1 0 0 1 0 0 3
+SplineSet
+23 519 m 4
+ 23 623 87 691 190 691 c 4
+ 311 691 348 605 348 531 c 4
+ 348 503 345 486 345 486 c 5
+ 90 486 l 5
+ 90 551 l 5
+ 247 551 l 5
+ 247 551 247 557 245 563 c 4
+ 239 585 228 611 187 611 c 4
+ 144 611 125 577 125 525 c 4
+ 125 464 148 432 220 432 c 4
+ 279 432 312 452 312 452 c 5
+ 326 362 l 5
+ 326 362 284 342 213 342 c 4
+ 82 342 23 412 23 519 c 4
+226 714 m 1
+ 159 727 l 1
+ 229 858 l 5
+ 327 837 l 5
+ 226 714 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" eacute
 EndChar
 
@@ -16757,6 +17072,7 @@ SplineSet
  124 728 l 5
  57 715 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "'ordn' Ordinals lookup 18-1" igrave
 EndChar
 
@@ -16778,54 +17094,123 @@ SplineSet
  226 838 l 5
  126 715 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ordn' Ordinals lookup 18-1" iacute
 EndChar
 
 StartChar: ograve.sups
 Encoding: 891 -1 891
 Width: 396
-HStem: 342 91<146.781 248.461> 601 90<149.596 248.461> 730 215.008
-VStem: 1 250 23 104<454.785 579.804> 269 104<452.269 580.824>
+HStem: 342 91<146.781 248.461> 601 90<149.596 248.461>
+VStem: 23 104<454.785 579.804> 269 104<452.269 580.824>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 1 204 2
-Refer: 863 -1 N 1 0 0 1 0 0 3
+SplineSet
+127 517 m 0
+ 127 466 153 433 199 433 c 0
+ 245 433 269 466 269 517 c 4
+ 269 567 245 601 199 601 c 0
+ 153 601 127 566 127 517 c 0
+23 516 m 0
+ 23 621 90 691 199 691 c 0
+ 308 691 373 622 373 516 c 0
+ 373 411 308 342 199 342 c 0
+ 90 342 23 410 23 516 c 0
+167 715 m 5
+ 66 837 l 1
+ 164 858 l 1
+ 233 728 l 5
+ 167 715 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" ograve
 EndChar
 
 StartChar: oacute.sups
 Encoding: 892 -1 892
 Width: 396
-HStem: 342 91<146.781 248.461> 601 90<149.596 248.461> 730 215.008
-VStem: 23 104<454.785 579.804> 154 250 269 104<452.269 580.824>
+HStem: 342 91<146.781 248.461> 601 90<149.596 248.461>
+VStem: 23 104<454.785 579.804> 269 104<452.269 580.824>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 154 204 2
-Refer: 863 -1 N 1 0 0 1 0 0 3
+SplineSet
+127 517 m 0
+ 127 466 153 433 199 433 c 0
+ 245 433 269 466 269 517 c 4
+ 269 567 245 601 199 601 c 0
+ 153 601 127 566 127 517 c 0
+23 516 m 0
+ 23 621 90 691 199 691 c 0
+ 308 691 373 622 373 516 c 0
+ 373 411 308 342 199 342 c 0
+ 90 342 23 410 23 516 c 0
+235 715 m 1
+ 169 728 l 1
+ 238 858 l 5
+ 335 837 l 5
+ 235 715 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" oacute
 EndChar
 
 StartChar: ugrave.sups
 Encoding: 893 -1 893
 Width: 396
-HStem: 343 88<114.887 235.355> 730 215.008
-VStem: 3 250 37 106<442.445 684> 255 106<489 684>
+HStem: 343 88<114.887 235.355>
+VStem: 37 106<442.445 684> 255 106<488 684>
 LayerCount: 2
 Fore
-Refer: 240 768 N 1 0 0 1 3 204 2
-Refer: 869 -1 N 1 0 0 1 0 0 3
+SplineSet
+255 496 m 9
+ 291 488 l 17
+ 276 387 242 343 156 343 c 0
+ 77 343 37 389 37 483 c 2
+ 37 684 l 1
+ 143 684 l 1
+ 143 496 l 2
+ 143 455 159 431 198 431 c 0
+ 238 431 255 457 255 496 c 9
+361 684 m 1
+ 361 350 l 1
+ 255 350 l 1
+ 255 684 l 1
+ 361 684 l 1
+169 715 m 5
+ 70 838 l 1
+ 167 858 l 1
+ 236 728 l 5
+ 169 715 l 5
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" ugrave
 EndChar
 
 StartChar: uacute.sups
 Encoding: 894 -1 894
 Width: 396
-HStem: 343 88<114.887 235.355> 730 215.008
-VStem: 37 106<442.445 684> 156 250 255 106<489 684>
+HStem: 343 88<114.887 235.355>
+VStem: 37 106<442.445 684> 255 106<488 684>
 LayerCount: 2
 Fore
-Refer: 241 769 N 1 0 0 1 156 204 2
-Refer: 869 -1 N 1 0 0 1 0 0 3
+SplineSet
+255 496 m 9
+ 291 488 l 17
+ 276 387 242 343 156 343 c 0
+ 77 343 37 389 37 483 c 2
+ 37 684 l 1
+ 143 684 l 1
+ 143 496 l 2
+ 143 455 159 431 198 431 c 0
+ 238 431 255 457 255 496 c 9
+361 684 m 1
+ 361 350 l 1
+ 255 350 l 1
+ 255 684 l 1
+ 361 684 l 1
+238 715 m 1
+ 171 728 l 1
+ 241 858 l 5
+ 338 838 l 5
+ 238 715 l 1
+EndSplineSet
 Ligature2: "'ordn' Ordinals lookup 18-1" uacute
 EndChar
 EndChars
